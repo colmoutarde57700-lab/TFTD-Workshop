@@ -1,0 +1,168 @@
+# TFTD Workshop 2.12.7
+
+## 1. Commencer et comprendre
+
+Workshop 2.12.6 est un éditeur et un outil de prévisualisation pour TFTD/OXCE. Il ouvre les données de cartes, permet de composer des assemblages et produit des cartes procédurales. Il n'est pas un logiciel de peinture : créez ou retouchez vos PNG dans votre éditeur d'images, puis contrôlez-les ici.
+
+Trois choses différentes :
+• MAP : positions des pièces sur une carte, avec quatre couches par case.
+• MCD : identité et propriétés de chaque pièce, frames graphiques, déplacements, portes, destruction, hauteurs et occupation.
+• PNG : représentation graphique. Changer le dessin ne change pas automatiquement la collision, les TU, les tirs ou les transitions de destruction.
+
+Les couches sont Sol, Mur ouest, Mur nord et Objet. Z est le niveau vertical. Plusieurs pièces peuvent occuper une case sur différentes couches. Une image de roche peut être un fragment d'un bloc de quatre cases : vérifier l'ensemble avant de la réutiliser seule.
+
+Pour commencer : Ressources > Emplacement TFTD ORIGINAL, puis OXCE STANDARD et MODS OXCE. TFTD désigne les données du jeu, OXCE la racine de son installation, MODS le dossier user/mods. Reindexer relit les fichiers et profils. Les panneaux distinguent les originaux, les compléments OXCE et les mods. Les chemins personnels sont enregistrés localement, ils ne doivent pas être publiés comme configuration imposée.
+
+Ouvrez une MAP SEABED existante pour observer des compositions connues. Les originaux sont protégés ; utilisez une copie de travail dans votre mod. Pour tester un PNG, commencez avec une seule pièce déjà comprise, puis son assemblage complet. Ce guide décrit l'état au 28 septembre 2026 ; les prototypes ne sont pas des fonctions validées en jeu.
+
+## 2. Toutes les fonctions du Workshop
+
+FICHIER
+Nouvelle MAP choisit X, Y et Z séparément (1 à 255). Ouvrir une MAP charge sa géométrie logique et tente de résoudre les datasets. Enregistrer sauvegarde le document courant ; une scène utilise JMW, une MAP de mod bénéficie d'une sauvegarde de secours. Enregistrer vers un mod / Exporter ouvre l'assistant : nom, biome et groupe. Quitter termine l'application et demande de traiter les modifications.
+
+RESSOURCES
+Emplacements TFTD/OXCE/MODS : indiquer les sources. MOD HD manuel : choisir le fournisseur de PNG, sans changer la logique des datasets. Les dossiers MAP supplémentaires servent à la compatibilité, pas à mélanger les profils d'autres mods. Reindexer relit les sources ; vider la palette ne supprime pas les fichiers mais vide la liste active de datasets. Ajouter MCD et charger palette LBM sont des outils avancés : PCK/TAB doivent correspondre au MCD.
+
+NAVIGATEUR
+Cartes : ouvrir et filtrer les MAP. Bibliothèque : choisir une pièce et voir son dataset/MCD. Datasets MAP : inspecter les jeux actifs et leur plage d'indices. Recherche filtre la liste ; tirer les séparateurs redimensionne les panneaux. LEGACY DORMANT/OXCE UNREACHABLE désigne un statut de référencement, pas un fichier à effacer.
+
+ÉDITION
+Sélection [V] : clic sur une pièce du Z actif, Maj+clic pour ajouter/retirer. Assemblage étend la sélection seulement à un montage complet reconnu par la Bible ou le Hangar. Placer [B] : choisir une pièce, puis cliquer ; le pinceau peut peindre en continu. Gomme [E] : supprimer explicitement une pièce ; vérifier le Z. Pipette [I] : reprendre la pièce cliquée. Déplacer [M] et Dupliquer préparent une destination ; molette pour changer Z, clic pour confirmer, clic droit/Echap pour annuler. Supprimer retire la sélection ; Ctrl+Z restaure l'opération entière, Ctrl+Y la rétablit.
+
+Options : autoriser explicitement le remplacement des emplacements occupés, choisir la sélection par assemblage, atténuer les niveaux, régler l'opacité et cadrer la carte. Les alertes FLOOR/BigWall signalent des points à inspecter, elles ne corrigent pas les données automatiquement. Détails techniques affiche notamment MCD, frame, couche, propriétés et provenance.
+
+VUES
+F1/F2/F3/F4 choisissent Sol/Mur ouest/Mur nord/Objet. Molette change Z, Ctrl+molette zoome, bouton central déplace la vue. PgUp/PgDn zoome. Niveau actif seul / actif + dessous / vue complète : trois vues mémorisées. Placement reste sur le Z actif. Grille [G] masque aussi les réservations des vaisseaux. Recentrer ou Cadrer retrouve la carte.
+
+PLAN
+Vue pièces : rendu graphique. Plan 2D : annotations logiques vues de dessus. Plan ISO : annotations en perspective. [P] change de vue. Sol/zone et objet/décor sont distincts. Case, contour, forme pleine et remplissage choisissent l'action du pinceau ; carré, cercle, losange et taille définissent son emprise. Murs cardinaux, diagonales, formes triangulaires et liens Z décrivent le plan. Verrou protège une case. Sélection rectangulaire, Ctrl+C, Ctrl+V puis clic placent une copie ; Echap annule. Copier conserve les données logiques et les quatre couches. Une annotation n'invente pas de nouvelle règle moteur. Les diagonales exigent un MCD BigWall compatible.
+
+ASSEMBLAGES / HANGAR
+Ouvrir Hangar gère la bibliothèque personnelle. Nouvelle capture : cliquer les pièces visibles de toutes couches et niveaux visibles, recliquer pour retirer, donner un nom et enregistrer. Utiliser met l'assemblage en main ; renommer/supprimer gère l'entrée de bibliothèque. Copier une MAP entière dans le Hangar conserve les positions relatives. Choisir dossier Hangar change la bibliothèque personnelle chargée.
+
+COMPOSITEUR
+Fidèle OpenXcom exécute les contraintes de la recette officielle : voir la recette explique les commandes, groupes et blocages. Libre compose les blocs d'une famille dans des dimensions multiples de 10. Variation règle la graine ; autre variation la change. Options vaisseau/USO définissent appareil, emplacement et écart. Insérer USO remplit le slot réservé. Enregistrer/ouvrir projet JMW conserve la scène ; fermer compositeur retourne au document sous-jacent. Une recette non prise en charge est refusée, pas remplacée silencieusement.
+
+RENDU
+F6 passe entre Legacy, PNG Remastered, fournisseur manuel, REAL HD et debug. Les gabarits universels sont un fournisseur graphique. GEO_TERRAIN ouvre l'inspecteur indépendant des 102 pièces et scènes : ouvrir/enregistrer GEO, voir une tuile, montages de référence, géométrie neutre ou matière SAND, domaine/niveau visible. Le laboratoire externe est distinct du générateur.
+
+ROUTES RMP
+Afficher/masquer [R] ne modifie rien. Édition nodes pose, sélectionne et supprime les nœuds. Lien relie deux nœuds ; sockets N/E/S/W connectent des blocs voisins. Route simple donne des valeurs neutres ; accès tous/1x1/vol limite les unités autorisées. Paramètres avancés : rang, préférence de patrouille, priorité de spawn et cible. Analyser propose en mémoire, effacer retire ces propositions, appliquer ajoute les nœuds après contrôle. Enregistrer RMP écrit dans le mod avec backup. Les suggestions ne prouvent pas la navigation de l'IA en mission.
+
+PROCEDURAL est décrit au chapitre suivant. LANGAGE change toute l'interface et mémorise le choix. TUTO ouvre ce guide. AIDE/À propos indique version et limites.
+
+## 3. Générateur et assemblages
+
+Procedural enrichit un générateur unique. Taille : largeur et longueur de 20 à 120 cases. Richesse : clairsemé, varié ou dense. Reliefs : sol plat ou SAND + GEO, terrasses et multi-Z. Intervalle : 2 à 5 cases entre ensembles. Appareils X-COM et aliens sont optionnels et conservent leur orientation. La graine (0 à 4294967295) permet de refaire la même carte avec les mêmes ressources et la même version. Carte aléatoire change la graine et génère. En cas d'échec ou d'annulation, le document précédent reste conservé.
+
+Les grands ensembles historiques et les nouveaux reliefs sont mélangés. Des décors sont posés sur les zones horizontales, avec un passage géométrique laissé libre. Cela ne prouve pas que toutes les unités peuvent parcourir la carte en jeu.
+
+Catalogue de roches : MCD ROCKS 0 et 1 autonomes ; blocs 2×2 avec rangées [9,8]/[7,10], [5,4]/[3,6] ou [9,8]/[7,6], attestés dans les MAP originales. ROCKS 10 n'est pas une roche indépendante. Les blocs occupent toute leur emprise. En hauteur, seules les roches autonomes sont actuellement placées. Un nouvel assemblage doit être défini avec ses pièces et positions, et non déduit de leur proximité à l'écran.
+
+État GEO : génération, rendu en vue pièces et sauvegarde JMW4 fonctionnent dans Workshop et ont des contrôles automatiques. L'édition directe des reliefs GEO, leur représentation en plan et l'export MAP/OXCE ne sont pas raccordés. L'export est bloqué, enregistrer en .JMW. Les anciennes versions refusent JMW4 ; les anciens projets restent lisibles. Les décors fractionnaires restent attachés à GEO. Pour modifier une forme, régénérer avec une autre graine pour le moment.
+
+## 4. Créer un PNG HD 512 × 640
+
+Un sprite de terrain Legacy utilise une enveloppe de 32 × 40 pixels. L'enveloppe HD standard 512 × 640 correspond à un agrandissement ×16 dans les deux axes. Ces dimensions décrivent le canevas, pas un objet à étirer jusqu'aux bords. Garder projection isométrique, origine, position relative et transparence. Ne pas recadrer chaque pièce indépendamment ni déplacer son pied pour la centrer visuellement. Certains gabarits documentés ont un prolongement au-delà de l'enveloppe standard : ne pas le couper pour forcer 640 pixels.
+
+Avant de dessiner : noter dataset, index MCD, Frame[0], couche, orientation, animation, état détruit et assemblage. Exemple réel SAND original : MCD 13 → Frame[0] 15 → 015.png. MCD 15 → Frame[0] 17 → 017.png. Les numéros MCD et PNG ne sont pas interchangeables. L'inspecteur technique permet de contrôler cette correspondance ; plusieurs MCD peuvent partager une frame.
+
+Méthode :
+1. Partir du sprite original ou d'un gabarit accepté et d'une capture de l'assemblage. Garder l'original intact.
+2. Pour un agrandissement fidèle de pixel art 32×40, redimensionner à 512×640 avec plus proche voisin. Cela agrandit les pixels, sans créer de détails. Un redessin HD ou une amélioration assistée crée des détails, mais doit préserver l'enveloppe et les raccords.
+3. Travailler avec des calques séparés : référence géométrique, masque alpha, matière/détails. Sur un gabarit déjà accepté, texturer sans modifier sa silhouette ni son alpha. La reconstruction d'un nouveau gabarit est un travail distinct à valider.
+4. Exporter PNG RGBA avec transparence ; pas de fond opaque. Conserver le canevas complet et le nom à trois chiffres. Les ombres peintes, les bordures et les pixels semi-transparents doivent être contrôlés sur fond clair et sombre.
+5. Poser le PNG dans le dossier de test et vérifier la pièce seule, ses voisins, la répétition, plusieurs Z et l'état détruit. Une belle image isolée peut produire une couture visible dans l'ensemble.
+
+Animation : l'état courant du Workshop choisit la frame initiale MCD pour ses PNG de terrain. Ne pas supposer qu'il prévisualise tous les cycles animés du jeu. En jeu, vérifier les autres frames et orientations attendues par le fournisseur graphique courant.
+
+Le changement de matière ne répare pas une pente ou un raccord incorrect. Ne pas ajouter un sol à un vide voulu, ni transformer un Floor fonctionnel en Object pour arranger le dessin.
+
+## 5. Dossiers et premier test PNG
+
+Le plus simple pour tester sans toucher aux ressources acceptées : créer un dossier personnel « MonAtelierHD », hors des mods protégés, avec :
+
+MonAtelierHD/
+  Resources/TFTD_HD/Terrain/SAND/015.png
+
+Le nom SAND désigne le dataset ; 015 est la frame. Dans Ressources > MOD HD manuel / gabarit universel, choisir la racine MonAtelierHD. F6 : choisir Gabarits universels / fournisseur manuel. Ouvrir une carte contenant SAND MCD 13. Le PNG remplace sa frame initiale. Si le fichier manque, Workshop reprend le sprite Legacy. Une texture de sable REAL HD ne se teste pas par ce chemin : voir chapitre 6.
+
+Ce dossier suffit comme fournisseur graphique du Workshop, même sans être un mod chargé par le jeu. Pour en faire un vrai mod OXCE, ajouter metadata.yml avec un id unique, name, version, author et master: xcom2, puis l'activer selon les règles du moteur utilisé. Exemple :
+
+id: mon_atelier_hd
+name: Mon Atelier HD
+version: 0.1.0
+author: Votre nom
+master: xcom2
+
+Ces métadonnées rendent le mod identifiable ; elles ne branchent pas seules un nouveau fournisseur graphique dans toutes les versions d'OXCE. La version REAL HD adaptée et sa priorité de ressources doivent être vérifiées en jeu. Garder id et noms techniques stables ; l'affichage peut être traduit séparément.
+
+Pour le fournisseur PNG Remastered du Workshop, le code cherche d'abord dans le mod de la pièce, puis dans TFTD PNG remastered, sous Resources/TFTD_HD/Terrain/<dataset>/<frame>.png. Il ne choisit pas arbitrairement tous les mods installés. Le fournisseur manuel donne un chemin de test explicite, indépendant des profils logiques.
+
+Arborescence conseillée pour votre propre atelier :
+Resources/ = fichiers finaux utilisés
+Sources/ = calques et projets éditables
+References/ = captures et notes dataset/MCD/frame
+Documentation/ = assemblages et validation
+
+Dans le mod partagé existant, suivre ses règles : PNG finaux dans Terrain/<dataset>, sources et preuves dans Datasets/<dataset>, documentation stable. GEO utilise Terrain/00_geo_terrain et Datasets/GEO_TERRAIN. Ne pas inventer un nouveau préfixe pour une révision, ni remplacer des gabarits acceptés pour un test.
+
+Après retouche d'un PNG, le redémarrage du Workshop est le moyen sûr de vider son cache d'images. L'application ne surveille pas les modifications externes en direct. Le rendu vu dans Workshop ne confirme pas encore la priorité du mod ni la collision en jeu.
+
+## 6. REAL HD : géométrie et matières
+
+REAL HD ne consiste pas seulement à agrandir un sprite. La présentation reconstruit des surfaces à partir de la carte, des profils de terrain et des géométries, puis applique des matières. Le moteur OXCE conserve la simulation : collision, déplacements, tirs, visibilité, portes et destruction. La texture ne décide pas de ces règles.
+
+Pour SAND, les ressources actives sont :
+user/mods/TFTD_REAL_HD_TEXTURES/Resources/TFTD_HD/RealHD/Datasets/SAND/Materials/
+  TOP_BASE.png
+  VERTICAL_BASE.png
+  TOP_NORMAL_DX.png
+  TOP_ROUGHNESS.png
+  TOP_AO.png
+
+TOP_BASE : couleur du dessus, sans confondre avec un PNG isométrique de pièce. VERTICAL_BASE : matière des faces verticales. NORMAL_DX : microrelief d'éclairage, convention DirectX ; ne change ni silhouette ni collision. ROUGHNESS : rugosité (convention habituelle sombre=lisse, clair=rugueux, à contrôler avec le shader courant). AO : occlusion locale, ne remplace pas toute la lumière calculée. Les masques d'impacts, BlastSets et poussières sont des effets distincts : ne pas les mélanger à la matière de base.
+
+Les matières sont des surfaces qui se répètent, pas des canevas 512×640. Choisir une texture raccordable sur ses quatre bords, avec échelle cohérente. Conserver les dimensions et conventions du jeu de matières utilisé comme départ ; une carte normale est une donnée, pas une photographie à recolorer. Éviter d'inclure une ombre directionnelle forte dans la base si le moteur doit calculer la lumière.
+
+Premier essai REAL HD : copier les fichiers de la matière SAND dans votre espace de travail. Modifier seulement TOP_BASE, en conservant les autres cartes et noms. Le Workshop actuel lit les deux bases depuis le mod explicitement nommé TFTD_REAL_HD_TEXTURES ; le fournisseur manuel PNG ne redirige pas ces matières. Pour l'essai ici, préserver une copie de la matière actuelle, puis remplacer uniquement le fichier visé dans ce dossier et redémarrer. Restaurer la copie si nécessaire. Le guide n'effectue aucun remplacement automatiquement. Un sélecteur de matières REAL HD arbitraires n'existe pas encore dans Workshop.
+
+F6 > REAL HD montre la géométrie SAND/DEBRIS et les bases. Ce n'est pas la totalité du rendu moteur : le Workshop n'applique pas les mêmes shaders, éclairages, eau, caustiques ou effets persistants que P2ZJ. Vérifier les normales, rugosité et AO en jeu avec le moteur REAL HD courant, et noter version/mods/configuration.
+
+Pour une autre famille, ne pas supposer qu'un dossier de même forme suffit : son producteur graphique et sa règle de résolution doivent exister. SEA/eau a son propre contrat et ses réglages ; unités, HUD et effets ont d'autres fournisseurs. Modifier une matière SAND ne crée pas automatiquement un matériau de coque, d'unité ou d'eau.
+
+Rendu mixte (2.12.7) : choisir Rendu → REAL HD texture ou REAL HD debug, puis Rendu → PNG avec REAL HD → PNG Remastered ou Gabarits universels. SAND/DEBRIS et GEO_TERRAIN restent en géométrie REAL HD ; les autres pièces utilisent le fournisseur PNG choisi, puis Legacy si le PNG manque. Le choix PNG est mémorisé. Les GEO utilisent TOP_BASE et VERTICAL_BASE de SAND, dans le mod normal ou debug correspondant. La géométrie et les données logiques ne changent pas.
+
+## 7. Vérifier et dépanner
+
+PNG invisible : vérifier le mode F6, le dossier manuel, nom du dataset, Frame[0], nom 000.png à trois chiffres, vraie extension .png, PNG lisible et alpha non entièrement transparent. Un fallback Legacy n'est pas la preuve que le PNG a été chargé. Redémarrer après modification externe pour vider le cache.
+
+Pièce trop grande, décalée ou coupée : contrôler le canevas, l'ancrage et les proportions ; ne pas confondre largeur 512 et hauteur 640. Vérifier qu'il n'y a pas eu recadrage ou étirement de la silhouette. Contrôler aussi les éventuelles extensions documentées.
+
+Coutures : assembler les vrais voisins selon MAP/MCD, comparer leurs arêtes et leur orientation, puis tester la répétition. Ne pas masquer une erreur de profil avec de la végétation ou une ombre.
+
+Roche incomplète : vérifier l'unité entière du catalogue ; les fragments ne sont pas autonomes. En hauteur, chaque case de l'emprise doit avoir le même appui horizontal avant d'ajouter un bloc multicase.
+
+Damier magenta REAL HD : vérifier TFTD_REAL_HD_TEXTURES et TOP_BASE/VERTICAL_BASE, la racine MODS et la lecture des PNG. Une carte normale absente ne se corrige pas en renommant un sprite de terrain.
+
+Indice MAP non résolu : recharger le profil de la bonne source. Un MAP stocke 0=vide, 1..255=indices adressables dans la liste de datasets ; ajouter un dataset au hasard peut créer des pièces fantômes. Ne pas accepter de conversion sans comprendre l'avertissement.
+
+Collision ou passage incorrect malgré le bon dessin : revenir aux MCD, patches, couche, hauteur, BigWall et états de destruction ; tester OXCE. Workshop ne transforme pas une annotation en règle de mouvement.
+
+Validation en quatre étapes : fichier produit → contrôles logiciels → assemblage dans Workshop → mission OXCE et retour utilisateur. Pour chaque étape conserver version, ressources, graine/carte et captures. Tester lumière/eau quand pertinent, découverte/occultation, animation, porte ouverte/fermée, destruction et reliefs multi-Z. Ne pas déclarer « validé en jeu » à partir d'un export réussi ou d'une capture d'une pièce isolée.
+
+## 8. Partager et contribuer
+
+Le futur dépôt peut contenir sources du Workshop, outils de compilation, tests, traductions et ce guide. Cette livraison reste locale : aucun dépôt n'a été créé ni publié. Les données TFTD/OXCE et les PNG du projet ne sont pas embarqués dans le paquet de code ; l'utilisateur indique ses chemins dans Ressources.
+
+Traductions : locales/fr.json, en.json, es.json, de.json. Chaque clé correspond à un texte source décrit dans sources.json. Ne pas traduire les noms de dossiers techniques, ids MCD/MAP, formats ou raccourcis. Conserver exactement les marqueurs %ls, %d, %u et autres paramètres, dans le même ordre. Le générateur vérifie ces marqueurs et produit workshop_i18n_data.h avant compilation. Une nouvelle langue requiert un catalogue complet et son ajout à la liste du menu. Les traductions fournies couvrent l'interface ; les noms personnels, noms de fichiers et ids de gabarits gardent leur forme d'origine. Une relecture par locuteurs natifs peut améliorer le style sans toucher aux paramètres.
+
+Guide : docs/chapters.json contient les chapitres et leurs quatre langues. Les outils génèrent les pages hors ligne et les données intégrées du lecteur Tuto. Documenter la version et les limites lorsqu'une fonction évolue. Fournir un exemple reproductible, pas une affirmation générale de compatibilité.
+
+Pour signaler un problème : version du Workshop et du moteur, mode de rendu, dataset/MCD/frame, carte ou graine, résultat attendu, résultat observé et capture d'assemblage. Pour proposer une texture : indiquer canevas/alpha, source géométrique, fichiers finaux et ce qui a été testé dans Workshop et en jeu. Un nouveau gabarit n'est pas automatiquement accepté parce que ses PNG sont valides.
+
+Pour apprendre progressivement : une pièce de sol → ses quatre voisins → un assemblage multicase → une carte → une mission. Changer une chose à la fois permet d'identifier le vrai effet de la modification.
+
+Contact de Benjamin : colmoutarde57700@gmail.com
+
+Thanks to GPT-6 Sol

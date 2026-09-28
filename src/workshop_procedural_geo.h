@@ -1,0 +1,37 @@
+#include "geo_canonical.h"
+static int geo_id(const char*s);
+static int geo_validate(const GeoInstance*ins,int count,int grounded,int crease);
+static int scene_geo_index(SceneDoc*s);
+typedef struct {double h,dx,dy;} ProcGeoNode;
+static void proc_geo_coeff(const ProcGeoNode*q,double z,double*c){for(int j=0;j<4;j++)for(int i=0;i<4;i++){const ProcGeoNode*n=&q[(j>=2)*2+(i>=2)];c[j*4+i]=n->h-z+(i==1?1:i==2?-1:0)*n->dx/3+(j==1?1:j==2?-1:0)*n->dy/3;}}
+static void proc_geo_canonical(GeoInstance*i,const double*c){
+ for(int n=0;n<(int)(sizeof(geo_canonical)/sizeof(*geo_canonical));n++)for(int mirror=0;mirror<2;mirror++)for(int r=0;r<4;r++){int ok=1;for(int y=0;y<4&&ok;y++)for(int x=0;x<4;x++){int X=mirror?3-x:x,Y=y;for(int k=0;k<r;k++){int v=X;X=3-Y;Y=v;}if(fabs(geo_canonical[n].c[y*4+x]-c[Y*4+X])>1e-8){ok=0;break;}}if(ok){i->mesh=geo_canonical[n].mesh;i->rotation=r;i->mirror=mirror;return;}}
+ i->mesh=geo_id("relief_patch");i->dynamic=calloc(1,sizeof(GeoDynamic));if(!i->dynamic){i->mesh=-1;return;}i->dynamic->kind=1;memcpy(i->dynamic->controls,c,16*sizeof(double));geo_dynamic_build(i->dynamic,"relief_patch");
+}
+static int proc_geo_space(const SceneDoc*s,const uint8_t*busy,int ox,int oy,int w,int h,int gap){int x0=max(0,ox),y0=max(0,oy),x1=min(s->x,ox+w),y1=min(s->y,oy+h);if(x1-x0<3||y1-y0<3)return 0;for(int y=max(0,y0-gap);y<min(s->y,y1+gap);y++)for(int x=max(0,x0-gap);x<min(s->x,x1+gap);x++)if(busy[y*s->x+x])return 0;return 1;}
+static double proc_geo_slope(double a,double b){return a*b>0?2*a*b/(a+b):0;}
+static int proc_geo_hill(SceneDoc*s,uint8_t*busy,const ProcRecipe*r,uint32_t*rng,ProcReport*report,int*used,int high,int variant){
+ double levels[7]={0,.25,.5},peak=.5;int nlevels=3;if(high){double p[]={0,.5,1,2,3,3.5};nlevels=5+(int)(proc_random(rng)%2);memcpy(levels,p,sizeof(p));if(s->x*s->y<2400||variant>=4)nlevels=4;peak=levels[nlevels-1];}else if(variant%3==1){levels[1]=.5;levels[2]=1;peak=1;}else if(variant%3==2){levels[1]=1./3;levels[2]=2./3;peak=2./3;}
+ if(!high&&variant>=100){nlevels=2;levels[1]=.5;}int w=2*nlevels+(high?2:0)+(int)(proc_random(rng)%(high?7:5)),h=2*nlevels+(high?2:0)+(int)(proc_random(rng)%(high?7:5));if(w>30||h>30)return 0;int cuts[4];for(int k=0;k<4;k++)cuts[k]=(int)(proc_random(rng)%(uint32_t)(max(2,min(w,h)/2)));
+ int ox=0,oy=0,found=0,border=high&&(proc_random(rng)%5==0);for(int a=0;a<1200;a++){ox=(int)(proc_random(rng)%(uint32_t)s->x);oy=(int)(proc_random(rng)%(uint32_t)s->y);if(border){int side=variant%4;if(side==0)ox=-w/3;else if(side==1)ox=s->x-w*2/3;else if(side==2)oy=-h/3;else oy=s->y-h*2/3;}if(!border&&!(!high&&variant>=100)&&(ox<r->gap||oy<r->gap||ox+w>s->x-r->gap||oy+h>s->y-r->gap))continue;int area=(min(s->x,ox+w)-max(0,ox))*(min(s->y,oy+h)-max(0,oy));if(area>0&&*used+area<=s->x*s->y*55/100&&proc_geo_space(s,busy,ox,oy,w,h,r->gap)){found=1;break;}}
+ if(!found)return 0;ProcGeoNode grid[31][31]={0};
+ for(int y=0;y<=h;y++)for(int x=0;x<=w;x++){double d=fmin(fmin(x,w-x),fmin(y,h-y));d=fmin(d,(x+y-cuts[0])/2.);d=fmin(d,(w-x+y-cuts[1])/2.);d=fmin(d,(x+h-y-cuts[2])/2.);d=fmin(d,(w-x+h-y-cuts[3])/2.);int step=clampi((int)floor(d),0,nlevels-1);grid[y][x].h=levels[step];}
+ for(int y=1;y<h;y++)for(int x=1;x<w;x++){ProcGeoNode*q=&grid[y][x];q->dx=proc_geo_slope(q->h-grid[y][x-1].h,grid[y][x+1].h-q->h);q->dy=proc_geo_slope(q->h-grid[y-1][x].h,grid[y+1][x].h-q->h);}
+ for(int pass=0;pass<20;pass++){int changed=0;for(int y=0;y<h;y++)for(int x=0;x<w;x++){ProcGeoNode*q[4]={&grid[y][x],&grid[y][x+1],&grid[y+1][x],&grid[y+1][x+1]},v[4]={*q[0],*q[1],*q[2],*q[3]};double z=floor(fmin(fmin(v[0].h,v[1].h),fmin(v[2].h,v[3].h))+1e-10),c[16];proc_geo_coeff(v,z,c);for(int k=0;k<16;k++)if(c[k]<-1e-10||c[k]>1+1e-10){for(int j=0;j<4;j++)q[j]->dx=q[j]->dy=0;changed=1;break;}}if(!changed)break;}
+ if(!s->geo){s->geo=calloc(GEO_MAX,sizeof(GeoInstance));s->geoDecor=calloc(512,sizeof(GeoDecor));if(!s->geo||!s->geoDecor)return -1;}
+ for(int y=0;y<h;y++)for(int x=0;x<w;x++){int X=ox+x,Y=oy+y;if(X<0||Y<0||X>=s->x||Y>=s->y)continue;ProcGeoNode q[4]={grid[y][x],grid[y][x+1],grid[y+1][x],grid[y+1][x+1]};double z=floor(fmin(fmin(q[0].h,q[1].h),fmin(q[2].h,q[3].h))+1e-10),c[16];proc_geo_coeff(q,z,c);
+  for(int k=0;k<16;k++){if(c[k]<-1e-9||c[k]>1+1e-9)return -1;c[k]=fmin(1,fmax(0,c[k]));}int empty=1;for(int k=0;k<16;k++)if(c[k]>1e-9)empty=0;if(z==0&&empty){busy[Y*s->x+X]=1;(*used)++;continue;}if(s->geoCount+z+1>=GEO_MAX)return -1;
+  for(int zz=0;zz<(int)z;zz++){GeoInstance*i=&s->geo[s->geoCount++];*i=(GeoInstance){.mesh=geo_id("block_3_third"),.x=X,.y=Y,.z=(float)zz,.support=1};snprintf(i->uid,80,"terrain_%d",s->geoCount);}
+  GeoInstance*i=&s->geo[s->geoCount++];*i=(GeoInstance){.x=X,.y=Y,.z=(float)z};snprintf(i->uid,80,"terrain_%d",s->geoCount);proc_geo_canonical(i,c);if(i->mesh<0)return -1;
+  busy[Y*s->x+X]=1;(*used)++;
+  /* Keep a cross through each hill free for geometric access. No TU claim. */
+  if(x==w/2||y==h/2)strncat(i->uid,"_access",79-strlen(i->uid));
+ }
+ report->placed++;report->reliefs++;if(high)report->upperReliefs++;else report->lowReliefs++;(void)peak;return 1;
+}
+static int proc_geo_reliefs(SceneDoc*s,uint8_t*busy,const ProcRecipe*r,uint32_t*rng,ProcReport*report,int*used){int ok=0;for(int a=0;a<12&&!ok;a++){int q=proc_geo_hill(s,busy,r,rng,report,used,1,a);if(q<0)return 0;ok=q;}int goal=clampi(s->x*s->y/(r->density==0?700:r->density==1?400:230),3,30);for(int n=0;n<goal;n++)for(int a=0;a<6;a++){int q=proc_geo_hill(s,busy,r,rng,report,used,0,a>=3?n+100:n);if(q<0)return 0;if(q)break;}if(!report->upperReliefs||!report->lowReliefs)fprintf(stderr,"GEO FAIL seed=%u upper=%d low=%d used=%d dims=%d,%d gap=%d\n",r->seed,report->upperReliefs,report->lowReliefs,*used,s->x,s->y,r->gap);return report->upperReliefs&&report->lowReliefs&&scene_geo_index(s)&&geo_validate(s->geo,s->geoCount,1,0);}
+static int proc_geo_decorate(SceneDoc*s,const ProcRecipe*r,uint32_t*rng,ProcReport*report){
+ int weeds=library_find_name_ctx(L"WEEDS",SRC_TFTD,L"TFTD ORIGINAL"),rocks=library_find_name_ctx(L"ROCKS",SRC_TFTD,L"TFTD ORIGINAL"),weed[4]={0,3,5,8},rock[2]={0,1};
+ for(int n=0;n<s->geoCount;n++){GeoInstance*i=&s->geo[n];if(i->support||strstr(i->uid,"_access"))continue;const GeoPorts*p=i->dynamic?&i->dynamic->ports:&geo_ports[i->mesh];if(p->maxz-p->minz>1e-8||i->z+p->maxz<=0||proc_random(rng)%(r->density==0?8:r->density==1?5:3))continue;int family=(int)(proc_random(rng)%3)==0,local=family?rock[proc_random(rng)%2]:weed[proc_random(rng)%4],lib=family?rocks:weeds;float z=i->z+(float)p->maxz;int nearby=0;if(family){int distance=r->density==2?3:4;for(int yy=max(0,i->y-9);yy<min(s->y,i->y+10)&&!nearby;yy++)for(int xx=max(0,i->x-9);xx<min(s->x,i->x+10)&&!nearby;xx++)for(int zz=0;zz<s->z;zz++){SceneCell*c=&s->cells[(zz*s->y+yy)*s->x+xx];if(c->lib[3]!=rocks)continue;int d=c->local[3]==local?(r->density==2?6:9):distance,dx=xx-i->x,dy=yy-i->y;if(dx*dx+dy*dy<d*d)nearby=1;}for(int j=0;j<s->geoDecorCount;j++)if(s->geoDecor[j].family){GeoDecor*d=&s->geoDecor[j];int dd=d->local==local?(r->density==2?6:9):distance,dx=d->x-i->x,dy=d->y-i->y;if(dx*dx+dy*dy<dd*dd)nearby=1;}}if(nearby)continue;if(fabsf(z-roundf(z))<1e-7){SceneCell*c=&s->cells[((int)roundf(z)*s->y+i->y)*s->x+i->x];if(c->lib[3]>=0)continue;c->lib[3]=lib;c->local[3]=local;}else if(s->geoDecorCount<512)s->geoDecor[s->geoDecorCount++]=(GeoDecor){i->x,i->y,family,local,z};else continue;if(family)report->rocks++;else report->weeds++;report->upperDecor++;}
+ return 1;
+}

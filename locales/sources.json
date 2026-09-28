@@ -1,0 +1,6326 @@
+{
+  "t0000": {
+    "source": "TFTD Workshop V2.12.5 - Procedural + REAL HD Preview",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "TFTD Workshop V2.12.5 - Procedural + REAL HD Preview"
+  },
+  "t0001": {
+    "source": "?",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "?"
+  },
+  "t0002": {
+    "source": "placer un macro-bloc",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "placer un macro-bloc"
+  },
+  "t0003": {
+    "source": "ajouter une ligne",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "ajouter une ligne"
+  },
+  "t0004": {
+    "source": "placer le vaisseau X-COM",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "placer le vaisseau X-COM"
+  },
+  "t0005": {
+    "source": "placer l'USO",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "placer l'USO"
+  },
+  "t0006": {
+    "source": "creuser les raccords",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "creuser les raccords"
+  },
+  "t0007": {
+    "source": "remplir les cases libres",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "remplir les cases libres"
+  },
+  "t0008": {
+    "source": "verifier un bloc",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "verifier un bloc"
+  },
+  "t0009": {
+    "source": "retirer un bloc",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "retirer un bloc"
+  },
+  "t0010": {
+    "source": "commande inconnue",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "commande inconnue"
+  },
+  "t0011": {
+    "source": "MAP %ls [LEGACY DORMANT] : profil familial OXCE infere (%ls, %d datasets).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MAP %ls [LEGACY DORMANT] : profil familial OXCE infere (%ls, %d datasets)."
+  },
+  "t0012": {
+    "source": "MAP %ls [%ls%ls%ls] : palette automatique chargee (%d datasets).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MAP %ls [%ls%ls%ls] : palette automatique chargee (%d datasets)."
+  },
+  "t0013": {
+    "source": "MAP %ls : palette auto partielle, %d dataset(s) introuvable(s).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MAP %ls : palette auto partielle, %d dataset(s) introuvable(s)."
+  },
+  "t0014": {
+    "source": "La MAP a ete identifiee, mais certains datasets requis n'ont pas ete trouves dans la meme source / priorite de mod.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "La MAP a ete identifiee, mais certains datasets requis n'ont pas ete trouves dans la meme source / priorite de mod."
+  },
+  "t0015": {
+    "source": "Trop de datasets actifs pour le Workshop.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Trop de datasets actifs pour le Workshop."
+  },
+  "t0016": {
+    "source": "%d reference(s) MAP actuellement NON RESOLUE(S) utilisent deja les indices %d..%d.\n\nAjouter %ls maintenant les reinterpreterait comme ce dataset et ferait apparaitre des pieces fantomes.\n\nOUI : normaliser ces references invalides en vide, puis ajouter le dataset.\nNON : annuler pour verifier/reparer le profil.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%d reference(s) MAP actuellement NON RESOLUE(S) utilisent deja les indices %d..%d.\n\nAjouter %ls maintenant les reinterpreterait comme ce dataset et ferait apparaitre des pieces fantomes.\n\nOUI : normaliser ces references invalides en vide, puis ajouter le dataset.\nNON : annuler pour verifier/reparer le profil."
+  },
+  "t0017": {
+    "source": "Collision d'indices detectee",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Collision d'indices detectee"
+  },
+  "t0018": {
+    "source": "%ls ajoute, mais aucune de ses entrees n'est adressable dans ce MAP (base %d > 255).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls ajoute, mais aucune de ses entrees n'est adressable dans ce MAP (base %d > 255)."
+  },
+  "t0019": {
+    "source": "%ls ajoute : indices MAP %d a %d utilisables ; les entrees suivantes depassent 255.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls ajoute : indices MAP %d a %d utilisables ; les entrees suivantes depassent 255."
+  },
+  "t0020": {
+    "source": "%ls ajoute a la palette MAP : indices %d a %d.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls ajoute a la palette MAP : indices %d a %d."
+  },
+  "t0021": {
+    "source": "L'indice MAP 0 signifie 'aucun element'. Chargez cette piece via une palette manuelle ou un profil qui lui attribue un indice non nul.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "L'indice MAP 0 signifie 'aucun element'. Chargez cette piece via une palette manuelle ou un profil qui lui attribue un indice non nul."
+  },
+  "t0022": {
+    "source": "Cette piece n'est pas adressable dans la liste de datasets actuelle.\n\n%ls / MCD %d : base dataset %d + index local %d = indice MAP %d.\n\nLe format MAP stocke cet indice sur 1 octet : 0 = vide, 1..255 = pieces adressables.\n\nSur une MAP neuve, la liste doit commencer vide ; retirez les datasets inutiles si cette limite est atteinte.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Cette piece n'est pas adressable dans la liste de datasets actuelle.\n\n%ls / MCD %d : base dataset %d + index local %d = indice MAP %d.\n\nLe format MAP stocke cet indice sur 1 octet : 0 = vide, 1..255 = pieces adressables.\n\nSur une MAP neuve, la liste doit commencer vide ; retirez les datasets inutiles si cette limite est atteinte."
+  },
+  "t0023": {
+    "source": "Indexation : TFTD %d datasets | OXCE %d | MODS %d | %d MAP | %d profils | %d MapScripts.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Indexation : TFTD %d datasets | OXCE %d | MODS %d | %d MAP | %d profils | %d MapScripts."
+  },
+  "t0024": {
+    "source": "Nouvelle MAP : vue classique + MODE PLAN disponibles. Les datasets seront ajoutes a mesure du placement.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nouvelle MAP : vue classique + MODE PLAN disponibles. Les datasets seront ajoutes a mesure du placement."
+  },
+  "t0025": {
+    "source": "MAP chargee, mais aucun profil de datasets correspondant n'a ete trouve dans les rulesets OXCE. Palette MAP vide.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MAP chargee, mais aucun profil de datasets correspondant n'a ete trouve dans les rulesets OXCE. Palette MAP vide."
+  },
+  "t0026": {
+    "source": "Ecriture refusee : TFTD ORIGINAL et OXCE STANDARD sont proteges en lecture seule.\n\nUtilisez Fichier > Exporter / copier vers un mod.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ecriture refusee : TFTD ORIGINAL et OXCE STANDARD sont proteges en lecture seule.\n\nUtilisez Fichier > Exporter / copier vers un mod."
+  },
+  "t0027": {
+    "source": "TFTD PNG remastered",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "TFTD PNG remastered"
+  },
+  "t0028": {
+    "source": "Selectionnez un blueprint du Hangar",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Selectionnez un blueprint du Hangar"
+  },
+  "t0029": {
+    "source": "%d pieces  |  etendue %dx%dx%d  |  preview auto-fit multi-Z",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%d pieces  |  etendue %dx%dx%d  |  preview auto-fit multi-Z"
+  },
+  "t0030": {
+    "source": "Vue complete >",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vue complete >"
+  },
+  "t0031": {
+    "source": "Z actif + dessous >",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Z actif + dessous >"
+  },
+  "t0032": {
+    "source": "Z actif seul >",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Z actif seul >"
+  },
+  "t0033": {
+    "source": "Vue complete : tous les etages sont visibles. Placement et effacement sur le Z actif.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vue complete : tous les etages sont visibles. Placement et effacement sur le Z actif."
+  },
+  "t0034": {
+    "source": "Vue complete desactivee. Le niveau actif reste le niveau d'edition.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vue complete desactivee. Le niveau actif reste le niveau d'edition."
+  },
+  "t0035": {
+    "source": "%d MAP",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%d MAP"
+  },
+  "t0036": {
+    "source": "MOD : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MOD : %ls"
+  },
+  "t0037": {
+    "source": "(sans nom)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "(sans nom)"
+  },
+  "t0038": {
+    "source": "%ls   %dx%dx%d   [%ls]",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls   %dx%dx%d   [%ls]"
+  },
+  "t0039": {
+    "source": "MCD %03d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MCD %03d"
+  },
+  "t0040": {
+    "source": "%ls  [MOD: %ls]  (%d)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls  [MOD: %ls]  (%d)"
+  },
+  "t0041": {
+    "source": "%ls  [%ls]  (%d)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls  [%ls]  (%d)"
+  },
+  "t0042": {
+    "source": "%03d-%03d  %ls [MOD:%ls]",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%03d-%03d  %ls [MOD:%ls]"
+  },
+  "t0043": {
+    "source": "%03d-%03d  %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%03d-%03d  %ls"
+  },
+  "t0044": {
+    "source": "%ls [MOD:%ls] (%d)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls [MOD:%ls] (%d)"
+  },
+  "t0045": {
+    "source": "%ls  (%d)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls  (%d)"
+  },
+  "t0046": {
+    "source": "Jean-Michel Edition",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Benjamin et GPT-6 edition"
+  },
+  "t0047": {
+    "source": "Datasets : TFTD %d | OXCE %d | MODS %d   |   MAP %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Datasets : TFTD %d | OXCE %d | MODS %d   |   MAP %d"
+  },
+  "t0048": {
+    "source": "Datasets MAP",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Datasets MAP"
+  },
+  "t0049": {
+    "source": "Recherche :",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Recherche :"
+  },
+  "t0050": {
+    "source": "3 sources separees - tirez les barres pour redimensionner",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "3 sources separees - tirez les barres pour redimensionner"
+  },
+  "t0051": {
+    "source": "Molette : Z | Ctrl+molette : zoom",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Molette : Z | Ctrl+molette : zoom"
+  },
+  "t0052": {
+    "source": "Clic droit / Echap : lacher la piece",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Clic droit / Echap : lacher la piece"
+  },
+  "t0053": {
+    "source": "Tirez les separateurs des panneaux",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Tirez les separateurs des panneaux"
+  },
+  "t0054": {
+    "source": "Taille : %dx%dx%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Taille : %dx%dx%d"
+  },
+  "t0055": {
+    "source": "Reservation X-COM : X%d Y%d %dx%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Reservation X-COM : X%d Y%d %dx%d"
+  },
+  "t0056": {
+    "source": "Macro-cases : %d | sol sous reservation : %d/%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Macro-cases : %d | sol sous reservation : %d/%d"
+  },
+  "t0057": {
+    "source": "Reservation USO : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Reservation USO : %ls"
+  },
+  "t0058": {
+    "source": "X%d Y%d %dx%d | sous-sol %d/%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "X%d Y%d %dx%d | sous-sol %d/%d"
+  },
+  "t0059": {
+    "source": "Case X%d Y%d Z%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Case X%d Y%d Z%d"
+  },
+  "t0060": {
+    "source": "%ls : vide",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls : vide"
+  },
+  "t0061": {
+    "source": "%ls : %ls/MCD %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls : %ls/MCD %d"
+  },
+  "t0062": {
+    "source": "Scene modifiee - pensez a enregistrer le projet.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Scene modifiee - pensez a enregistrer le projet."
+  },
+  "t0063": {
+    "source": "Profil familial : %ls (via %ls)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Profil familial : %ls (via %ls)"
+  },
+  "t0064": {
+    "source": "Profil MAP : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Profil MAP : %ls"
+  },
+  "t0065": {
+    "source": "Profil source : MOD / %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Profil source : MOD / %ls"
+  },
+  "t0066": {
+    "source": "Profil source : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Profil source : %ls"
+  },
+  "t0067": {
+    "source": "Profil MAP : non identifie",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Profil MAP : non identifie"
+  },
+  "t0068": {
+    "source": "Source : %ls%ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Source : %ls%ls"
+  },
+  "t0069": {
+    "source": " [LECTURE SEULE]",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " [LECTURE SEULE]"
+  },
+  "t0070": {
+    "source": " [EDITABLE + BACKUP]",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " [EDITABLE + BACKUP]"
+  },
+  "t0071": {
+    "source": " [NOUVEAU]",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " [NOUVEAU]"
+  },
+  "t0072": {
+    "source": "Famille : %ls | %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Famille : %ls | %ls"
+  },
+  "t0073": {
+    "source": "Profil familial OXCE infere",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Profil familial OXCE infere"
+  },
+  "t0074": {
+    "source": "RMP Legacy : %d nodes",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP Legacy : %d nodes"
+  },
+  "t0075": {
+    "source": "RMP Legacy : present / format a verifier",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP Legacy : present / format a verifier"
+  },
+  "t0076": {
+    "source": "RMP Legacy : absent",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP Legacy : absent"
+  },
+  "t0077": {
+    "source": "RMP : %d nodes | %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP : %d nodes | %ls"
+  },
+  "t0078": {
+    "source": "aucun fichier",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "aucun fichier"
+  },
+  "t0079": {
+    "source": "Propositions auto : %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Propositions auto : %d"
+  },
+  "t0080": {
+    "source": "Node #%d  X%d Y%d Z%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Node #%d  X%d Y%d Z%d"
+  },
+  "t0081": {
+    "source": "Type %ls (%d) | Rang %ls (%d)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Type %ls (%d) | Rang %ls (%d)"
+  },
+  "t0082": {
+    "source": "Patrouille %d | Spawn %d | Cible %ls | res %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Patrouille %d | Spawn %d | Cible %ls | res %d"
+  },
+  "t0083": {
+    "source": "Tuile active",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Tuile active"
+  },
+  "t0084": {
+    "source": "%ls / MCD %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls / MCD %d"
+  },
+  "t0085": {
+    "source": "Frame %d   P %d   T %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Frame %d   P %d   T %d"
+  },
+  "t0086": {
+    "source": "Indice MAP : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Indice MAP : %ls"
+  },
+  "t0087": {
+    "source": "hors palette",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "hors palette"
+  },
+  "t0088": {
+    "source": "TU marche/vol/glisse : %d / %d / %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "TU marche/vol/glisse : %d / %d / %d"
+  },
+  "t0089": {
+    "source": "Armure %d  Die %d  Alt %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Armure %d  Die %d  Alt %d"
+  },
+  "t0090": {
+    "source": "Porte %d  UFO %d  NoFloor %d  BigWall %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Porte %d  UFO %d  NoFloor %d  BigWall %d"
+  },
+  "t0091": {
+    "source": "Blueprint : %d assemblage(s) | %d pieces | %dx%dx%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint : %d assemblage(s) | %d pieces | %dx%dx%d"
+  },
+  "t0092": {
+    "source": "Observe %d fois | mode %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Observe %d fois | mode %ls"
+  },
+  "t0093": {
+    "source": "Aucune tuile selectionnee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucune tuile selectionnee."
+  },
+  "t0094": {
+    "source": "Case sous le curseur",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Case sous le curseur"
+  },
+  "t0095": {
+    "source": "X %d   Y %d   Z %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "X %d   Y %d   Z %d"
+  },
+  "t0096": {
+    "source": "Mur ouest",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mur ouest"
+  },
+  "t0097": {
+    "source": "Mur nord",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mur nord"
+  },
+  "t0098": {
+    "source": "%ls : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls : %ls"
+  },
+  "t0099": {
+    "source": "Sous la case (niveau inferieur) :",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Sous la case (niveau inferieur) :"
+  },
+  "t0100": {
+    "source": "Z%d %ls : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Z%d %ls : %ls"
+  },
+  "t0101": {
+    "source": "Survolez une case de la MAP.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Survolez une case de la MAP."
+  },
+  "t0102": {
+    "source": "Datasets MAP : %d datasets / %d indices cumules (1..255 adressables)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Datasets MAP : %d datasets / %d indices cumules (1..255 adressables)"
+  },
+  "t0103": {
+    "source": "Zoom x%d   Niveau Z %d/%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Zoom x%d   Niveau Z %d/%d"
+  },
+  "t0104": {
+    "source": "Z %d / %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Z %d / %d"
+  },
+  "t0105": {
+    "source": "Grille +",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Grille +"
+  },
+  "t0106": {
+    "source": "Grille -",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Grille -"
+  },
+  "t0107": {
+    "source": "Niveau actif seul",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Niveau actif seul"
+  },
+  "t0108": {
+    "source": "Niveau actif + niveaux inferieurs",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Niveau actif + niveaux inferieurs"
+  },
+  "t0109": {
+    "source": "Vue complete : tous les niveaux Z",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vue complete : tous les niveaux Z"
+  },
+  "t0110": {
+    "source": "Grille du niveau Z affichee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Grille du niveau Z affichee."
+  },
+  "t0111": {
+    "source": "Grille du niveau Z masquee : mode capture propre.",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Grille du niveau Z masquee : mode capture propre."
+  },
+  "t0112": {
+    "source": "RELIER : cliquez le node de depart puis le node d'arrivee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RELIER : cliquez le node de depart puis le node d'arrivee."
+  },
+  "t0113": {
+    "source": "SORTIE N : raccord vers le bloc voisin au Nord.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "SORTIE N : raccord vers le bloc voisin au Nord."
+  },
+  "t0114": {
+    "source": "SORTIE E : raccord vers le bloc voisin a l'Est.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "SORTIE E : raccord vers le bloc voisin a l'Est."
+  },
+  "t0115": {
+    "source": "SORTIE S : raccord vers le bloc voisin au Sud.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "SORTIE S : raccord vers le bloc voisin au Sud."
+  },
+  "t0116": {
+    "source": "SORTIE O : raccord vers le bloc voisin a l'Ouest.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "SORTIE O : raccord vers le bloc voisin a l'Ouest."
+  },
+  "t0117": {
+    "source": "SUPPRIMER : cliquez un node pour le retirer.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "SUPPRIMER : cliquez un node pour le retirer."
+  },
+  "t0118": {
+    "source": "POSER : clic case vide = nouveau node ; clic node = selection.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "POSER : clic case vide = nouveau node ; clic node = selection."
+  },
+  "t0119": {
+    "source": "Profil :",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Profil :"
+  },
+  "t0120": {
+    "source": "Acces :",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Acces :"
+  },
+  "t0121": {
+    "source": "Route simple suffit dans la plupart des cas.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Route simple suffit dans la plupart des cas."
+  },
+  "t0122": {
+    "source": "Acces TOUS = aucune restriction | 1x1 = exclut les grosses unites | VOL = reserve aux unites volantes.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Acces TOUS = aucune restriction | 1x1 = exclut les grosses unites | VOL = reserve aux unites volantes."
+  },
+  "t0123": {
+    "source": "Avance :",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Avance :"
+  },
+  "t0124": {
+    "source": "Cas speciaux seulement.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Cas speciaux seulement."
+  },
+  "t0125": {
+    "source": "Rang = categorie RMP/spawn | Pat = desirabilite IA | Spawn 0 = aucun spawn | Cible = defense de base.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Rang = categorie RMP/spawn | Pat = desirabilite IA | Spawn 0 = aucun spawn | Cible = defense de base."
+  },
+  "t0126": {
+    "source": "Profil ROUTE SIMPLE : navigation standard, aucune restriction, pas de spawn.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Profil ROUTE SIMPLE : navigation standard, aucune restriction, pas de spawn."
+  },
+  "t0127": {
+    "source": "Acces TOUS : aucune restriction de taille ou de vol.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Acces TOUS : aucune restriction de taille ou de vol."
+  },
+  "t0128": {
+    "source": "Acces 1x1 : grandes unites exclues de ce node.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Acces 1x1 : grandes unites exclues de ce node."
+  },
+  "t0129": {
+    "source": "Acces VOL : seules les unites volantes peuvent utiliser ce node.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Acces VOL : seules les unites volantes peuvent utiliser ce node."
+  },
+  "t0130": {
+    "source": "Acces 1x1+VOL : reserve aux petites unites volantes.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Acces 1x1+VOL : reserve aux petites unites volantes."
+  },
+  "t0131": {
+    "source": "Parametres RMP avances affiches.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Parametres RMP avances affiches."
+  },
+  "t0132": {
+    "source": "Parametres RMP avances masques. Le profil simple reste actif.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Parametres RMP avances masques. Le profil simple reste actif."
+  },
+  "t0133": {
+    "source": "Capture blueprint perso annulee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Capture blueprint perso annulee."
+  },
+  "t0134": {
+    "source": "Capture perso : aucune piece visible sous le curseur.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Capture perso : aucune piece visible sous le curseur."
+  },
+  "t0135": {
+    "source": "Capture perso : piece retiree. %d piece(s) selectionnee(s).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Capture perso : piece retiree. %d piece(s) selectionnee(s)."
+  },
+  "t0136": {
+    "source": "Capture perso : limite de pieces atteinte.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Capture perso : limite de pieces atteinte."
+  },
+  "t0137": {
+    "source": "Capture perso : %ls/MCD%d ajoute (%ls X%d Y%d Z%d). Selection visuelle toutes couches. %d piece(s).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Capture perso : %ls/MCD%d ajoute (%ls X%d Y%d Z%d). Selection visuelle toutes couches. %d piece(s)."
+  },
+  "t0138": {
+    "source": "Blueprint perso : selectionnez au moins 2 pieces avant d'enregistrer.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint perso : selectionnez au moins 2 pieces avant d'enregistrer."
+  },
+  "t0139": {
+    "source": "Blueprint perso : capacite de stockage atteinte.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint perso : capacite de stockage atteinte."
+  },
+  "t0140": {
+    "source": "Echec de l'enregistrement du blueprint dans le Hangar.\\n\\nAucune modification du Hangar n'a ete conservee ; votre capture reste active pour pouvoir reessayer.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Echec de l'enregistrement du blueprint dans le Hangar.\\n\\nAucune modification du Hangar n'a ete conservee ; votre capture reste active pour pouvoir reessayer."
+  },
+  "t0141": {
+    "source": "Blueprint perso : echec d'enregistrement, capture conservee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint perso : echec d'enregistrement, capture conservee."
+  },
+  "t0142": {
+    "source": "Blueprint perso %ls enregistre dans le Hangar : %d pieces, etendue %dx%dx%d.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint perso %ls enregistre dans le Hangar : %d pieces, etendue %dx%dx%d."
+  },
+  "t0143": {
+    "source": "Impossible de copier cette MAP comme blueprint : aucun profil de datasets n'a ete identifie.\n\nLe Workshop ne peut pas convertir les indices MAP en dataset/MCD sans ce profil.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Impossible de copier cette MAP comme blueprint : aucun profil de datasets n'a ete identifie.\n\nLe Workshop ne peut pas convertir les indices MAP en dataset/MCD sans ce profil."
+  },
+  "t0144": {
+    "source": "Copie annulee : le dataset %ls du profil de cette MAP est introuvable dans la chaine de sources autorisee.\n\nAucun fallback vers un autre mod et aucun blueprint partiel ne seront utilises.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Copie annulee : le dataset %ls du profil de cette MAP est introuvable dans la chaine de sources autorisee.\n\nAucun fallback vers un autre mod et aucun blueprint partiel ne seront utilises."
+  },
+  "t0145": {
+    "source": "Impossible de lire cette MAP.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Impossible de lire cette MAP."
+  },
+  "t0146": {
+    "source": "MAP invalide ou tronquee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MAP invalide ou tronquee."
+  },
+  "t0147": {
+    "source": "Cette MAP ne contient aucune piece a copier.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Cette MAP ne contient aucune piece a copier."
+  },
+  "t0148": {
+    "source": "Impossible de copier toute la MAP : elle contient %d pieces et le Hangar n'a plus assez de capacite.\n\nCapacite restante : %d pieces.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Impossible de copier toute la MAP : elle contient %d pieces et le Hangar n'a plus assez de capacite.\n\nCapacite restante : %d pieces."
+  },
+  "t0149": {
+    "source": "Memoire insuffisante pour construire le blueprint.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Memoire insuffisante pour construire le blueprint."
+  },
+  "t0150": {
+    "source": "Copie annulee : %d piece(s) de la MAP ne peuvent pas etre resolues vers un dataset/MCD avec le profil strict de cette source.\n\nAucun blueprint partiel n'a ete cree.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Copie annulee : %d piece(s) de la MAP ne peuvent pas etre resolues vers un dataset/MCD avec le profil strict de cette source.\n\nAucun blueprint partiel n'a ete cree."
+  },
+  "t0151": {
+    "source": "Impossible d'enregistrer cette MAP dans le Hangar.\n\nLe stockage du Hangar n'a pas ete modifie et aucun blueprint partiel n'a ete conserve.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Impossible d'enregistrer cette MAP dans le Hangar.\n\nLe stockage du Hangar n'a pas ete modifie et aucun blueprint partiel n'a ete conserve."
+  },
+  "t0152": {
+    "source": "MAP %ls copiee dans le Hangar comme blueprint %ls : %d pieces, etendue %dx%dx%d.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MAP %ls copiee dans le Hangar comme blueprint %ls : %d pieces, etendue %dx%dx%d."
+  },
+  "t0153": {
+    "source": "Piece seule",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "workshop_editing.h",
+      "workshop_editing.h"
+    ],
+    "text": "Piece seule"
+  },
+  "t0154": {
+    "source": "Assemblage >",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Assemblage >"
+  },
+  "t0155": {
+    "source": "Capture : %d pieces. Cliquez les pieces visibles.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Capture : %d pieces. Cliquez les pieces visibles."
+  },
+  "t0156": {
+    "source": "Clic droit / Echap : lacher la piece ou l'assemblage.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Clic droit / Echap : lacher la piece ou l'assemblage."
+  },
+  "t0157": {
+    "source": "Habituel : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Habituel : %ls"
+  },
+  "t0158": {
+    "source": "Personnel : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Personnel : %ls"
+  },
+  "t0159": {
+    "source": "Tous mes assemblages : ouvrir le Hangar...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Tous mes assemblages : ouvrir le Hangar..."
+  },
+  "t0160": {
+    "source": "Capture : cliquez les pieces visibles, puis Enregistrer.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Capture : cliquez les pieces visibles, puis Enregistrer."
+  },
+  "t0161": {
+    "source": "Lien Z",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Lien Z"
+  },
+  "t0162": {
+    "source": "Plan 2D",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Plan 2D"
+  },
+  "t0163": {
+    "source": "Plan ISO",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Plan ISO"
+  },
+  "t0164": {
+    "source": "Gomme PLAN : clic gauche efface le type choisi. Clic droit termine.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Gomme PLAN : clic gauche efface le type choisi. Clic droit termine."
+  },
+  "t0165": {
+    "source": "Edition du plan active.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Edition du plan active."
+  },
+  "t0166": {
+    "source": "PLAN : edition SOL / ZONE.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : edition SOL / ZONE."
+  },
+  "t0167": {
+    "source": "PLAN : edition OBJET / DECOR.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : edition OBJET / DECOR."
+  },
+  "t0168": {
+    "source": "PLAN : affichage %ls%ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : affichage %ls%ls"
+  },
+  "t0169": {
+    "source": " ; utilisez SOL, MUR, PORTE ou OBJET pour choisir ce que vous editez.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " ; utilisez SOL, MUR, PORTE ou OBJET pour choisir ce que vous editez."
+  },
+  "t0170": {
+    "source": " ; edition SOL active.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " ; edition SOL active."
+  },
+  "t0171": {
+    "source": " ; edition MURS active.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " ; edition MURS active."
+  },
+  "t0172": {
+    "source": " ; edition OBJETS active.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " ; edition OBJETS active."
+  },
+  "t0173": {
+    "source": "Pinceau PLAN configure.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Pinceau PLAN configure."
+  },
+  "t0174": {
+    "source": "PLAN : pinceau %ls = %ls.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : pinceau %ls = %ls."
+  },
+  "t0175": {
+    "source": "PLAN : murs sur bords de case.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : murs sur bords de case."
+  },
+  "t0176": {
+    "source": "PLAN : mur diagonal NE-SO.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : mur diagonal NE-SO."
+  },
+  "t0177": {
+    "source": "PLAN : mur diagonal NO-SE.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : mur diagonal NO-SE."
+  },
+  "t0178": {
+    "source": "PLAN : forme de sol selectionnee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : forme de sol selectionnee."
+  },
+  "t0179": {
+    "source": "PLAN : liaison verticale = %ls.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : liaison verticale = %ls."
+  },
+  "t0180": {
+    "source": "Outil : %ls   Couche : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Outil : %ls   Couche : %ls"
+  },
+  "t0181": {
+    "source": "OBJET : petit carre au-dessus du sol",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "OBJET : petit carre au-dessus du sol"
+  },
+  "t0182": {
+    "source": "SOL / ZONE : forme et couleur de la case",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "SOL / ZONE : forme et couleur de la case"
+  },
+  "t0183": {
+    "source": "X%d Y%d Z%d | %ls | %ls | sol %ls%ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "X%d Y%d Z%d | %ls | %ls | sol %ls%ls"
+  },
+  "t0184": {
+    "source": " | diag NE-SO",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " | diag NE-SO"
+  },
+  "t0185": {
+    "source": " | diag NO-SE",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " | diag NO-SE"
+  },
+  "t0186": {
+    "source": "Lien Z : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Lien Z : %ls"
+  },
+  "t0187": {
+    "source": "Mur O",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mur O"
+  },
+  "t0188": {
+    "source": "Mur N",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mur N"
+  },
+  "t0189": {
+    "source": "Couche: %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Couche: %ls"
+  },
+  "t0190": {
+    "source": "Pinceau >",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Pinceau >"
+  },
+  "t0191": {
+    "source": "Contour >",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Contour >"
+  },
+  "t0192": {
+    "source": "Forme pleine >",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Forme pleine >"
+  },
+  "t0193": {
+    "source": "Remplissage >",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Remplissage >"
+  },
+  "t0194": {
+    "source": "Taille %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Taille %d"
+  },
+  "t0195": {
+    "source": "Pinceau case par case",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Pinceau case par case"
+  },
+  "t0196": {
+    "source": "Contour de forme",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Contour de forme"
+  },
+  "t0197": {
+    "source": "Forme pleine",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Forme pleine"
+  },
+  "t0198": {
+    "source": "Remplissage de zone",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Remplissage de zone"
+  },
+  "t0199": {
+    "source": "COMPOSITEUR : %ls   %dx%dx%d   Z=%d  zoom x%d%ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "COMPOSITEUR : %ls   %dx%dx%d   Z=%d  zoom x%d%ls"
+  },
+  "t0200": {
+    "source": "   *modifiee*",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "   *modifiee*"
+  },
+  "t0201": {
+    "source": "%ls   %dx%dx%d   Z=%d  zoom x%d%ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls   %dx%dx%d   Z=%d  zoom x%d%ls"
+  },
+  "t0202": {
+    "source": "<nouvelle MAP>",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "<nouvelle MAP>"
+  },
+  "t0203": {
+    "source": "Ouvrez ou creez une MAP. %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ouvrez ou creez une MAP. %ls"
+  },
+  "t0204": {
+    "source": "Palette MAP prete.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Palette MAP prete."
+  },
+  "t0205": {
+    "source": "Les datasets seront charges automatiquement si un profil OXCE est trouve.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Les datasets seront charges automatiquement si un profil OXCE est trouve."
+  },
+  "t0206": {
+    "source": "Blueprint refuse : une piece sortirait de la MAP.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint refuse : une piece sortirait de la MAP."
+  },
+  "t0207": {
+    "source": "Blueprint refuse : dataset/MCD introuvable dans la chaine de sources autorisee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint refuse : dataset/MCD introuvable dans la chaine de sources autorisee."
+  },
+  "t0208": {
+    "source": "Blueprint perso refuse : une piece sortirait de la MAP.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint perso refuse : une piece sortirait de la MAP."
+  },
+  "t0209": {
+    "source": "Blueprint perso refuse : dataset/MCD introuvable dans la chaine de sources autorisee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint perso refuse : dataset/MCD introuvable dans la chaine de sources autorisee."
+  },
+  "t0210": {
+    "source": "Blueprint %ls pose : %d pieces (Undo/Redo groupe).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint %ls pose : %d pieces (Undo/Redo groupe)."
+  },
+  "t0211": {
+    "source": "Gomme universelle : %ls/MCD%d efface (%ls X%d Y%d Z%d).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Gomme universelle : %ls/MCD%d efface (%ls X%d Y%d Z%d)."
+  },
+  "t0212": {
+    "source": "PLAN : mur diagonal logique pose, mais la couche OBJET de cette case est deja occupee ; aucune piece reelle n'a ete ecrasee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : mur diagonal logique pose, mais la couche OBJET de cette case est deja occupee ; aucune piece reelle n'a ete ecrasee."
+  },
+  "t0213": {
+    "source": "Le mur diagonal %ls est conserve dans le plan, mais aucun objet MCD bigWall=%d compatible n'est present dans les datasets actuellement utilises.\n\nLe Workshop ne bloque pas l'edition. Il faudra ajouter une tuile compatible au profil/dataset avant export final.\n\nCandidats deja indexes :",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Le mur diagonal %ls est conserve dans le plan, mais aucun objet MCD bigWall=%d compatible n'est present dans les datasets actuellement utilises.\n\nLe Workshop ne bloque pas l'edition. Il faudra ajouter une tuile compatible au profil/dataset avant export final.\n\nCandidats deja indexes :"
+  },
+  "t0214": {
+    "source": "\n  - %ls / MCD %d [%ls]",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "\n  - %ls / MCD %d [%ls]"
+  },
+  "t0215": {
+    "source": "\n  - aucun candidat indexe : creer une entree OBJECT bigWall correspondante.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "\n  - aucun candidat indexe : creer une entree OBJECT bigWall correspondante."
+  },
+  "t0216": {
+    "source": "PLAN - tuile de mur diagonal manquante",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN - tuile de mur diagonal manquante"
+  },
+  "t0217": {
+    "source": "ATTENTION : ce macrobloc appartient a TFTD ORIGINAL ou OXCE STANDARD.\n\nIl est protege en lecture seule.\n\nCreer maintenant une copie editable dans un mod ?",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "ATTENTION : ce macrobloc appartient a TFTD ORIGINAL ou OXCE STANDARD.\n\nIl est protege en lecture seule.\n\nCreer maintenant une copie editable dans un mod ?"
+  },
+  "t0218": {
+    "source": "PLAN : case verrouillee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : case verrouillee."
+  },
+  "t0219": {
+    "source": "PLAN : case deverrouillee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : case deverrouillee."
+  },
+  "t0220": {
+    "source": "PLAN : selectionnez une zone avant Ctrl+C.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : selectionnez une zone avant Ctrl+C."
+  },
+  "t0221": {
+    "source": "PLAN : memoire insuffisante pour le presse-papiers.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : memoire insuffisante pour le presse-papiers."
+  },
+  "t0222": {
+    "source": "PLAN : selection %dx%d copiee. Ctrl+V puis clic pour la poser.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : selection %dx%d copiee. Ctrl+V puis clic pour la poser."
+  },
+  "t0223": {
+    "source": "PLAN : presse-papiers vide.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : presse-papiers vide."
+  },
+  "t0224": {
+    "source": "PLAN : collage fantome actif. Cliquez la case d'ancrage ; Echap annule.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : collage fantome actif. Cliquez la case d'ancrage ; Echap annule."
+  },
+  "t0225": {
+    "source": "PLAN : collage annule.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : collage annule."
+  },
+  "t0226": {
+    "source": "PLAN : collage refuse, la selection sortirait de la carte.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : collage refuse, la selection sortirait de la carte."
+  },
+  "t0227": {
+    "source": "PLAN : copie TFTD/OXCE protegee. Exportez d'abord vers un mod pour modifier les pieces.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : copie TFTD/OXCE protegee. Exportez d'abord vers un mod pour modifier les pieces."
+  },
+  "t0228": {
+    "source": "PLAN : collage termine (donnees logiques + contenu des 4 couches). Undo restaure l'ensemble.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : collage termine (donnees logiques + contenu des 4 couches). Undo restaure l'ensemble."
+  },
+  "t0229": {
+    "source": "Modification annulee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Modification annulee."
+  },
+  "t0230": {
+    "source": "Modification retablie.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Modification retablie."
+  },
+  "t0231": {
+    "source": "Pipette : case vide.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Pipette : case vide."
+  },
+  "t0232": {
+    "source": "Pipette scene : %ls / MCD %d (%ls).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Pipette scene : %ls / MCD %d (%ls)."
+  },
+  "t0233": {
+    "source": "Pipette : case vide ou indice non resolu.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Pipette : case vide ou indice non resolu."
+  },
+  "t0234": {
+    "source": "Pipette : %ls / MCD %d (%ls).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Pipette : %ls / MCD %d (%ls)."
+  },
+  "t0235": {
+    "source": "Selection : %ls / MCD %d / indice MAP %d / couche auto %ls.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Selection : %ls / MCD %d / indice MAP %d / couche auto %ls."
+  },
+  "t0236": {
+    "source": "Selection : %ls / MCD %d / couche auto %ls.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Selection : %ls / MCD %d / couche auto %ls."
+  },
+  "t0237": {
+    "source": "Le RMP du mod a ete modifie. L'enregistrer avant de changer de carte ?",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Le RMP du mod a ete modifie. L'enregistrer avant de changer de carte ?"
+  },
+  "t0238": {
+    "source": "La MAP du mod a ete modifiee. Sauvegarder avec backup automatique avant de changer de carte ?",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "La MAP du mod a ete modifiee. Sauvegarder avec backup automatique avant de changer de carte ?"
+  },
+  "t0239": {
+    "source": "Cette nouvelle MAP n'a pas encore ete exportee vers un mod.\n\nOUI = abandonner cette MAP sans l'enregistrer\nNON = rester ici pour l'exporter vers un mod",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Cette nouvelle MAP n'a pas encore ete exportee vers un mod.\n\nOUI = abandonner cette MAP sans l'enregistrer\nNON = rester ici pour l'exporter vers un mod"
+  },
+  "t0240": {
+    "source": "MAP invalide ou non prise en charge.",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MAP invalide ou non prise en charge."
+  },
+  "t0241": {
+    "source": "Ouvrir cette MAP",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ouvrir cette MAP"
+  },
+  "t0242": {
+    "source": "Copier tout le contenu dans le Hangar comme blueprint",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Copier tout le contenu dans le Hangar comme blueprint"
+  },
+  "t0243": {
+    "source": "Copier toute la MAP %ls (%dx%dx%d) dans le Hangar courant ?\n\nToutes les pieces, couches et niveaux Z seront conserves avec leurs positions relatives. La MAP actuellement ouverte ne sera pas fermee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Copier toute la MAP %ls (%dx%dx%d) dans le Hangar courant ?\n\nToutes les pieces, couches et niveaux Z seront conserves avec leurs positions relatives. La MAP actuellement ouverte ne sera pas fermee."
+  },
+  "t0244": {
+    "source": "TFTD ORIGINAL - selectionnez le dossier racine de Terror From The Deep",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "TFTD ORIGINAL - selectionnez le dossier racine de Terror From The Deep"
+  },
+  "t0245": {
+    "source": "OXCE STANDARD - selectionnez la racine OpenXcom/OXCE (les mods utilisateur seront ignores)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "OXCE STANDARD - selectionnez la racine OpenXcom/OXCE (les mods utilisateur seront ignores)"
+  },
+  "t0246": {
+    "source": "PNG Remastered",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PNG Remastered"
+  },
+  "t0247": {
+    "source": "Gabarits universels",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Gabarits universels"
+  },
+  "t0248": {
+    "source": "REAL HD - apercu SAND/DEBRIS",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "REAL HD - apercu SAND/DEBRIS"
+  },
+  "t0249": {
+    "source": "REAL HD debug - geometrie",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "REAL HD debug - geometrie"
+  },
+  "t0250": {
+    "source": "%ls | F6 : changer de rendu. %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls | F6 : changer de rendu. %ls"
+  },
+  "t0251": {
+    "source": "Apercu geometrie P2ZJ ; sans shaders, eclairage ni effets du jeu. Autres pieces : PNG puis Legacy.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Apercu geometrie P2ZJ ; sans shaders, eclairage ni effets du jeu. Autres pieces : PNG puis Legacy."
+  },
+  "t0252": {
+    "source": "Un PNG absent utilise le sprite Legacy ; la carte logique reste identique.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Un PNG absent utilise le sprite Legacy ; la carte logique reste identique."
+  },
+  "t0253": {
+    "source": "MOD HD MANUEL - selectionnez la racine du mod de gabarit universel (ou Resources/TFTD_HD/Terrain)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MOD HD MANUEL - selectionnez la racine du mod de gabarit universel (ou Resources/TFTD_HD/Terrain)"
+  },
+  "t0254": {
+    "source": "MOD HD manuel configure et active. Les PNG absents utilisent automatiquement le rendu Legacy.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MOD HD manuel configure et active. Les PNG absents utilisent automatiquement le rendu Legacy."
+  },
+  "t0255": {
+    "source": "Selectionnez le dossier contenant les MAP TFTD",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Selectionnez le dossier contenant les MAP TFTD"
+  },
+  "t0256": {
+    "source": "Selectionnez le dossier MAPS OXCE / mods",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Selectionnez le dossier MAPS OXCE / mods"
+  },
+  "t0257": {
+    "source": "Ouvrir une MAP TFTD",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ouvrir une MAP TFTD"
+  },
+  "t0258": {
+    "source": "Ajouter un dataset MCD/PCK/TAB",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ajouter un dataset MCD/PCK/TAB"
+  },
+  "t0259": {
+    "source": "Le MCD n'a pas pu etre ajoute (PCK/TAB manquant, doublon ou format invalide).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Le MCD n'a pas pu etre ajoute (PCK/TAB manquant, doublon ou format invalide)."
+  },
+  "t0260": {
+    "source": "Charger une palette TFTD",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Charger une palette TFTD"
+  },
+  "t0261": {
+    "source": "Bloc CMAP de palette introuvable.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Bloc CMAP de palette introuvable."
+  },
+  "t0262": {
+    "source": "Palette chargee manuellement.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Palette chargee manuellement."
+  },
+  "t0263": {
+    "source": "[MOD: %ls] %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "[MOD: %ls] %ls"
+  },
+  "t0264": {
+    "source": "[%ls] %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "[%ls] %ls"
+  },
+  "t0265": {
+    "source": "Recette inconnue",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Recette inconnue"
+  },
+  "t0266": {
+    "source": "Terrain standard",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Terrain standard"
+  },
+  "t0267": {
+    "source": "Terrain avec 3 gros blocs",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Terrain avec 3 gros blocs"
+  },
+  "t0268": {
+    "source": "Navire - partie 1",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Navire - partie 1"
+  },
+  "t0269": {
+    "source": "Navire - partie 2",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Navire - partie 2"
+  },
+  "t0270": {
+    "source": "Site artefact - partie 1",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Site artefact - partie 1"
+  },
+  "t0271": {
+    "source": "Site artefact - partie 2",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Site artefact - partie 2"
+  },
+  "t0272": {
+    "source": "Base - raccords",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Base - raccords"
+  },
+  "t0273": {
+    "source": "Colonie alien - partie 1",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Colonie alien - partie 1"
+  },
+  "t0274": {
+    "source": "Colonie alien - partie 2",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Colonie alien - partie 2"
+  },
+  "t0275": {
+    "source": "Port - mission de terreur",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Port - mission de terreur"
+  },
+  "t0276": {
+    "source": "Ile - mission de terreur",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ile - mission de terreur"
+  },
+  "t0277": {
+    "source": "T'leth - partie 1",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "T'leth - partie 1"
+  },
+  "t0278": {
+    "source": "T'leth - parties 2/3",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "T'leth - parties 2/3"
+  },
+  "t0279": {
+    "source": "Apercu du vaisseau X-COM",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Apercu du vaisseau X-COM"
+  },
+  "t0280": {
+    "source": "Bateau de croisiere - partie 1 (LINERT)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Bateau de croisiere - partie 1 (LINERT)"
+  },
+  "t0281": {
+    "source": "Bateau de croisiere - partie 2 (LINERB)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Bateau de croisiere - partie 2 (LINERB)"
+  },
+  "t0282": {
+    "source": "Cargo (CARGO)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Cargo (CARGO)"
+  },
+  "t0283": {
+    "source": "%ls - partie %d [%ls%ls%ls]",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls - partie %d [%ls%ls%ls]"
+  },
+  "t0284": {
+    "source": "Bateau de croisiere",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Bateau de croisiere"
+  },
+  "t0285": {
+    "source": "Aucune recette indexee. Verifiez les dossiers dans Ressources.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucune recette indexee. Verifiez les dossiers dans Ressources."
+  },
+  "t0286": {
+    "source": "Terrain : %ls.\r\n%ls\r\n%ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Terrain : %ls.\r\n%ls\r\n%ls"
+  },
+  "t0287": {
+    "source": "Recette officielle : les etapes sans bloc optionnel peuvent etre sautees.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Recette officielle : les etapes sans bloc optionnel peuvent etre sautees."
+  },
+  "t0288": {
+    "source": "Assemblage libre : choisissez le terrain et les dimensions.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Assemblage libre : choisissez le terrain et les dimensions."
+  },
+  "t0289": {
+    "source": "Blocs disponibles. La carte sera controlee a la generation.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blocs disponibles. La carte sera controlee a la generation."
+  },
+  "t0290": {
+    "source": "Aucun terrain disponible. Verifiez les dossiers de ressources.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucun terrain disponible. Verifiez les dossiers de ressources."
+  },
+  "t0291": {
+    "source": "Recette non prise en charge : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Recette non prise en charge : %ls"
+  },
+  "t0292": {
+    "source": "FIDELE OPENXCOM - recette officielle",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "FIDELE OPENXCOM - recette officielle"
+  },
+  "t0293": {
+    "source": "LIBRE - assemblage par famille",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "LIBRE - assemblage par famille"
+  },
+  "t0294": {
+    "source": "[MOD: %ls] %ls%ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "[MOD: %ls] %ls%ls"
+  },
+  "t0295": {
+    "source": "  [non pris en charge]",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "  [non pris en charge]"
+  },
+  "t0296": {
+    "source": "[%ls] %ls%ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "[%ls] %ls%ls"
+  },
+  "t0297": {
+    "source": "(aucun vaisseau X-COM)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "(aucun vaisseau X-COM)"
+  },
+  "t0298": {
+    "source": "Aucun USO",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucun USO"
+  },
+  "t0299": {
+    "source": "USO reel",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "USO reel"
+  },
+  "t0300": {
+    "source": "Emplacement reserve / fantome",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Emplacement reserve / fantome"
+  },
+  "t0301": {
+    "source": "(choisir un USO)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "(choisir un USO)"
+  },
+  "t0302": {
+    "source": "terrain non indexe",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "terrain non indexe"
+  },
+  "t0303": {
+    "source": "commande %d : terrain impose %ls introuvable",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "commande %d : terrain impose %ls introuvable"
+  },
+  "t0304": {
+    "source": "commande %d : bloc impose #%d absent de ce terrain",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "commande %d : bloc impose #%d absent de ce terrain"
+  },
+  "t0305": {
+    "source": "commande %d : groupe %d sans bloc %dx%d exploitable",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "commande %d : groupe %d sans bloc %dx%d exploitable"
+  },
+  "t0306": {
+    "source": "commande %d : aucun bloc standard %dx%d exploitable",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "commande %d : aucun bloc standard %dx%d exploitable"
+  },
+  "t0307": {
+    "source": "aucun bloc disponible pour cette recette",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "aucun bloc disponible pour cette recette"
+  },
+  "t0308": {
+    "source": "Commande %d (%ls) : verticalLevels detecte. V2.8.0 bloque cette recette plutot que de perdre sa structure Z.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d (%ls) : verticalLevels detecte. V2.8.0 bloque cette recette plutot que de perdre sa structure Z."
+  },
+  "t0309": {
+    "source": "Commande %d (%ls) : randomTerrain detecte et non encore traduit fidelement.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d (%ls) : randomTerrain detecte et non encore traduit fidelement."
+  },
+  "t0310": {
+    "source": "Commande %d (%ls) : craftGroups detecte ; la condition depend du craft deploye et ne peut pas etre devinee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d (%ls) : craftGroups detecte ; la condition depend du craft deploye et ne peut pas etre devinee."
+  },
+  "t0311": {
+    "source": "Commande %d (%ls) : craftName/UFOName explicite detecte ; selection manuelle interdite en mode exact.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d (%ls) : craftName/UFOName explicite detecte ; selection manuelle interdite en mode exact."
+  },
+  "t0312": {
+    "source": "Commande %d : %ls non encore traduite dans le compositeur exact.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d : %ls non encore traduite dans le compositeur exact."
+  },
+  "t0313": {
+    "source": "Commande %d : resize apres placement. OXCE l'interdit lui-meme ; recette refusee pour diagnostic.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d : resize apres placement. OXCE l'interdit lui-meme ; recette refusee pour diagnostic."
+  },
+  "t0314": {
+    "source": "Aucune structure OpenXcom selectionnee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucune structure OpenXcom selectionnee."
+  },
+  "t0315": {
+    "source": "STRUCTURE OPENXCOM : %ls\nNom technique : %ls\nSource : %ls%ls%ls\nFichier : %ls\n",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "STRUCTURE OPENXCOM : %ls\nNom technique : %ls\nSource : %ls%ls%ls\nFichier : %ls\n"
+  },
+  "t0316": {
+    "source": "Taille historique conseillee : %d x %d cases\n",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Taille historique conseillee : %d x %d cases\n"
+  },
+  "t0317": {
+    "source": "\nEtapes de la recette :\n",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "\nEtapes de la recette :\n"
+  },
+  "t0318": {
+    "source": "%02d. %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%02d. %ls"
+  },
+  "t0319": {
+    "source": " | bloc %dx%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " | bloc %dx%d"
+  },
+  "t0320": {
+    "source": " | groupe(s): %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " | groupe(s): %d"
+  },
+  "t0321": {
+    "source": " | bloc(s) impose(s): %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " | bloc(s) impose(s): %d"
+  },
+  "t0322": {
+    "source": " | zone(s) contrainte(s): %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " | zone(s) contrainte(s): %d"
+  },
+  "t0323": {
+    "source": " | repetitions: %d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " | repetitions: %d"
+  },
+  "t0324": {
+    "source": " | chance: %d%%",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " | chance: %d%%"
+  },
+  "t0325": {
+    "source": " | condition #%d",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " | condition #%d"
+  },
+  "t0326": {
+    "source": "\nEtat : compatible avec le moteur FIDELE V2.8.0.\nAucun remplissage aleatoire ne remplace une contrainte manquante.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "\nEtat : compatible avec le moteur FIDELE V2.8.0.\nAucun remplissage aleatoire ne remplace une contrainte manquante."
+  },
+  "t0327": {
+    "source": "\nEtat : NON PRISE EN CHARGE en mode fidele.\n",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "\nEtat : NON PRISE EN CHARGE en mode fidele.\n"
+  },
+  "t0328": {
+    "source": "Structure / recette OpenXcom",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Structure / recette OpenXcom"
+  },
+  "t0329": {
+    "source": "FIDELE OPENXCOM - recette non traduite",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "FIDELE OPENXCOM - recette non traduite"
+  },
+  "t0330": {
+    "source": "FIDELE OPENXCOM : impossible de relier cette famille de MAP a sa definition terrain/mapBlocks dans les rulesets indexes.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "FIDELE OPENXCOM : impossible de relier cette famille de MAP a sa definition terrain/mapBlocks dans les rulesets indexes."
+  },
+  "t0331": {
+    "source": "Le terrain selectionne ne peut pas executer cette recette fidelement.\r\n\r\n%ls\r\n\r\nChoisissez une famille compatible ; le Workshop ne remplacera pas les blocs manquants au hasard.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Le terrain selectionne ne peut pas executer cette recette fidelement.\r\n\r\n%ls\r\n\r\nChoisissez une famille compatible ; le Workshop ne remplacera pas les blocs manquants au hasard."
+  },
+  "t0332": {
+    "source": "FIDELE OPENXCOM - terrain incompatible",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "FIDELE OPENXCOM - terrain incompatible"
+  },
+  "t0333": {
+    "source": "FIDELE OPENXCOM : dimensions finales invalides pour le Workshop.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "FIDELE OPENXCOM : dimensions finales invalides pour le Workshop."
+  },
+  "t0334": {
+    "source": "Memoire insuffisante.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Memoire insuffisante."
+  },
+  "t0335": {
+    "source": "Commande %d addCraft : terrain de sous-sol introuvable.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d addCraft : terrain de sous-sol introuvable."
+  },
+  "t0336": {
+    "source": "Commande %d addUFO : terrain de sous-sol introuvable.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d addUFO : terrain de sous-sol introuvable."
+  },
+  "t0337": {
+    "source": "Commande %d addBlock : terrain %ls introuvable.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d addBlock : terrain %ls introuvable."
+  },
+  "t0338": {
+    "source": "Commande %d fillArea : terrain introuvable.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d fillArea : terrain introuvable."
+  },
+  "t0339": {
+    "source": "Commande %d (%ls) obligatoire : placement impossible avec les contraintes groups/blocks/rects/occupation.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Commande %d (%ls) obligatoire : placement impossible avec les contraintes groups/blocks/rects/occupation."
+  },
+  "t0340": {
+    "source": "La recette %ls est concue pour environ %dx%d cases. Avec %dx%d, %d macro-case(s) 10x10 restent libres. Le mode FIDELE ne comble jamais au hasard. Verifiez la famille de terrain ou utilisez la taille historique.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "La recette %ls est concue pour environ %dx%d cases. Avec %dx%d, %d macro-case(s) 10x10 restent libres. Le mode FIDELE ne comble jamais au hasard. Verifiez la famille de terrain ou utilisez la taille historique."
+  },
+  "t0341": {
+    "source": "Recette executee dans l'ordre, mais %d macro-case(s) 10x10 restent libres. Aucun remplissage aleatoire n'a ete applique.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Recette executee dans l'ordre, mais %d macro-case(s) 10x10 restent libres. Aucun remplissage aleatoire n'a ete applique."
+  },
+  "t0342": {
+    "source": "FIDELE OPENXCOM %ls / %ls %dx%d | seed %u%ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "FIDELE OPENXCOM %ls / %ls %dx%d | seed %u%ls"
+  },
+  "t0343": {
+    "source": " [INCOMPLET]",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": " [INCOMPLET]"
+  },
+  "t0344": {
+    "source": "FIDELE OPENXCOM - generation arretee proprement",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "FIDELE OPENXCOM - generation arretee proprement"
+  },
+  "t0345": {
+    "source": "FIDELE OPENXCOM : %ls execute sans remplissage aleatoire. %d placements contraints.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "FIDELE OPENXCOM : %ls execute sans remplissage aleatoire. %d placements contraints."
+  },
+  "t0346": {
+    "source": "Mode LIBRE : largeur et longueur doivent etre des multiples de 10 entre 10 et 250.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mode LIBRE : largeur et longueur doivent etre des multiples de 10 entre 10 et 250."
+  },
+  "t0347": {
+    "source": "Memoire insuffisante pour la scene.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Memoire insuffisante pour la scene."
+  },
+  "t0348": {
+    "source": "Certaines macro-cases reservees au vaisseau/USO n'ont pas trouve de sous-sol de groupe 1 dans ce terrain. La generation continue en mode LIBRE, mais ces reservations sont signalees sans croix de sous-sol.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Certaines macro-cases reservees au vaisseau/USO n'ont pas trouve de sous-sol de groupe 1 dans ce terrain. La generation continue en mode LIBRE, mais ces reservations sont signalees sans croix de sous-sol."
+  },
+  "t0349": {
+    "source": "%ls %dx%d | seed %u | %d blocs effectifs",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls %dx%d | seed %u | %d blocs effectifs"
+  },
+  "t0350": {
+    "source": "Scene generee : %ls. Slot USO : %ls. Edition manuelle active.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Scene generee : %ls. Slot USO : %ls. Edition manuelle active."
+  },
+  "t0351": {
+    "source": "Aucun slot USO exploitable dans cette scene.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucun slot USO exploitable dans cette scene."
+  },
+  "t0352": {
+    "source": "L'USO est deja insere dans le slot.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "L'USO est deja insere dans le slot."
+  },
+  "t0353": {
+    "source": "USO insere dans le slot. Vous pouvez maintenant casser ses murs ou ajouter du decor dans la scene.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "USO insere dans le slot. Vous pouvez maintenant casser ses murs ou ajouter du decor dans la scene."
+  },
+  "t0354": {
+    "source": "Impossible d'inserer l'USO dans le slot.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Impossible d'inserer l'USO dans le slot."
+  },
+  "t0355": {
+    "source": "Masquer les options vaisseau / USO",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Masquer les options vaisseau / USO"
+  },
+  "t0356": {
+    "source": "Options avancees : vaisseau / USO...",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Options avancees : vaisseau / USO..."
+  },
+  "t0357": {
+    "source": "Mode de composition",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mode de composition"
+  },
+  "t0358": {
+    "source": "Carte a composer",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Carte a composer"
+  },
+  "t0359": {
+    "source": "Voir la recette",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Voir la recette"
+  },
+  "t0360": {
+    "source": "Terrain / decor",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Terrain / decor"
+  },
+  "t0361": {
+    "source": "Largeur / longueur (cases)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Largeur / longueur (cases)"
+  },
+  "t0362": {
+    "source": "Variation (numero)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Variation (numero)"
+  },
+  "t0363": {
+    "source": "Autre variation",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Autre variation"
+  },
+  "t0364": {
+    "source": "Generer / regenerer",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Generer / regenerer"
+  },
+  "t0365": {
+    "source": "Vaisseau X-COM (optionnel)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vaisseau X-COM (optionnel)"
+  },
+  "t0366": {
+    "source": "Position vaisseau X / Y (-1 = auto)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Position vaisseau X / Y (-1 = auto)"
+  },
+  "t0367": {
+    "source": "USO (optionnel)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "USO (optionnel)"
+  },
+  "t0368": {
+    "source": "Type d'USO / emplacement",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Type d'USO / emplacement"
+  },
+  "t0369": {
+    "source": "Position USO X / Y (-1 = auto)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Position USO X / Y (-1 = auto)"
+  },
+  "t0370": {
+    "source": "Distance mini vaisseau / USO",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Distance mini vaisseau / USO"
+  },
+  "t0371": {
+    "source": "Aucun profil terrain trouve pour le biome %ls.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucun profil terrain trouve pour le biome %ls."
+  },
+  "t0372": {
+    "source": "Trop de datasets pour %ls.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Trop de datasets pour %ls."
+  },
+  "t0373": {
+    "source": "Aucune MAP ouverte.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucune MAP ouverte."
+  },
+  "t0374": {
+    "source": "Indice MAP %u non resolu. Chargez le profil/palette correct avant export.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Indice MAP %u non resolu. Chargez le profil/palette correct avant export."
+  },
+  "t0375": {
+    "source": "Le dataset %ls n'existe que dans un autre mod (%ls). Export bloque pour eviter une dependance implicite.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Le dataset %ls n'existe que dans un autre mod (%ls). Export bloque pour eviter une dependance implicite."
+  },
+  "t0376": {
+    "source": "Dataset introuvable dans la chaine autorisee %ls -> OXCE STANDARD -> TFTD ORIGINAL : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Dataset introuvable dans la chaine autorisee %ls -> OXCE STANDARD -> TFTD ORIGINAL : %ls"
+  },
+  "t0377": {
+    "source": "%ls/MCD %d n'est pas valide dans le dataset cible.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls/MCD %d n'est pas valide dans le dataset cible."
+  },
+  "t0378": {
+    "source": "%ls/MCD %d donnerait l'indice MAP %d dans %ls (limite 1..255).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "%ls/MCD %d donnerait l'indice MAP %d dans %ls (limite 1..255)."
+  },
+  "t0379": {
+    "source": "Echec generation ruleset.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Echec generation ruleset."
+  },
+  "t0380": {
+    "source": "Impossible d'ecrire %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Impossible d'ecrire %ls"
+  },
+  "t0381": {
+    "source": "HERITE : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "HERITE : %ls"
+  },
+  "t0382": {
+    "source": "Routes RMP affichees.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Routes RMP affichees."
+  },
+  "t0383": {
+    "source": "Routes RMP masquees.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Routes RMP masquees."
+  },
+  "t0384": {
+    "source": "Liaison RMP retiree.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Liaison RMP retiree."
+  },
+  "t0385": {
+    "source": "Un des nodes utilise deja ses 5 liens.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Un des nodes utilise deja ses 5 liens."
+  },
+  "t0386": {
+    "source": "Liaison RMP bidirectionnelle ajoutee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Liaison RMP bidirectionnelle ajoutee."
+  },
+  "t0387": {
+    "source": "Node RMP supprime.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Node RMP supprime."
+  },
+  "t0388": {
+    "source": "Selectionnez d'abord un node RMP.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Selectionnez d'abord un node RMP."
+  },
+  "t0389": {
+    "source": "Socket RMP retire.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Socket RMP retire."
+  },
+  "t0390": {
+    "source": "Ce node n'a plus de slot de connexion libre.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ce node n'a plus de slot de connexion libre."
+  },
+  "t0391": {
+    "source": "Socket RMP ajoute.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Socket RMP ajoute."
+  },
+  "t0392": {
+    "source": "Node RMP selectionne. Les parametres du panneau reprennent ses valeurs.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Node RMP selectionne. Les parametres du panneau reprennent ses valeurs."
+  },
+  "t0393": {
+    "source": "RMP en lecture seule. Copiez d'abord la MAP dans un mod.",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP en lecture seule. Copiez d'abord la MAP dans un mod."
+  },
+  "t0394": {
+    "source": "Nouveau node RMP ajoute avec les parametres du panneau.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nouveau node RMP ajoute avec les parametres du panneau."
+  },
+  "t0395": {
+    "source": "Outil LIEN : cliquez d'abord un node source, puis un node destination.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Outil LIEN : cliquez d'abord un node source, puis un node destination."
+  },
+  "t0396": {
+    "source": "Source de liaison selectionnee. Cliquez maintenant le node destination.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Source de liaison selectionnee. Cliquez maintenant le node destination."
+  },
+  "t0397": {
+    "source": "Source deja selectionnee. Cliquez un autre node pour creer/retirer la liaison.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Source deja selectionnee. Cliquez un autre node pour creer/retirer la liaison."
+  },
+  "t0398": {
+    "source": "Outil SOCKET : cliquez un node existant.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Outil SOCKET : cliquez un node existant."
+  },
+  "t0399": {
+    "source": "Outil SUPPR : cliquez le node a supprimer.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Outil SUPPR : cliquez le node a supprimer."
+  },
+  "t0400": {
+    "source": "Supprimer ce node RMP ?",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Supprimer ce node RMP ?"
+  },
+  "t0401": {
+    "source": "Analyse RMP : %d nodes proposes. Bleu=generique, cyan=couvert/embuscade potentielle OXCE. Rien n'est ecrit.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Analyse RMP : %d nodes proposes. Bleu=generique, cyan=couvert/embuscade potentielle OXCE. Rien n'est ecrit."
+  },
+  "t0402": {
+    "source": "Copiez d'abord la MAP dans un mod.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Copiez d'abord la MAP dans un mod."
+  },
+  "t0403": {
+    "source": "Le RMP contient deja des nodes avec des proprietes de spawn/patrouille.\n\nPar securite, Jean-Michel ne les remplace PAS automatiquement.\n\nAjouter les propositions comme nodes supplementaires ?",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Le RMP contient deja des nodes avec des proprietes de spawn/patrouille.\n\nPar securite, Workshop ne les remplace PAS automatiquement.\n\nAjouter les propositions comme nodes supplementaires ?"
+  },
+  "t0404": {
+    "source": "Appliquer propositions RMP",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Appliquer propositions RMP"
+  },
+  "t0405": {
+    "source": "Trop de nodes pour les IDs RMP 0..250.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Trop de nodes pour les IDs RMP 0..250."
+  },
+  "t0406": {
+    "source": "Aucun RMP existant : appliquer cette proposition comme nouveau reseau de navigation ?\n\nLes nodes automatiques utilisent des valeurs neutres (pas de spawn prioritaire).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucun RMP existant : appliquer cette proposition comme nouveau reseau de navigation ?\n\nLes nodes automatiques utilisent des valeurs neutres (pas de spawn prioritaire)."
+  },
+  "t0407": {
+    "source": "Creer RMP",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Creer RMP"
+  },
+  "t0408": {
+    "source": "Propositions appliquees EN MEMOIRE. Vert=praticable, orange=detour, rouge=bloque, violet=vertical. Verifiez avant sauvegarde.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Propositions appliquees EN MEMOIRE. Vert=praticable, orange=detour, rouge=bloque, violet=vertical. Verifiez avant sauvegarde."
+  },
+  "t0409": {
+    "source": "Le RMP ne peut etre ecrit que dans un MOD OXCE.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Le RMP ne peut etre ecrit que dans un MOD OXCE."
+  },
+  "t0410": {
+    "source": "Backup RMP impossible : sauvegarde annulee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Backup RMP impossible : sauvegarde annulee."
+  },
+  "t0411": {
+    "source": "Echec ecriture RMP.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Echec ecriture RMP."
+  },
+  "t0412": {
+    "source": "MOD OXCE / %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MOD OXCE / %ls"
+  },
+  "t0413": {
+    "source": "RMP enregistre dans le mod avec backup automatique.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP enregistre dans le mod avec backup automatique."
+  },
+  "t0414": {
+    "source": "PRE-FLIGHT - AUCUN FICHIER N'A ENCORE ETE MODIFIE\n\nMod : %ls\n",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PRE-FLIGHT - AUCUN FICHIER N'A ENCORE ETE MODIFIE\n\nMod : %ls\n"
+  },
+  "t0415": {
+    "source": "RMP : route existante/base conservee",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP : route existante/base conservee"
+  },
+  "t0416": {
+    "source": "RMP : fichier deja present dans le mod, conserve",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP : fichier deja present dans le mod, conserve"
+  },
+  "t0417": {
+    "source": "RMP : copie du bloc source (a valider si la geometrie a change)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP : copie du bloc source (a valider si la geometrie a change)"
+  },
+  "t0418": {
+    "source": "RMP : placeholder vide cree - routage IA a faire dans une future etape",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "RMP : placeholder vide cree - routage IA a faire dans une future etape"
+  },
+  "t0419": {
+    "source": "\n%ls -> %ls.MAP\n  %ls\n  Datasets ajoutes : %ls\n  %ls\n",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "\n%ls -> %ls.MAP\n  %ls\n  Datasets ajoutes : %ls\n  %ls\n"
+  },
+  "t0420": {
+    "source": "Nouveau mapBlock ajoute au biome",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nouveau mapBlock ajoute au biome"
+  },
+  "t0421": {
+    "source": "Bloc deja declare : seule la MAP sera remplacee",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Bloc deja declare : seule la MAP sera remplacee"
+  },
+  "t0422": {
+    "source": "(aucun)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "(aucun)"
+  },
+  "t0423": {
+    "source": "\nGaranties :\n- backup horodate avant ecriture\n- TFTD ORIGINAL/OXCE STANDARD : 0 fichier modifie\n- rulesets existants du mod : 0 fichier modifie\n- PNG/MCD externes : references dans leur dataset d'origine, aucune copie\n\nExecuter cet export ?",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "\nGaranties :\n- backup horodate avant ecriture\n- TFTD ORIGINAL/OXCE STANDARD : 0 fichier modifie\n- rulesets existants du mod : 0 fichier modifie\n- PNG/MCD externes : references dans leur dataset d'origine, aucune copie\n\nExecuter cet export ?"
+  },
+  "t0424": {
+    "source": "Jean-Michel - verification finale",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Workshop - verification finale"
+  },
+  "t0425": {
+    "source": "Impossible de creer le backup automatique. Export annule.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Impossible de creer le backup automatique. Export annule."
+  },
+  "t0426": {
+    "source": "Une erreur est survenue pendant l'ecriture. Le Workshop a restaure automatiquement l'etat precedent depuis le backup.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Une erreur est survenue pendant l'ecriture. Le Workshop a restaure automatiquement l'etat precedent depuis le backup."
+  },
+  "t0427": {
+    "source": "Backup impossible : sauvegarde annulee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Backup impossible : sauvegarde annulee."
+  },
+  "t0428": {
+    "source": "Synchronisation ruleset impossible. L'etat precedent a ete restaure automatiquement.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Synchronisation ruleset impossible. L'etat precedent a ete restaure automatiquement."
+  },
+  "t0429": {
+    "source": "MAP du mod sauvegardee : profils/datasets reindexes immediatement.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "MAP du mod sauvegardee : profils/datasets reindexes immediatement."
+  },
+  "t0430": {
+    "source": "EXPORT SECURISE : TFTD ORIGINAL / OXCE STANDARD restent intouchables.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "EXPORT SECURISE : TFTD ORIGINAL / OXCE STANDARD restent intouchables."
+  },
+  "t0431": {
+    "source": "Mod cible",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mod cible"
+  },
+  "t0432": {
+    "source": "Nom nouveau mod de test",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nom nouveau mod de test"
+  },
+  "t0433": {
+    "source": "Nom du macrobloc",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nom du macrobloc"
+  },
+  "t0434": {
+    "source": "Biome(s) cible(s) - Ctrl/clic pour plusieurs",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Biome(s) cible(s) - Ctrl/clic pour plusieurs"
+  },
+  "t0435": {
+    "source": "Groupe de generation si le bloc est nouveau",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Groupe de generation si le bloc est nouveau"
+  },
+  "t0436": {
+    "source": "Choisissez + CREER UN NOUVEAU MOD DE TEST pour fabriquer un bac a sable OXCE separe. Le Workshop cree metadata.yml, Maps, ROUTES, Ruleset et Workshop. Aucun dataset/PNG n'est recopie inutilement.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Choisissez + CREER UN NOUVEAU MOD DE TEST pour fabriquer un bac a sable OXCE separe. Le Workshop cree metadata.yml, Maps, ROUTES, Ruleset et Workshop. Aucun dataset/PNG n'est recopie inutilement."
+  },
+  "t0437": {
+    "source": "Exporter en securite",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Exporter en securite"
+  },
+  "t0438": {
+    "source": "Choisissez un mod cible.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Choisissez un mod cible."
+  },
+  "t0439": {
+    "source": "Nom invalide. Utilisez uniquement lettres, chiffres, _ ou -.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nom invalide. Utilisez uniquement lettres, chiffres, _ ou -."
+  },
+  "t0440": {
+    "source": "Nom de mod de test invalide. Evitez les caracteres interdits Windows.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nom de mod de test invalide. Evitez les caracteres interdits Windows."
+  },
+  "t0441": {
+    "source": "Un dossier portant ce nom existe deja. Choisissez un autre nom pour ce nouveau mod de test.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Un dossier portant ce nom existe deja. Choisissez un autre nom pour ce nouveau mod de test."
+  },
+  "t0442": {
+    "source": "Impossible de creer le nouveau mod de test.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Impossible de creer le nouveau mod de test."
+  },
+  "t0443": {
+    "source": "Selectionnez au moins un biome.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Selectionnez au moins un biome."
+  },
+  "t0444": {
+    "source": "Mod de test cree : copie ouverte et editable.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mod de test cree : copie ouverte et editable."
+  },
+  "t0445": {
+    "source": "Export termine : copie MOD ouverte et editable.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Export termine : copie MOD ouverte et editable."
+  },
+  "t0446": {
+    "source": "Mod de test cree avec succes.\n\nIl apparait maintenant dans MODS OXCE. Activez-le dans OXCE pour tester le macrobloc. Une fois valide, re-exportez ensuite cette MAP vers TFTD PNG remastered.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mod de test cree avec succes.\n\nIl apparait maintenant dans MODS OXCE. Activez-le dans OXCE pour tester le macrobloc. Une fois valide, re-exportez ensuite cette MAP vers TFTD PNG remastered."
+  },
+  "t0447": {
+    "source": "Export termine.\n\nBackup : user\\\\TFTD_Workshop_Backups\nLa copie du mod est maintenant ouverte et editable.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Export termine.\n\nBackup : user\\\\TFTD_Workshop_Backups\nLa copie du mod est maintenant ouverte et editable."
+  },
+  "t0448": {
+    "source": "Cette scene contient des reliefs GEO. Enregistrez-la en .JMW pour conserver leur geometrie. La conversion GEO vers MAP/OXCE n'est pas encore disponible.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Cette scene contient des reliefs GEO. Enregistrez-la en .JMW pour conserver leur geometrie. La conversion GEO vers MAP/OXCE n'est pas encore disponible."
+  },
+  "t0449": {
+    "source": "Ouvrez ou creez d'abord un macrobloc.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ouvrez ou creez d'abord un macrobloc."
+  },
+  "t0450": {
+    "source": "Configurez d'abord Ressources > Emplacement MODS OXCE.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Configurez d'abord Ressources > Emplacement MODS OXCE."
+  },
+  "t0451": {
+    "source": "Exporter / copier le macrobloc vers un mod",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Exporter / copier le macrobloc vers un mod"
+  },
+  "t0452": {
+    "source": "Generation de carte - Fidele OpenXcom / Libre",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Generation de carte - Fidele OpenXcom / Libre"
+  },
+  "t0453": {
+    "source": "Enregistrer le projet de scene",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Enregistrer le projet de scene"
+  },
+  "t0454": {
+    "source": "Projet de scene enregistre.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Projet de scene enregistre."
+  },
+  "t0455": {
+    "source": "Echec de l'enregistrement du projet.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Echec de l'enregistrement du projet."
+  },
+  "t0456": {
+    "source": "Ouvrir un projet de scene",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ouvrir un projet de scene"
+  },
+  "t0457": {
+    "source": "Projet de scene charge.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Projet de scene charge."
+  },
+  "t0458": {
+    "source": "Projet JMW invalide ou ressources manquantes.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Projet JMW invalide ou ressources manquantes."
+  },
+  "t0459": {
+    "source": "Dimensions du nouveau macrobloc",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Dimensions du nouveau macrobloc"
+  },
+  "t0460": {
+    "source": "Largeur X (cases)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Largeur X (cases)"
+  },
+  "t0461": {
+    "source": "Profondeur Y (cases)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Profondeur Y (cases)"
+  },
+  "t0462": {
+    "source": "Hauteur Z (niveaux)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Hauteur Z (niveaux)"
+  },
+  "t0463": {
+    "source": "Format TFTD MAP : chaque dimension doit etre comprise entre 1 et 255.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Format TFTD MAP : chaque dimension doit etre comprise entre 1 et 255."
+  },
+  "t0464": {
+    "source": "Dimensions invalides.\n\nX, Y et Z doivent chacun etre compris entre 1 et 255.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Dimensions invalides.\n\nX, Y et Z doivent chacun etre compris entre 1 et 255."
+  },
+  "t0465": {
+    "source": "Memoire insuffisante pour creer cette MAP.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Memoire insuffisante pour creer cette MAP."
+  },
+  "t0466": {
+    "source": "Nouvelle MAP %dx%dx%d creee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nouvelle MAP %dx%dx%d creee."
+  },
+  "t0467": {
+    "source": "Nouvelle MAP",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nouvelle MAP"
+  },
+  "t0468": {
+    "source": "Hangar : %ls",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Hangar : %ls"
+  },
+  "t0469": {
+    "source": "Choisissez le dossier Hangar a Blueprints",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Choisissez le dossier Hangar a Blueprints"
+  },
+  "t0470": {
+    "source": "Hangar a Blueprints change : bibliotheque perso rechargee depuis le dossier choisi.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Hangar a Blueprints change : bibliotheque perso rechargee depuis le dossier choisi."
+  },
+  "t0471": {
+    "source": "Impossible d'activer ce blueprint : son dataset n'est pas disponible dans les sources actuellement indexees.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Impossible d'activer ce blueprint : son dataset n'est pas disponible dans les sources actuellement indexees."
+  },
+  "t0472": {
+    "source": "Blueprint perso actif : %ls (%d pieces, %dx%dx%d).",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Blueprint perso actif : %ls (%d pieces, %dx%dx%d)."
+  },
+  "t0473": {
+    "source": "CAPTURE HANGAR : cliquez directement les pieces visibles, sans choisir leur couche. Tous niveaux visibles sont selectionnables. Recliquez pour retirer.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "CAPTURE HANGAR : cliquez directement les pieces visibles, sans choisir leur couche. Tous niveaux visibles sont selectionnables. Recliquez pour retirer."
+  },
+  "t0474": {
+    "source": "Donnez un nom au blueprint.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Donnez un nom au blueprint."
+  },
+  "t0475": {
+    "source": "Un blueprint de ce nom existe deja dans ce Hangar.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Un blueprint de ce nom existe deja dans ce Hangar."
+  },
+  "t0476": {
+    "source": "Supprimer ce blueprint personnel du Hangar ?",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Supprimer ce blueprint personnel du Hangar ?"
+  },
+  "t0477": {
+    "source": "CAPTURE ACTIVE : %d piece(s)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "CAPTURE ACTIVE : %d piece(s)"
+  },
+  "t0478": {
+    "source": "Hangar a Blueprints",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Hangar a Blueprints"
+  },
+  "t0479": {
+    "source": "Aucune modification a enregistrer.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucune modification a enregistrer."
+  },
+  "t0480": {
+    "source": "Liste de datasets MAP videe.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Liste de datasets MAP videe."
+  },
+  "t0481": {
+    "source": "Vue normale : pieces et assemblages.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vue normale : pieces et assemblages."
+  },
+  "t0482": {
+    "source": "Plan 2D : vue de dessus.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Plan 2D : vue de dessus."
+  },
+  "t0483": {
+    "source": "Plan isometrique.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Plan isometrique."
+  },
+  "t0484": {
+    "source": "Vue TUILES isometrique.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vue TUILES isometrique."
+  },
+  "t0485": {
+    "source": "PLAN 2D : vue de dessus logique.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN 2D : vue de dessus logique."
+  },
+  "t0486": {
+    "source": "PLAN ISO : niveaux inferieurs visibles et assombris.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN ISO : niveaux inferieurs visibles et assombris."
+  },
+  "t0487": {
+    "source": "Filtre MAP : LEGACY DORMANT / OXCE UNREACHABLE uniquement.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Filtre MAP : LEGACY DORMANT / OXCE UNREACHABLE uniquement."
+  },
+  "t0488": {
+    "source": "Filtre MAP : toutes les cartes.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Filtre MAP : toutes les cartes."
+  },
+  "t0489": {
+    "source": "Edition RMP : panneau simple sous les couches. Molette = niveau, Ctrl+molette = zoom. Parametres avances masques par defaut.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Edition RMP : panneau simple sous les couches. Molette = niveau, Ctrl+molette = zoom. Parametres avances masques par defaut."
+  },
+  "t0490": {
+    "source": "Edition RMP desactivee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Edition RMP desactivee."
+  },
+  "t0491": {
+    "source": "Propositions RMP effacees.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Propositions RMP effacees."
+  },
+  "t0492": {
+    "source": "Laboratoire GEO_TERRAIN introuvable dans le mod Gabarits universels.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Laboratoire GEO_TERRAIN introuvable dans le mod Gabarits universels."
+  },
+  "t0493": {
+    "source": "Vue compositeur fermee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vue compositeur fermee."
+  },
+  "t0494": {
+    "source": "CAPTURE HANGAR : cliquez directement les pieces visibles sur la MAP, toutes couches confondues, puis donnez un nom et ENREGISTRER.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "CAPTURE HANGAR : cliquez directement les pieces visibles sur la MAP, toutes couches confondues, puis donnez un nom et ENREGISTRER."
+  },
+  "t0550": {
+    "source": "Aucun asset TFTD/OXCE n'est inclus.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Aucun asset TFTD/OXCE n'est inclus."
+  },
+  "t0551": {
+    "source": "A propos",
+    "files": [
+      "tftd_workshop_v2_12_1.c",
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "A propos"
+  },
+  "t0552": {
+    "source": "PLAN : selection rectangulaire en cours...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : selection rectangulaire en cours..."
+  },
+  "t0553": {
+    "source": "Deplacement du masque USO : relachez Alt+clic a la nouvelle position.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Deplacement du masque USO : relachez Alt+clic a la nouvelle position."
+  },
+  "t0554": {
+    "source": "PLAN : selection prete. Ctrl+C copie, Ctrl+V colle.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : selection prete. Ctrl+C copie, Ctrl+V colle."
+  },
+  "t0555": {
+    "source": "Reservation USO deplacee. Les macro-cases sont remises en evidence ; le sous-sol n'est pas regenere automatiquement.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Reservation USO deplacee. Les macro-cases sont remises en evidence ; le sous-sol n'est pas regenere automatiquement."
+  },
+  "t0556": {
+    "source": "Nouvelle MAP...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nouvelle MAP..."
+  },
+  "t0557": {
+    "source": "Ouvrir une MAP...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ouvrir une MAP..."
+  },
+  "t0558": {
+    "source": "Enregistrer   Ctrl+S",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Enregistrer   Ctrl+S"
+  },
+  "t0559": {
+    "source": "Enregistrer vers un mod...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Enregistrer vers un mod..."
+  },
+  "t0560": {
+    "source": "Exporter / copier le macrobloc vers un mod...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Exporter / copier le macrobloc vers un mod..."
+  },
+  "t0561": {
+    "source": "Emplacement TFTD ORIGINAL...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Emplacement TFTD ORIGINAL..."
+  },
+  "t0562": {
+    "source": "Emplacement OXCE STANDARD...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Emplacement OXCE STANDARD..."
+  },
+  "t0563": {
+    "source": "Emplacement MOD HD manuel / gabarit universel...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Emplacement MOD HD manuel / gabarit universel..."
+  },
+  "t0564": {
+    "source": "Compatibilite : dossier MAP TFTD supplementaire...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Compatibilite : dossier MAP TFTD supplementaire..."
+  },
+  "t0565": {
+    "source": "Compatibilite : dossier MAP OXCE supplementaire...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Compatibilite : dossier MAP OXCE supplementaire..."
+  },
+  "t0566": {
+    "source": "Reindexer les ressources",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Reindexer les ressources"
+  },
+  "t0567": {
+    "source": "Vider la palette MAP",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vider la palette MAP"
+  },
+  "t0568": {
+    "source": "Avance : ajouter un MCD manuellement...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Avance : ajouter un MCD manuellement..."
+  },
+  "t0569": {
+    "source": "Avance : charger une palette LBM...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Avance : charger une palette LBM..."
+  },
+  "t0570": {
+    "source": "Annuler   Ctrl+Z",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Annuler   Ctrl+Z"
+  },
+  "t0571": {
+    "source": "Retablir   Ctrl+Y",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Retablir   Ctrl+Y"
+  },
+  "t0572": {
+    "source": "Sol   F1",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Sol   F1"
+  },
+  "t0573": {
+    "source": "Mur ouest   F2",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mur ouest   F2"
+  },
+  "t0574": {
+    "source": "Mur nord   F3",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mur nord   F3"
+  },
+  "t0575": {
+    "source": "Objet   F4",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Objet   F4"
+  },
+  "t0576": {
+    "source": "Niveau Z superieur   Molette haut",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Niveau Z superieur   Molette haut"
+  },
+  "t0577": {
+    "source": "Niveau Z inferieur   Molette bas",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Niveau Z inferieur   Molette bas"
+  },
+  "t0578": {
+    "source": "Basculer : comme dans le jeu / niveau seul",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Basculer : comme dans le jeu / niveau seul"
+  },
+  "t0579": {
+    "source": "Vue complete (tous les Z) - vue normale",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vue complete (tous les Z) - vue normale"
+  },
+  "t0580": {
+    "source": "REAL HD texture - apercu SAND/DEBRIS",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "REAL HD texture - apercu SAND/DEBRIS"
+  },
+  "t0581": {
+    "source": "Rendu suivant    F6",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Rendu suivant    F6"
+  },
+  "t0582": {
+    "source": "Dossier des gabarits universels...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Dossier des gabarits universels..."
+  },
+  "t0583": {
+    "source": "GEO_TERRAIN : gabarits et assemblages...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "GEO_TERRAIN : gabarits et assemblages..."
+  },
+  "t0584": {
+    "source": "GEO_TERRAIN : laboratoire externe des 102 gabarits...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "GEO_TERRAIN : laboratoire externe des 102 gabarits..."
+  },
+  "t0585": {
+    "source": "Filtre : LEGACY DORMANT / OXCE UNREACHABLE uniquement",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Filtre : LEGACY DORMANT / OXCE UNREACHABLE uniquement"
+  },
+  "t0586": {
+    "source": "Grille du niveau Z   G",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Grille du niveau Z   G"
+  },
+  "t0587": {
+    "source": "Vue normale (pieces)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vue normale (pieces)"
+  },
+  "t0588": {
+    "source": "Plan 2D (dessus)",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Plan 2D (dessus)"
+  },
+  "t0589": {
+    "source": "Plan isometrique",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Plan isometrique"
+  },
+  "t0590": {
+    "source": "Vues : TUILES / PLAN 2D / PLAN ISO   P",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Vues : TUILES / PLAN 2D / PLAN ISO   P"
+  },
+  "t0591": {
+    "source": "PLAN : copier la selection   Ctrl+C",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : copier la selection   Ctrl+C"
+  },
+  "t0592": {
+    "source": "PLAN : coller   Ctrl+V",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : coller   Ctrl+V"
+  },
+  "t0593": {
+    "source": "PLAN : annuler le collage   Echap",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "PLAN : annuler le collage   Echap"
+  },
+  "t0594": {
+    "source": "Zoom avant   PgUp / Ctrl+molette",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Zoom avant   PgUp / Ctrl+molette"
+  },
+  "t0595": {
+    "source": "Zoom arriere   PgDn / Ctrl+molette",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Zoom arriere   PgDn / Ctrl+molette"
+  },
+  "t0596": {
+    "source": "Recentrer la vue",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Recentrer la vue"
+  },
+  "t0597": {
+    "source": "Afficher / masquer les routes RMP   R",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Afficher / masquer les routes RMP   R"
+  },
+  "t0598": {
+    "source": "Mode edition nodes",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Mode edition nodes"
+  },
+  "t0599": {
+    "source": "Analyser la MAP / proposer des nodes",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Analyser la MAP / proposer des nodes"
+  },
+  "t0600": {
+    "source": "Effacer les propositions",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Effacer les propositions"
+  },
+  "t0601": {
+    "source": "Appliquer les propositions...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Appliquer les propositions..."
+  },
+  "t0602": {
+    "source": "Socket N sur node selectionne",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Socket N sur node selectionne"
+  },
+  "t0603": {
+    "source": "Socket E sur node selectionne",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Socket E sur node selectionne"
+  },
+  "t0604": {
+    "source": "Socket S sur node selectionne",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Socket S sur node selectionne"
+  },
+  "t0605": {
+    "source": "Socket W sur node selectionne",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Socket W sur node selectionne"
+  },
+  "t0606": {
+    "source": "Enregistrer RMP dans le mod...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Enregistrer RMP dans le mod..."
+  },
+  "t0607": {
+    "source": "Routes RMP",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Routes RMP"
+  },
+  "t0608": {
+    "source": "Ouvrir le Hangar a Blueprints...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Ouvrir le Hangar a Blueprints..."
+  },
+  "t0609": {
+    "source": "Nouvelle capture perso...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Nouvelle capture perso..."
+  },
+  "t0610": {
+    "source": "Choisir le dossier Hangar...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Choisir le dossier Hangar..."
+  },
+  "t0611": {
+    "source": "Compositeur de carte complete...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Compositeur de carte complete..."
+  },
+  "t0612": {
+    "source": "Scene : inserer l'USO dans le slot",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Scene : inserer l'USO dans le slot"
+  },
+  "t0613": {
+    "source": "Scene : enregistrer le projet .JMW...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Scene : enregistrer le projet .JMW..."
+  },
+  "t0614": {
+    "source": "Scene : ouvrir un projet .JMW...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Scene : ouvrir un projet .JMW..."
+  },
+  "t0615": {
+    "source": "Fermer la vue compositeur",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Fermer la vue compositeur"
+  },
+  "t0616": {
+    "source": "Pret. Configurez TFTD ORIGINAL, OXCE STANDARD et MODS OXCE dans le menu Ressources.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ],
+    "text": "Pret. Configurez TFTD ORIGINAL, OXCE STANDARD et MODS OXCE dans le menu Ressources."
+  },
+  "t0617": {
+    "source": "Original en lecture seule : cliquez sur 'Copie de travail' dans le panneau droit.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Original en lecture seule : cliquez sur 'Copie de travail' dans le panneau droit."
+  },
+  "t0618": {
+    "source": "Assemblage reconnu (Bible RC15)",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Assemblage reconnu (Bible RC15)"
+  },
+  "t0619": {
+    "source": "Selection limitee a 1024 pieces.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Selection limitee a 1024 pieces."
+  },
+  "t0620": {
+    "source": "Selection manuelle",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Selection manuelle"
+  },
+  "t0621": {
+    "source": "Reference de piece invalide.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Reference de piece invalide."
+  },
+  "t0622": {
+    "source": "Deux pieces occupent le meme emplacement dans l'assemblage.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Deux pieces occupent le meme emplacement dans l'assemblage."
+  },
+  "t0623": {
+    "source": "Hors de la carte : choisissez une autre position ou un autre Z.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Hors de la carte : choisissez une autre position ou un autre Z."
+  },
+  "t0624": {
+    "source": "Une case est verrouillee. Deverrouillez-la avant cette action.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Une case est verrouillee. Deverrouillez-la avant cette action."
+  },
+  "t0625": {
+    "source": "Le contenu a change. Refaites la selection.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Le contenu a change. Refaites la selection."
+  },
+  "t0626": {
+    "source": "Place occupee. Changez de position ou activez 'Remplacer' explicitement.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Place occupee. Changez de position ou activez 'Remplacer' explicitement."
+  },
+  "t0627": {
+    "source": "Une ressource de la selection manque.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Une ressource de la selection manque."
+  },
+  "t0628": {
+    "source": "Trop de jeux de pieces dans cette carte.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Trop de jeux de pieces dans cette carte."
+  },
+  "t0629": {
+    "source": "Cette piece depasse la capacite du format MAP. Utilisez une scene ou un autre jeu de pieces.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Cette piece depasse la capacite du format MAP. Utilisez une scene ou un autre jeu de pieces."
+  },
+  "t0630": {
+    "source": "References MAP non resolues : corrigez le profil avant d'ajouter ces pieces.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "References MAP non resolues : corrigez le profil avant d'ajouter ces pieces."
+  },
+  "t0631": {
+    "source": "Selectionnez une piece ou un assemblage sur la carte.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Selectionnez une piece ou un assemblage sur la carte."
+  },
+  "t0632": {
+    "source": "Deplacement : cliquez la destination. Molette = Z. Clic droit / Echap = annuler.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Deplacement : cliquez la destination. Molette = Z. Clic droit / Echap = annuler."
+  },
+  "t0633": {
+    "source": "Duplication : cliquez la destination. Molette = Z. Clic droit / Echap = annuler.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Duplication : cliquez la destination. Molette = Z. Clic droit / Echap = annuler."
+  },
+  "t0634": {
+    "source": "Montage pose. La selection reste active. Ctrl+Z annule toute l'operation.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Montage pose. La selection reste active. Ctrl+Z annule toute l'operation."
+  },
+  "t0635": {
+    "source": "Selection modifiee ou verrouillee : suppression annulee.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Selection modifiee ou verrouillee : suppression annulee."
+  },
+  "t0636": {
+    "source": "Selection supprimee. Ctrl+Z restaure l'ensemble.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Selection supprimee. Ctrl+Z restaure l'ensemble."
+  },
+  "t0637": {
+    "source": "Choisissez une piece dans la bibliotheque, ou un assemblage.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Choisissez une piece dans la bibliotheque, ou un assemblage."
+  },
+  "t0638": {
+    "source": "Assemblage pose",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Assemblage pose"
+  },
+  "t0639": {
+    "source": "Piece posee",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Piece posee"
+  },
+  "t0640": {
+    "source": "Cliquez une piece. Maj+clic ajoute / retire. Choisissez 'Assemblage' pour reconnaitre un montage.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Cliquez une piece. Maj+clic ajoute / retire. Choisissez 'Assemblage' pour reconnaitre un montage."
+  },
+  "t0641": {
+    "source": "Choisissez une piece ou un assemblage, puis cliquez pour placer.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Choisissez une piece ou un assemblage, puis cliquez pour placer."
+  },
+  "t0642": {
+    "source": "Gomme : clic gauche sur une piece du Z actif. Clic droit quitte la gomme.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Gomme : clic gauche sur une piece du Z actif. Clic droit quitte la gomme."
+  },
+  "t0643": {
+    "source": "Pipette : cliquez une piece du Z actif pour la reprendre en main.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Pipette : cliquez une piece du Z actif pour la reprendre en main."
+  },
+  "t0644": {
+    "source": "Deplacement / duplication annule. Le montage d'origine est intact.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Deplacement / duplication annule. Le montage d'origine est intact."
+  },
+  "t0645": {
+    "source": "Action terminee. Outil Selection actif. Aucun element supprime.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Action terminee. Outil Selection actif. Aucun element supprime."
+  },
+  "t0646": {
+    "source": "Piece seule en main. Cliquez pour placer ; Assemblages pour voir ses montages connus.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Piece seule en main. Cliquez pour placer ; Assemblages pour voir ses montages connus."
+  },
+  "t0647": {
+    "source": "Case verrouillee.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Case verrouillee."
+  },
+  "t0648": {
+    "source": "Selection copiee. Ctrl+V la place dans ce document.",
+    "files": [
+      "workshop_editing.h"
+    ],
+    "text": "Selection copiee. Ctrl+V la place dans ce document."
+  },
+  "t0649": {
+    "source": "Enregistrement impossible.",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Enregistrement impossible."
+  },
+  "t0650": {
+    "source": "Enregistrer la scene GEO_TERRAIN avant de continuer ?",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Enregistrer la scene GEO_TERRAIN avant de continuer ?"
+  },
+  "t0651": {
+    "source": "Conserver votre travail",
+    "files": [
+      "workshop_geo.h",
+      "workshop_procedural.h"
+    ],
+    "text": "Conserver votre travail"
+  },
+  "t0652": {
+    "source": "%ls | case %d,%d | Z %.3g | %ls | rotation %d | miroir %ls",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "%ls | case %d,%d | Z %.3g | %ls | rotation %d | miroir %ls"
+  },
+  "t0653": {
+    "source": "%d pieces GEO, %d decors | Molette : zoom ; bouton central : deplacer ; clic : identifier. Apercu, comportement OXCE non raccorde.",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "%d pieces GEO, %d decors | Molette : zoom ; bouton central : deplacer ; clic : identifier. Apercu, comportement OXCE non raccorde."
+  },
+  "t0654": {
+    "source": "GEO_TERRAIN - 102 GABARITS ET ASSEMBLAGES (scene independante)",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "GEO_TERRAIN - 102 GABARITS ET ASSEMBLAGES (scene independante)"
+  },
+  "t0655": {
+    "source": "Enregistrer GEO",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Enregistrer GEO"
+  },
+  "t0656": {
+    "source": "Ouvrir GEO",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Ouvrir GEO"
+  },
+  "t0657": {
+    "source": "Generation de cartes : menu Procedural",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Generation de cartes : menu Procedural"
+  },
+  "t0658": {
+    "source": "Vue complete",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Vue complete"
+  },
+  "t0659": {
+    "source": "Jusqu'au Z%d",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Jusqu'au Z%d"
+  },
+  "t0660": {
+    "source": "Geometrie neutre",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Geometrie neutre"
+  },
+  "t0661": {
+    "source": "Materiau SAND HD",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Materiau SAND HD"
+  },
+  "t0662": {
+    "source": "Voir cette tuile",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Voir cette tuile"
+  },
+  "t0663": {
+    "source": "Montages de reference...",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Montages de reference..."
+  },
+  "t0664": {
+    "source": "Import refuse : raccord, volume ou soutien invalide, ou format non pris en charge. Verifier le profil et les capacites requises. Scene precedente conservee.",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Import refuse : raccord, volume ou soutien invalide, ou format non pris en charge. Verifier le profil et les capacites requises. Scene precedente conservee."
+  },
+  "t0665": {
+    "source": "Workshop - GEO_TERRAIN - Gabarits et assemblages",
+    "files": [
+      "workshop_geo.h"
+    ],
+    "text": "Workshop - GEO_TERRAIN - Gabarits et assemblages"
+  },
+  "t0666": {
+    "source": "SAND original introuvable. Configurez le dossier TFTD puis reindexez les ressources.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "SAND original introuvable. Configurez le dossier TFTD puis reindexez les ressources."
+  },
+  "t0667": {
+    "source": "Aucun assemblage SAND exploitable. Verifiez les MAP SEABED et les profils OXCE.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Aucun assemblage SAND exploitable. Verifiez les MAP SEABED et les profils OXCE."
+  },
+  "t0668": {
+    "source": "Parametres invalides : dimensions 20 a 120, passage 2 a 5 cases.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Parametres invalides : dimensions 20 a 120, passage 2 a 5 cases."
+  },
+  "t0669": {
+    "source": "Appareil incomplet ou ressources manquantes : generation annulee.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Appareil incomplet ou ressources manquantes : generation annulee."
+  },
+  "t0670": {
+    "source": "Memoire insuffisante : la scene precedente est conservee.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Memoire insuffisante : la scene precedente est conservee."
+  },
+  "t0671": {
+    "source": "Pas assez de place pour ces appareils et leurs acces. Agrandissez la carte ou retirez un appareil.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Pas assez de place pour ces appareils et leurs acces. Agrandissez la carte ou retirez un appareil."
+  },
+  "t0672": {
+    "source": "Impossible de placer un relief multi-Z et de petites dunes avec leurs acces. Agrandissez la carte, reduisez l'intervalle ou choisissez Sol plat. La scene precedente est conservee.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Impossible de placer un relief multi-Z et de petites dunes avec leurs acces. Agrandissez la carte, reduisez l'intervalle ou choisissez Sol plat. La scene precedente est conservee."
+  },
+  "t0673": {
+    "source": "WEEDS ou ROCKS historique introuvable. La scene precedente est conservee.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "WEEDS ou ROCKS historique introuvable. La scene precedente est conservee."
+  },
+  "t0674": {
+    "source": "Le controle des espaces libres a echoue. La scene precedente est conservee.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Le controle des espaces libres a echoue. La scene precedente est conservee."
+  },
+  "t0675": {
+    "source": "SAND + GEO procedural v5 | %dx%d | graine %u | densite %d | relief %d | passage %d",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "SAND + GEO procedural v5 | %dx%d | graine %u | densite %d | relief %d | passage %d"
+  },
+  "t0676": {
+    "source": "Croiseur lourd",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Croiseur lourd"
+  },
+  "t0677": {
+    "source": "%ls%ls  |  %dx%d  |  %ls",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "%ls%ls  |  %dx%d  |  %ls"
+  },
+  "t0678": {
+    "source": " - sym",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": " - sym"
+  },
+  "t0679": {
+    "source": "Enregistrer la scene actuelle avant de continuer ?",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Enregistrer la scene actuelle avant de continuer ?"
+  },
+  "t0680": {
+    "source": "Derniers reglages restaures. Un appareil memorise est introuvable dans les ressources actuelles : selection remise sur Aucun. Verifiez l'appareil X-COM et l'USO avant de generer.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Derniers reglages restaures. Un appareil memorise est introuvable dans les ressources actuelles : selection remise sur Aucun. Verifiez l'appareil X-COM et l'USO avant de generer."
+  },
+  "t0681": {
+    "source": "La graine doit etre un entier entre 0 et 4294967295.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "La graine doit etre un entier entre 0 et 4294967295."
+  },
+  "t0682": {
+    "source": "Carte creee : %d x %d, graine %u.\r\n%d reliefs historiques, %d petites dunes Z0, %d relief multi-Z.\r\n%d plantes, %d pieces de roches, %d epaves ; %d decors sur plateaux.\r\n%d %% de cases hors emprises, toutes reliees entre elles.\r\nControle geometrique seulement : interieur des appareils, IA et mission a valider dans le moteur.\r\nVous pouvez fermer ce panneau, editer la carte et l'enregistrer en .JMW.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Carte creee : %d x %d, graine %u.\r\n%d reliefs historiques, %d petites dunes Z0, %d relief multi-Z.\r\n%d plantes, %d pieces de roches, %d epaves ; %d decors sur plateaux.\r\n%d %% de cases hors emprises, toutes reliees entre elles.\r\nControle geometrique seulement : interieur des appareils, IA et mission a valider dans le moteur.\r\nVous pouvez fermer ce panneau, editer la carte et l'enregistrer en .JMW."
+  },
+  "t0683": {
+    "source": "Carte procedurale creee. Edition et sauvegarde .JMW disponibles. Mission et RMP non generes.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Carte procedurale creee. Edition et sauvegarde .JMW disponibles. Mission et RMP non generes."
+  },
+  "t0684": {
+    "source": "Pieces et assemblages existants, places librement case par case.\r\nReliefs GEO raccordes, multi-Z et decors sur plateaux.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Pieces et assemblages existants, places librement case par case.\r\nReliefs GEO raccordes, multi-Z et decors sur plateaux."
+  },
+  "t0685": {
+    "source": "Taille (20 a 120 cases)",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Taille (20 a 120 cases)"
+  },
+  "t0686": {
+    "source": "Graine reproductible",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Graine reproductible"
+  },
+  "t0687": {
+    "source": "Carte aleatoire",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Carte aleatoire"
+  },
+  "t0688": {
+    "source": "Clairseme : quelques dunes et decors",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Clairseme : quelques dunes et decors"
+  },
+  "t0689": {
+    "source": "Varie : reliefs mixtes et decors",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Varie : reliefs mixtes et decors"
+  },
+  "t0690": {
+    "source": "Dense : nombreuses dunes et decors",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Dense : nombreuses dunes et decors"
+  },
+  "t0691": {
+    "source": "Richesse de la carte",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Richesse de la carte"
+  },
+  "t0692": {
+    "source": "Sol plat et decors",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Sol plat et decors"
+  },
+  "t0693": {
+    "source": "Reliefs varies SAND + GEO, terrasses et multi-Z",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Reliefs varies SAND + GEO, terrasses et multi-Z"
+  },
+  "t0694": {
+    "source": "2 cases minimum",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "2 cases minimum"
+  },
+  "t0695": {
+    "source": "3 cases minimum",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "3 cases minimum"
+  },
+  "t0696": {
+    "source": "4 cases minimum",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "4 cases minimum"
+  },
+  "t0697": {
+    "source": "5 cases minimum",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "5 cases minimum"
+  },
+  "t0698": {
+    "source": "Espace entre ensembles",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Espace entre ensembles"
+  },
+  "t0699": {
+    "source": "Appareil X-COM",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Appareil X-COM"
+  },
+  "t0700": {
+    "source": "Appareil alien",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Appareil alien"
+  },
+  "t0701": {
+    "source": "Generer la carte",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Generer la carte"
+  },
+  "t0702": {
+    "source": "Enregistrer .JMW",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Enregistrer .JMW"
+  },
+  "t0703": {
+    "source": "Retour a la carte",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Retour a la carte"
+  },
+  "t0704": {
+    "source": "Choisissez les parametres puis cliquez sur Generer.\r\nLa meme graine et les memes ressources reproduisent la meme carte.\r\nLes appareils gardent leur orientation et un pourtour degage.\r\nAucun plafond interieur ajoute. Aucun fichier du jeu modifie.",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Choisissez les parametres puis cliquez sur Generer.\r\nLa meme graine et les memes ressources reproduisent la meme carte.\r\nLes appareils gardent leur orientation et un pourtour degage.\r\nAucun plafond interieur ajoute. Aucun fichier du jeu modifie."
+  },
+  "t0705": {
+    "source": "Generateur procedural - SAND Alpha",
+    "files": [
+      "workshop_procedural.h"
+    ],
+    "text": "Generateur procedural - SAND Alpha"
+  },
+  "t0706": {
+    "source": "Materiau REAL HD introuvable : damier magenta. Verifiez le dossier MODS et les fichiers TOP_BASE / VERTICAL_BASE.",
+    "files": [
+      "workshop_realhd.h"
+    ],
+    "text": "Materiau REAL HD introuvable : damier magenta. Verifiez le dossier MODS et les fichiers TOP_BASE / VERTICAL_BASE."
+  },
+  "t0707": {
+    "source": "Escalier détruit / débris structurels",
+    "files": [
+      "workshop_semantics.h"
+    ],
+    "text": "Escalier détruit / débris structurels"
+  },
+  "t0708": {
+    "source": "Équipement alien",
+    "files": [
+      "workshop_semantics.h"
+    ],
+    "text": "Équipement alien"
+  },
+  "t0709": {
+    "source": "Machine animée volumique",
+    "files": [
+      "workshop_semantics.h"
+    ],
+    "text": "Machine animée volumique"
+  },
+  "t0710": {
+    "source": "Colonne / dispositif vertical",
+    "files": [
+      "workshop_semantics.h"
+    ],
+    "text": "Colonne / dispositif vertical"
+  },
+  "t0711": {
+    "source": "Antenne / structure verticale",
+    "files": [
+      "workshop_semantics.h",
+      "workshop_semantics.h"
+    ],
+    "text": "Antenne / structure verticale"
+  },
+  "t0712": {
+    "source": "Équipement / structure technique",
+    "files": [
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h"
+    ],
+    "text": "Équipement / structure technique"
+  },
+  "t0713": {
+    "source": "Element d’installation technique / état associé",
+    "files": [
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h"
+    ],
+    "text": "Element d’installation technique / état associé"
+  },
+  "t0714": {
+    "source": "Installation architecturale Tleth multicase",
+    "files": [
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h"
+    ],
+    "text": "Installation architecturale Tleth multicase"
+  },
+  "t0715": {
+    "source": "Fragments de bois sur sable",
+    "files": [
+      "workshop_semantics.h"
+    ],
+    "text": "Fragments de bois sur sable"
+  },
+  "t0716": {
+    "source": "Débris sur support",
+    "files": [
+      "workshop_semantics.h"
+    ],
+    "text": "Débris sur support"
+  },
+  "t0717": {
+    "source": "Sol avec dispositif intégré",
+    "files": [
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h"
+    ],
+    "text": "Sol avec dispositif intégré"
+  },
+  "t0718": {
+    "source": "Escaliers, plateformes ou rampes; ne pas convertir en objet pur",
+    "files": [
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h"
+    ],
+    "text": "Escaliers, plateformes ou rampes; ne pas convertir en objet pur"
+  },
+  "t0719": {
+    "source": "Relief / bloc de terrain; pas équipement autonome",
+    "files": [
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h",
+      "workshop_semantics.h"
+    ],
+    "text": "Relief / bloc de terrain; pas équipement autonome"
+  },
+  "t0720": {
+    "source": "Selectionner les assemblages connus (Bible / Hangar)",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Selectionner les assemblages connus (Bible / Hangar)"
+  },
+  "t0721": {
+    "source": "Autoriser le remplacement des pieces occupees",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Autoriser le remplacement des pieces occupees"
+  },
+  "t0722": {
+    "source": "Garder la selection dans le Hangar...",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Garder la selection dans le Hangar..."
+  },
+  "t0723": {
+    "source": "Niveaux superieurs translucides (vue complete)",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Niveaux superieurs translucides (vue complete)"
+  },
+  "t0724": {
+    "source": "Attenuer les niveaux inferieurs",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Attenuer les niveaux inferieurs"
+  },
+  "t0725": {
+    "source": "Opacite des niveaux superieurs : changer 25/50/75 %",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Opacite des niveaux superieurs : changer 25/50/75 %"
+  },
+  "t0726": {
+    "source": "Cadrer la carte   Debut",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Cadrer la carte   Debut"
+  },
+  "t0727": {
+    "source": "Gestes et limites de l'editeur",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Gestes et limites de l'editeur"
+  },
+  "t0728": {
+    "source": "Selection [V]",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Selection [V]"
+  },
+  "t0729": {
+    "source": "Placer [B]",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Placer [B]"
+  },
+  "t0730": {
+    "source": "Gomme [E]",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Gomme [E]"
+  },
+  "t0731": {
+    "source": "Pipette [I]",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Pipette [I]"
+  },
+  "t0732": {
+    "source": "Deplacer [M]",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Deplacer [M]"
+  },
+  "t0733": {
+    "source": "Options >",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Options >"
+  },
+  "t0734": {
+    "source": "< Retour aux actions",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "< Retour aux actions"
+  },
+  "t0735": {
+    "source": "Destination du montage",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Destination du montage"
+  },
+  "t0736": {
+    "source": "  / remplacement autorise",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "  / remplacement autorise"
+  },
+  "t0737": {
+    "source": "Details techniques >",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Details techniques >"
+  },
+  "t0738": {
+    "source": "Vue : pieces / plan 2D / plan ISO",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Vue : pieces / plan 2D / plan ISO"
+  },
+  "t0739": {
+    "source": "Creer une copie editable...",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Creer une copie editable..."
+  },
+  "t0740": {
+    "source": "Exporter vers un mod...",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Exporter vers un mod..."
+  },
+  "t0741": {
+    "source": "%d piece(s) selectionnee(s)\n%ls\nSelection : %ls",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "%d piece(s) selectionnee(s)\n%ls\nSelection : %ls"
+  },
+  "t0742": {
+    "source": "assemblages connus",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "assemblages connus"
+  },
+  "t0743": {
+    "source": "pieces individuelles",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "pieces individuelles"
+  },
+  "t0744": {
+    "source": "Choisissez une piece a gauche. Les montages disponibles sont dans Assemblages.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Choisissez une piece a gauche. Les montages disponibles sont dans Assemblages."
+  },
+  "t0745": {
+    "source": "Cliquez une piece sur la carte. Maj+clic ajoute ou retire une piece. La selection porte sur le Z actif.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Cliquez une piece sur la carte. Maj+clic ajoute ou retire une piece. La selection porte sur le Z actif."
+  },
+  "t0746": {
+    "source": "%ls / MCD %d\nFrame %d | %ls\nType declare : %ls\nCouche %ls : %ls",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "%ls / MCD %d\nFrame %d | %ls\nType declare : %ls\nCouche %ls : %ls"
+  },
+  "t0747": {
+    "source": "de pose",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "de pose"
+  },
+  "t0748": {
+    "source": "Role visuel signale : %ls. Le slot moteur est conserve. Voir Bible RC16.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Role visuel signale : %ls. Le slot moteur est conserve. Voir Bible RC16."
+  },
+  "t0749": {
+    "source": "BigWall effectif %d (brut %d). Verifier collision, diagonale et occupation ; l'image seule ne suffit pas.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "BigWall effectif %d (brut %d). Verifier collision, diagonale et occupation ; l'image seule ne suffit pas."
+  },
+  "t0750": {
+    "source": "Pas de FLOOR sur cette case. Verifier le support inferieur et le role du vide avant toute correction.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Pas de FLOOR sur cette case. Verifier le support inferieur et le role du vide avant toute correction."
+  },
+  "t0751": {
+    "source": "Attention aux versions : les pieces 31-33 ont ete redefinies dans Gabarits Universels. Un import original demande un controle.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Attention aux versions : les pieces 31-33 ont ete redefinies dans Gabarits Universels. Un import original demande un controle."
+  },
+  "t0752": {
+    "source": "Clic droit / Echap : terminer l'action.\nMolette : Z | Ctrl+molette : zoom\nBouton milieu : deplacer la vue\nCtrl+Z : annuler l'operation",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Clic droit / Echap : terminer l'action.\nMolette : Z | Ctrl+molette : zoom\nBouton milieu : deplacer la vue\nCtrl+Z : annuler l'operation"
+  },
+  "t0753": {
+    "source": "Selection : assemblages complets reconnus par la Bible ou le Hangar.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Selection : assemblages complets reconnus par la Bible ou le Hangar."
+  },
+  "t0754": {
+    "source": "Selection : pieces individuelles.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Selection : pieces individuelles."
+  },
+  "t0755": {
+    "source": "Remplacement autorise explicitement. Ctrl+Z restaure les pieces remplacees.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Remplacement autorise explicitement. Ctrl+Z restaure les pieces remplacees."
+  },
+  "t0756": {
+    "source": "Emplacements occupes proteges.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Emplacements occupes proteges."
+  },
+  "t0757": {
+    "source": "Selection reprise dans le Hangar. Nommez-la puis Enregistrer.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Selection reprise dans le Hangar. Nommez-la puis Enregistrer."
+  },
+  "t0758": {
+    "source": "Selectionnez au moins deux pieces pour garder un assemblage.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Selectionnez au moins deux pieces pour garder un assemblage."
+  },
+  "t0759": {
+    "source": "SELECTION : clic sur une piece du niveau actif. Maj+clic pour plusieurs pieces.\nDEPLACER / DUPLIQUER : cliquez une destination ; la molette change le Z. Les emplacements occupes sont proteges par defaut. Options permet de remplacer explicitement.\nCLIC DROIT / ECHAP : lacher ou annuler, sans supprimer. La gomme et Suppr sont explicites.\nASSEMBLAGES : Bible et Hangar ; reconnaissance complete, pas de liaison devinee.\nOPTIONS : selection par assemblage, niveaux translucides, opacite et cadrage.\nPLAN : annotations et outils existants ; un projet n'ajoute pas de nouvelles regles au moteur.\nLes alertes FLOOR / BigWall sont des aides a l'audit, pas des corrections automatiques.",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "SELECTION : clic sur une piece du niveau actif. Maj+clic pour plusieurs pieces.\nDEPLACER / DUPLIQUER : cliquez une destination ; la molette change le Z. Les emplacements occupes sont proteges par defaut. Options permet de remplacer explicitement.\nCLIC DROIT / ECHAP : lacher ou annuler, sans supprimer. La gomme et Suppr sont explicites.\nASSEMBLAGES : Bible et Hangar ; reconnaissance complete, pas de liaison devinee.\nOPTIONS : selection par assemblage, niveaux translucides, opacite et cadrage.\nPLAN : annotations et outils existants ; un projet n'ajoute pas de nouvelles regles au moteur.\nLes alertes FLOOR / BigWall sont des aides a l'audit, pas des corrections automatiques."
+  },
+  "t0760": {
+    "source": "Gestes du Workshop",
+    "files": [
+      "workshop_ui.h"
+    ],
+    "text": "Gestes du Workshop"
+  },
+  "t1706": {
+    "source": "Fichier",
+    "files": [
+      "ui"
+    ],
+    "text": "Fichier"
+  },
+  "t1707": {
+    "source": "Ressources",
+    "files": [
+      "ui"
+    ],
+    "text": "Ressources"
+  },
+  "t1708": {
+    "source": "Edition",
+    "files": [
+      "ui"
+    ],
+    "text": "Edition"
+  },
+  "t1709": {
+    "source": "Rendu",
+    "files": [
+      "ui"
+    ],
+    "text": "Rendu"
+  },
+  "t1710": {
+    "source": "Affichage",
+    "files": [
+      "ui"
+    ],
+    "text": "Affichage"
+  },
+  "t1711": {
+    "source": "Aide",
+    "files": [
+      "ui"
+    ],
+    "text": "Aide"
+  },
+  "t1712": {
+    "source": "Assemblages",
+    "files": [
+      "ui"
+    ],
+    "text": "Assemblages"
+  },
+  "t1713": {
+    "source": "Compositeur",
+    "files": [
+      "ui"
+    ],
+    "text": "Compositeur"
+  },
+  "t1714": {
+    "source": "Procedural...",
+    "files": [
+      "ui"
+    ],
+    "text": "Procedural..."
+  },
+  "t1715": {
+    "source": "Langage",
+    "files": [
+      "ui"
+    ],
+    "text": "Langage"
+  },
+  "t1716": {
+    "source": "Tuto",
+    "files": [
+      "ui"
+    ],
+    "text": "Tuto"
+  },
+  "t1717": {
+    "source": "Guide complet...",
+    "files": [
+      "ui"
+    ],
+    "text": "Guide complet..."
+  },
+  "t1718": {
+    "source": "Langue",
+    "files": [
+      "ui"
+    ],
+    "text": "Langue"
+  },
+  "t1719": {
+    "source": "Cartes",
+    "files": [
+      "ui"
+    ],
+    "text": "Cartes"
+  },
+  "t1720": {
+    "source": "Bibliotheque",
+    "files": [
+      "ui"
+    ],
+    "text": "Bibliotheque"
+  },
+  "t1721": {
+    "source": "Pieces",
+    "files": [
+      "ui"
+    ],
+    "text": "Pieces"
+  },
+  "t1722": {
+    "source": "Annuler",
+    "files": [
+      "ui"
+    ],
+    "text": "Annuler"
+  },
+  "t1723": {
+    "source": "Enregistrer",
+    "files": [
+      "ui"
+    ],
+    "text": "Enregistrer"
+  },
+  "t1724": {
+    "source": "Fermer",
+    "files": [
+      "ui"
+    ],
+    "text": "Fermer"
+  },
+  "t1725": {
+    "source": "Quitter",
+    "files": [
+      "ui"
+    ],
+    "text": "Quitter"
+  },
+  "t1726": {
+    "source": "Creer",
+    "files": [
+      "ui"
+    ],
+    "text": "Creer"
+  },
+  "t1727": {
+    "source": "Copier",
+    "files": [
+      "ui"
+    ],
+    "text": "Copier"
+  },
+  "t1728": {
+    "source": "Coller",
+    "files": [
+      "ui"
+    ],
+    "text": "Coller"
+  },
+  "t1729": {
+    "source": "Supprimer",
+    "files": [
+      "ui"
+    ],
+    "text": "Supprimer"
+  },
+  "t1730": {
+    "source": "Dupliquer",
+    "files": [
+      "ui"
+    ],
+    "text": "Dupliquer"
+  },
+  "t1731": {
+    "source": "Selection",
+    "files": [
+      "ui"
+    ],
+    "text": "Selection"
+  },
+  "t1732": {
+    "source": "Placement",
+    "files": [
+      "ui"
+    ],
+    "text": "Placement"
+  },
+  "t1733": {
+    "source": "Gomme",
+    "files": [
+      "ui"
+    ],
+    "text": "Gomme"
+  },
+  "t1734": {
+    "source": "Pipette",
+    "files": [
+      "ui"
+    ],
+    "text": "Pipette"
+  },
+  "t1735": {
+    "source": "Capturer",
+    "files": [
+      "ui"
+    ],
+    "text": "Capturer"
+  },
+  "t1736": {
+    "source": "Deselectionner",
+    "files": [
+      "ui"
+    ],
+    "text": "Deselectionner"
+  },
+  "t1737": {
+    "source": "Haut",
+    "files": [
+      "ui"
+    ],
+    "text": "Haut"
+  },
+  "t1738": {
+    "source": "Bas",
+    "files": [
+      "ui"
+    ],
+    "text": "Bas"
+  },
+  "t1739": {
+    "source": "Sol",
+    "files": [
+      "ui"
+    ],
+    "text": "Sol"
+  },
+  "t1740": {
+    "source": "Mur",
+    "files": [
+      "ui"
+    ],
+    "text": "Mur"
+  },
+  "t1741": {
+    "source": "Porte",
+    "files": [
+      "ui"
+    ],
+    "text": "Porte"
+  },
+  "t1742": {
+    "source": "Objet",
+    "files": [
+      "ui"
+    ],
+    "text": "Objet"
+  },
+  "t1743": {
+    "source": "Aucun",
+    "files": [
+      "ui"
+    ],
+    "text": "Aucun"
+  },
+  "t1744": {
+    "source": "aucun",
+    "files": [
+      "ui"
+    ],
+    "text": "aucun"
+  },
+  "t1745": {
+    "source": "vide",
+    "files": [
+      "ui"
+    ],
+    "text": "vide"
+  },
+  "t1746": {
+    "source": "occupee",
+    "files": [
+      "ui"
+    ],
+    "text": "occupee"
+  },
+  "t1747": {
+    "source": "actif",
+    "files": [
+      "ui"
+    ],
+    "text": "actif"
+  },
+  "t1748": {
+    "source": "oui",
+    "files": [
+      "ui"
+    ],
+    "text": "oui"
+  },
+  "t1749": {
+    "source": "non",
+    "files": [
+      "ui"
+    ],
+    "text": "non"
+  },
+  "t1750": {
+    "source": "soutien",
+    "files": [
+      "ui"
+    ],
+    "text": "soutien"
+  },
+  "t1751": {
+    "source": "redimensionner",
+    "files": [
+      "ui"
+    ],
+    "text": "redimensionner"
+  },
+  "t1752": {
+    "source": "TOUS",
+    "files": [
+      "ui"
+    ],
+    "text": "TOUS"
+  },
+  "t1753": {
+    "source": "TOUT",
+    "files": [
+      "ui"
+    ],
+    "text": "TOUT"
+  },
+  "t1754": {
+    "source": "SOL",
+    "files": [
+      "ui"
+    ],
+    "text": "SOL"
+  },
+  "t1755": {
+    "source": "MUR",
+    "files": [
+      "ui"
+    ],
+    "text": "MUR"
+  },
+  "t1756": {
+    "source": "MURS",
+    "files": [
+      "ui"
+    ],
+    "text": "MURS"
+  },
+  "t1757": {
+    "source": "PORTE",
+    "files": [
+      "ui"
+    ],
+    "text": "PORTE"
+  },
+  "t1758": {
+    "source": "OBJET",
+    "files": [
+      "ui"
+    ],
+    "text": "OBJET"
+  },
+  "t1759": {
+    "source": "OBJETS",
+    "files": [
+      "ui"
+    ],
+    "text": "OBJETS"
+  },
+  "t1760": {
+    "source": "DECOR",
+    "files": [
+      "ui"
+    ],
+    "text": "DECOR"
+  },
+  "t1761": {
+    "source": "EAU",
+    "files": [
+      "ui"
+    ],
+    "text": "EAU"
+  },
+  "t1762": {
+    "source": "SABLE",
+    "files": [
+      "ui"
+    ],
+    "text": "SABLE"
+  },
+  "t1763": {
+    "source": "ROCHE",
+    "files": [
+      "ui"
+    ],
+    "text": "ROCHE"
+  },
+  "t1764": {
+    "source": "RECIF",
+    "files": [
+      "ui"
+    ],
+    "text": "RECIF"
+  },
+  "t1765": {
+    "source": "VEGETATION",
+    "files": [
+      "ui"
+    ],
+    "text": "VEGETATION"
+  },
+  "t1766": {
+    "source": "ENERGIE",
+    "files": [
+      "ui"
+    ],
+    "text": "ENERGIE"
+  },
+  "t1767": {
+    "source": "NAVIGATION",
+    "files": [
+      "ui"
+    ],
+    "text": "NAVIGATION"
+  },
+  "t1768": {
+    "source": "CONSTRUCTION",
+    "files": [
+      "ui"
+    ],
+    "text": "CONSTRUCTION"
+  },
+  "t1769": {
+    "source": "NOURRITURE",
+    "files": [
+      "ui"
+    ],
+    "text": "NOURRITURE"
+  },
+  "t1770": {
+    "source": "HABITAT",
+    "files": [
+      "ui"
+    ],
+    "text": "HABITAT"
+  },
+  "t1771": {
+    "source": "LABO",
+    "files": [
+      "ui"
+    ],
+    "text": "LABO"
+  },
+  "t1772": {
+    "source": "ALLIAGES",
+    "files": [
+      "ui"
+    ],
+    "text": "ALLIAGES"
+  },
+  "t1773": {
+    "source": "VERROU",
+    "files": [
+      "ui"
+    ],
+    "text": "VERROU"
+  },
+  "t1774": {
+    "source": "Verrou",
+    "files": [
+      "ui"
+    ],
+    "text": "Verrou"
+  },
+  "t1775": {
+    "source": "CASE",
+    "files": [
+      "ui"
+    ],
+    "text": "CASE"
+  },
+  "t1776": {
+    "source": "CADRE",
+    "files": [
+      "ui"
+    ],
+    "text": "CADRE"
+  },
+  "t1777": {
+    "source": "PLEIN",
+    "files": [
+      "ui"
+    ],
+    "text": "PLEIN"
+  },
+  "t1778": {
+    "source": "REMPLIR",
+    "files": [
+      "ui"
+    ],
+    "text": "REMPLIR"
+  },
+  "t1779": {
+    "source": "CARRE",
+    "files": [
+      "ui"
+    ],
+    "text": "CARRE"
+  },
+  "t1780": {
+    "source": "CERCLE",
+    "files": [
+      "ui"
+    ],
+    "text": "CERCLE"
+  },
+  "t1781": {
+    "source": "LOSANGE",
+    "files": [
+      "ui"
+    ],
+    "text": "LOSANGE"
+  },
+  "t1782": {
+    "source": "SELECTION",
+    "files": [
+      "ui"
+    ],
+    "text": "SELECTION"
+  },
+  "t1783": {
+    "source": "POSER",
+    "files": [
+      "ui"
+    ],
+    "text": "POSER"
+  },
+  "t1784": {
+    "source": "RELIER",
+    "files": [
+      "ui"
+    ],
+    "text": "RELIER"
+  },
+  "t1785": {
+    "source": "SUPPR",
+    "files": [
+      "ui"
+    ],
+    "text": "SUPPR"
+  },
+  "t1786": {
+    "source": "SUPPRIMER",
+    "files": [
+      "ui"
+    ],
+    "text": "SUPPRIMER"
+  },
+  "t1787": {
+    "source": "ENREGISTRER",
+    "files": [
+      "ui"
+    ],
+    "text": "ENREGISTRER"
+  },
+  "t1788": {
+    "source": "RENOMMER",
+    "files": [
+      "ui"
+    ],
+    "text": "RENOMMER"
+  },
+  "t1789": {
+    "source": "ANNULER",
+    "files": [
+      "ui"
+    ],
+    "text": "ANNULER"
+  },
+  "t1790": {
+    "source": "UTILISER",
+    "files": [
+      "ui"
+    ],
+    "text": "UTILISER"
+  },
+  "t1791": {
+    "source": "OUI",
+    "files": [
+      "ui"
+    ],
+    "text": "OUI"
+  },
+  "t1792": {
+    "source": "NON",
+    "files": [
+      "ui"
+    ],
+    "text": "NON"
+  },
+  "t1793": {
+    "source": "AUCUN",
+    "files": [
+      "ui"
+    ],
+    "text": "AUCUN"
+  },
+  "t1794": {
+    "source": "VOL",
+    "files": [
+      "ui"
+    ],
+    "text": "VOL"
+  },
+  "t1795": {
+    "source": "MANUEL",
+    "files": [
+      "ui"
+    ],
+    "text": "MANUEL"
+  },
+  "t1796": {
+    "source": "PERSO",
+    "files": [
+      "ui"
+    ],
+    "text": "PERSO"
+  },
+  "t1797": {
+    "source": "NIVEAUX",
+    "files": [
+      "ui"
+    ],
+    "text": "NIVEAUX"
+  },
+  "t1798": {
+    "source": "COULOIR",
+    "files": [
+      "ui"
+    ],
+    "text": "COULOIR"
+  },
+  "t1799": {
+    "source": "CABINE",
+    "files": [
+      "ui"
+    ],
+    "text": "CABINE"
+  },
+  "t1800": {
+    "source": "PASSERELLE",
+    "files": [
+      "ui"
+    ],
+    "text": "PASSERELLE"
+  },
+  "t1801": {
+    "source": "STOCKAGE",
+    "files": [
+      "ui"
+    ],
+    "text": "STOCKAGE"
+  },
+  "t1802": {
+    "source": "CARGAISON",
+    "files": [
+      "ui"
+    ],
+    "text": "CARGAISON"
+  },
+  "t1803": {
+    "source": "CONTROLE",
+    "files": [
+      "ui"
+    ],
+    "text": "CONTROLE"
+  },
+  "t1804": {
+    "source": "SERVICE",
+    "files": [
+      "ui"
+    ],
+    "text": "SERVICE"
+  },
+  "t1805": {
+    "source": "RESTAURANT",
+    "files": [
+      "ui"
+    ],
+    "text": "RESTAURANT"
+  },
+  "t1806": {
+    "source": "DIVERTISSEMENT",
+    "files": [
+      "ui"
+    ],
+    "text": "DIVERTISSEMENT"
+  },
+  "t1807": {
+    "source": "REPRODUCTION",
+    "files": [
+      "ui"
+    ],
+    "text": "REPRODUCTION"
+  },
+  "t1808": {
+    "source": "EXAMEN",
+    "files": [
+      "ui"
+    ],
+    "text": "EXAMEN"
+  },
+  "t1809": {
+    "source": "CHIRURGIE",
+    "files": [
+      "ui"
+    ],
+    "text": "CHIRURGIE"
+  },
+  "t1810": {
+    "source": "DANGER",
+    "files": [
+      "ui"
+    ],
+    "text": "DANGER"
+  },
+  "t1811": {
+    "source": "DEFENSE",
+    "files": [
+      "ui"
+    ],
+    "text": "DEFENSE"
+  },
+  "t1812": {
+    "source": "CIVIL",
+    "files": [
+      "ui"
+    ],
+    "text": "CIVIL"
+  },
+  "t1813": {
+    "source": "INSPECTEUR",
+    "files": [
+      "ui"
+    ],
+    "text": "INSPECTEUR"
+  },
+  "t1814": {
+    "source": "TECHNIQUE",
+    "files": [
+      "ui"
+    ],
+    "text": "TECHNIQUE"
+  },
+  "t1815": {
+    "source": "BORD",
+    "files": [
+      "ui"
+    ],
+    "text": "BORD"
+  },
+  "t1816": {
+    "source": "TROU",
+    "files": [
+      "ui"
+    ],
+    "text": "TROU"
+  },
+  "t1817": {
+    "source": "GROTTE",
+    "files": [
+      "ui"
+    ],
+    "text": "GROTTE"
+  },
+  "t1818": {
+    "source": "ECHELLE",
+    "files": [
+      "ui"
+    ],
+    "text": "ECHELLE"
+  },
+  "t1819": {
+    "source": "ASCENSEUR",
+    "files": [
+      "ui"
+    ],
+    "text": "ASCENSEUR"
+  },
+  "t1820": {
+    "source": "PUITS",
+    "files": [
+      "ui"
+    ],
+    "text": "PUITS"
+  },
+  "t1821": {
+    "source": "RAMPE",
+    "files": [
+      "ui"
+    ],
+    "text": "RAMPE"
+  },
+  "t1822": {
+    "source": "Chasseur",
+    "files": [
+      "ui"
+    ],
+    "text": "Chasseur"
+  },
+  "t1823": {
+    "source": "Chaland",
+    "files": [
+      "ui"
+    ],
+    "text": "Chaland"
+  },
+  "t1824": {
+    "source": "Escorteur",
+    "files": [
+      "ui"
+    ],
+    "text": "Escorteur"
+  },
+  "t1825": {
+    "source": "Croiseur",
+    "files": [
+      "ui"
+    ],
+    "text": "Croiseur"
+  },
+  "t1826": {
+    "source": "Cuirasse",
+    "files": [
+      "ui"
+    ],
+    "text": "Cuirasse"
+  },
+  "t1827": {
+    "source": "Enqueteur",
+    "files": [
+      "ui"
+    ],
+    "text": "Enqueteur"
+  },
+  "t1828": {
+    "source": "Avion",
+    "files": [
+      "ui"
+    ],
+    "text": "Avion"
+  },
+  "t1829": {
+    "source": "Case",
+    "files": [
+      "ui"
+    ],
+    "text": "Case"
+  },
+  "t1830": {
+    "source": "Terrain:",
+    "files": [
+      "ui"
+    ],
+    "text": "Terrain:"
+  },
+  "about": {
+    "source": "TFTD Workshop 2.12.6\n\nEditeur de cartes et assemblages, generateur procedural GEO, apercus PNG HD et REAL HD.\n\nLangage : francais, anglais, espagnol, allemand. Tuto : guide local de l'interface et des textures.\n\nGEO sauvegarde en JMW4 ; export MAP/OXCE et edition directe GEO non disponibles. Aucun asset TFTD/OXCE inclus.",
+    "files": [
+      "ui"
+    ],
+    "text": "TFTD Workshop 2.12.7\n\nEditeur de cartes et assemblages, generateur procedural GEO, apercus PNG HD et REAL HD.\n\nLangage : francais, anglais, espagnol, allemand. Tuto : guide local de l'interface et des textures.\n\nGEO sauvegarde en JMW4 ; export MAP/OXCE et edition directe GEO non disponibles. Aucun asset TFTD/OXCE inclus.\n\nThanks to GPT-6 Sol"
+  },
+  "extra000": {
+    "source": "+ CREER UN NOUVEAU MOD DE TEST...",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "+ CREER UN NOUVEAU MOD DE TEST..."
+  },
+  "extra001": {
+    "source": "ASSEMBLAGE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "ASSEMBLAGE"
+  },
+  "extra002": {
+    "source": "AVANCE +",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "AVANCE +"
+  },
+  "extra003": {
+    "source": "AVANCE -",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "AVANCE -"
+  },
+  "extra004": {
+    "source": "CAPTURE ACTIVE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "CAPTURE ACTIVE"
+  },
+  "extra005": {
+    "source": "CHOISIR DOSSIER...",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "CHOISIR DOSSIER..."
+  },
+  "extra006": {
+    "source": "CIBLE:NON",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "CIBLE:NON"
+  },
+  "extra007": {
+    "source": "CIBLE:OUI",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "CIBLE:OUI"
+  },
+  "extra008": {
+    "source": "DIAG NE-SO",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "DIAG NE-SO"
+  },
+  "extra009": {
+    "source": "DIAG NO-SE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "DIAG NO-SE"
+  },
+  "extra010": {
+    "source": "ESCALIER +",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "ESCALIER +"
+  },
+  "extra011": {
+    "source": "ESCALIER -",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "ESCALIER -"
+  },
+  "extra012": {
+    "source": "FONDS SABLEUX - LABORATOIRE PROCEDURAL",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "FONDS SABLEUX - LABORATOIRE PROCEDURAL"
+  },
+  "extra013": {
+    "source": "FORME DU SOL",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "FORME DU SOL"
+  },
+  "extra014": {
+    "source": "HERITE : TFTD ORIGINAL",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "HERITE : TFTD ORIGINAL"
+  },
+  "extra015": {
+    "source": "LIAISON VERTICALE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "LIAISON VERTICALE"
+  },
+  "extra016": {
+    "source": "LIEN Z",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "LIEN Z"
+  },
+  "extra017": {
+    "source": "MARGE TECH.",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "MARGE TECH."
+  },
+  "extra018": {
+    "source": "MODE EDITION RMP ACTIF",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "MODE EDITION RMP ACTIF"
+  },
+  "extra019": {
+    "source": "MODE PLAN 2D",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "MODE PLAN 2D"
+  },
+  "extra020": {
+    "source": "MODE PLAN ISO",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "MODE PLAN ISO"
+  },
+  "extra021": {
+    "source": "MUR NORD",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "MUR NORD"
+  },
+  "extra022": {
+    "source": "MUR OUEST",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "MUR OUEST"
+  },
+  "extra023": {
+    "source": "NE-SO",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "NE-SO"
+  },
+  "extra024": {
+    "source": "NO-SE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "NO-SE"
+  },
+  "extra025": {
+    "source": "NORD",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "NORD"
+  },
+  "extra026": {
+    "source": "OUEST",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "OUEST"
+  },
+  "extra027": {
+    "source": "NOUVELLE CAPTURE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "NOUVELLE CAPTURE"
+  },
+  "extra028": {
+    "source": "OBJET / DECOR",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "OBJET / DECOR"
+  },
+  "extra029": {
+    "source": "PIECE SEULE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "PIECE SEULE"
+  },
+  "extra030": {
+    "source": "ROUTE SIMPLE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "ROUTE SIMPLE"
+  },
+  "extra031": {
+    "source": "ROUTES RMP",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "ROUTES RMP"
+  },
+  "extra032": {
+    "source": "SCENE COMPOSITEUR",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "SCENE COMPOSITEUR"
+  },
+  "extra033": {
+    "source": "SOL / ZONE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "SOL / ZONE"
+  },
+  "extra034": {
+    "source": "SOL/ZONE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "SOL/ZONE"
+  },
+  "extra035": {
+    "source": "STRUCTURE MUR",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "STRUCTURE MUR"
+  },
+  "extra036": {
+    "source": "TRI NO",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "TRI NO"
+  },
+  "extra037": {
+    "source": "TRI NE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "TRI NE"
+  },
+  "extra038": {
+    "source": "TRI SE",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "TRI SE"
+  },
+  "extra039": {
+    "source": "TRI SO",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "TRI SO"
+  },
+  "extra040": {
+    "source": "VOL+D",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "VOL+D"
+  },
+  "extra041": {
+    "source": "VUE GLOBALE MULTI-Z",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "VUE GLOBALE MULTI-Z"
+  },
+  "extra042": {
+    "source": "Engineer",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "Engineer"
+  },
+  "extra043": {
+    "source": "Soldier",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "Soldier"
+  },
+  "extra044": {
+    "source": "Navigator",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "Navigator"
+  },
+  "extra045": {
+    "source": "Medic",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "Medic"
+  },
+  "extra046": {
+    "source": "Leader",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "Leader"
+  },
+  "extra047": {
+    "source": "Scout",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "Scout"
+  },
+  "extra048": {
+    "source": "Emplacement MODS OXCE...",
+    "files": [
+      "ui-audit"
+    ],
+    "text": "Emplacement MODS OXCE..."
+  },
+  "dialog0": {
+    "source": "MODS OXCE - selectionnez le dossier user\\mods",
+    "files": [
+      "file-dialogs"
+    ],
+    "text": "MODS OXCE - selectionnez le dossier user\\mods"
+  },
+  "dialog1": {
+    "source": "Emplacement MODS OXCE (user\\mods)...",
+    "files": [
+      "file-dialogs"
+    ],
+    "text": "Emplacement MODS OXCE (user\\mods)..."
+  },
+  "dialog2": {
+    "source": "MAP TFTD (*.MAP)\u0000*.MAP\u0000Tous les fichiers\u0000*.*\u0000\u0000",
+    "files": [
+      "file-dialogs"
+    ],
+    "text": "MAP TFTD (*.MAP)\u0000*.MAP\u0000Tous les fichiers\u0000*.*\u0000\u0000"
+  },
+  "dialog3": {
+    "source": "MCD TFTD (*.MCD)\u0000*.MCD\u0000Tous les fichiers\u0000*.*\u0000\u0000",
+    "files": [
+      "file-dialogs"
+    ],
+    "text": "MCD TFTD (*.MCD)\u0000*.MCD\u0000Tous les fichiers\u0000*.*\u0000\u0000"
+  },
+  "dialog4": {
+    "source": "Palette LBM (*.LBM)\u0000*.LBM\u0000Tous les fichiers\u0000*.*\u0000\u0000",
+    "files": [
+      "file-dialogs"
+    ],
+    "text": "Palette LBM (*.LBM)\u0000*.LBM\u0000Tous les fichiers\u0000*.*\u0000\u0000"
+  },
+  "dialog5": {
+    "source": "Projet Jean-Michel Workshop (*.JMW)\u0000*.JMW\u0000\u0000",
+    "files": [
+      "file-dialogs"
+    ],
+    "text": "Projet Workshop Workshop (*.JMW)\u0000*.JMW\u0000\u0000"
+  },
+  "dialog6": {
+    "source": "Scene GEO_TERRAIN (*.json)\u0000*.json\u0000\u0000",
+    "files": [
+      "file-dialogs"
+    ],
+    "text": "Scene GEO_TERRAIN (*.json)\u0000*.json\u0000\u0000"
+  },
+  "contact_menu": {
+    "source": "Contact / assistance...",
+    "files": [
+      "help-contact"
+    ],
+    "text": "Contact / assistance..."
+  },
+  "contact_title": {
+    "source": "Contacter l’auteur",
+    "files": [
+      "help-contact"
+    ],
+    "text": "Contacter l’auteur"
+  },
+  "contact_body": {
+    "source": "Pour contacter Benjamin :\n\ncolmoutarde57700@gmail.com\n\nCopier cette adresse dans le presse-papiers ?",
+    "files": [
+      "help-contact"
+    ],
+    "text": "Pour contacter Benjamin :\n\ncolmoutarde57700@gmail.com\n\nCopier cette adresse dans le presse-papiers ?"
+  },
+  "contact_copied": {
+    "source": "Adresse de contact copiée.",
+    "files": [
+      "help-contact"
+    ],
+    "text": "Adresse de contact copiée."
+  },
+  "mixed_png": {
+    "text": "PNG avec REAL HD",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ]
+  }
+}

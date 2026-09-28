@@ -1,0 +1,8 @@
+*.exe
+*.ini
+*.JMW
+*.bmp
+__pycache__/
+tests/run*/
+tests/*RESULT*.txt
+VERIFICATION/

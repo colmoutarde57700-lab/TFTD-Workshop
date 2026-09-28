@@ -1,0 +1,33 @@
+#include <windows.h>
+#include <stdio.h>
+static int dialogs;
+static int test_message(HWND h,LPCWSTR t,LPCWSTR c,UINT u){(void)h;(void)c;(void)u;dialogs++;wprintf(L"DIALOG: %ls\n",t);return IDNO;}
+#define MessageBoxW test_message
+#include "../src/tftd_workshop_v2_12_1.c"
+static int failures,checks;
+#define CHECK(c,m) do{int result=!!(c);checks++;printf("[%s] %s\n",result?"PASS":"FAIL",m);if(!result)failures++;}while(0)
+static uint64_t render_hash(void){clear_back(0xff091014);draw_map();uint64_t h=1469598103934665603ULL;for(int i=0;i<A.backW*A.backH;i++){h^=A.backbuf[i];h*=1099511628211ULL;}return h;}
+static void screenshot(const wchar_t*path){HDC dc=GetDC(A.hwnd),mem=CreateCompatibleDC(dc);HBITMAP bmp=CreateCompatibleBitmap(dc,A.clientW,A.clientH);HGDIOBJ old=SelectObject(mem,bmp);paint(A.hwnd,mem);SelectObject(mem,old);BITMAPINFO bi=A.bmi;size_t len=(size_t)A.clientW*A.clientH*4;void*px=malloc(len);GetDIBits(dc,bmp,0,A.clientH,px,&bi,DIB_RGB_COLORS);BITMAPFILEHEADER fh={0};fh.bfType=0x4d42;fh.bfOffBits=sizeof(fh)+sizeof(BITMAPINFOHEADER);fh.bfSize=(DWORD)(fh.bfOffBits+len);FILE*f=_wfopen(path,L"wb");if(f){fwrite(&fh,sizeof(fh),1,f);fwrite(&bi.bmiHeader,sizeof(BITMAPINFOHEADER),1,f);fwrite(px,len,1,f);fclose(f);}free(px);DeleteObject(bmp);DeleteDC(mem);ReleaseDC(A.hwnd,dc);}
+
+int main(int argc,char**argv){
+if(argc!=5){fprintf(stderr,"Usage: rendering TFTD OXCE_XCOM2 MODS UNIVERSAL_PNG_ROOT\n");return 2;}
+MultiByteToWideChar(CP_UTF8,0,argv[1],-1,A.tftdRoot,PATH_CAP);MultiByteToWideChar(CP_UTF8,0,argv[2],-1,A.oxceRoot,PATH_CAP);MultiByteToWideChar(CP_UTF8,0,argv[3],-1,A.modsRoot,PATH_CAP);MultiByteToWideChar(CP_UTF8,0,argv[4],-1,A.hdCustomRoot,PATH_CAP);
+A.sidebarW=260;A.inspectorW=300;A.zoom=2;A.selectedLib=-1;A.selectedMap=-1;A.expandedLib=A.expandedActive=-1;
+GdiplusStartupInput gdsi={0};gdsi.GdiplusVersion=1;CHECK(GdiplusStartup(&gGdiPlusToken,&gdsi,NULL)==Ok,"GDI+ image provider starts");
+WNDCLASSW wc={0};wc.lpfnWndProc=wndproc;wc.hInstance=GetModuleHandleW(NULL);wc.lpszClassName=L"RealHDPreviewTest";RegisterClassW(&wc);A.hwnd=CreateWindowW(wc.lpszClassName,L"Rendering tests",WS_OVERLAPPEDWINDOW,0,0,1620,1100,NULL,make_menu(),wc.hInstance,NULL);RECT cr;GetClientRect(A.hwnd,&cr);A.clientW=cr.right;A.clientH=cr.bottom;ensure_backbuf(A.clientW,A.clientH);
+default_palette();scan_dir_recursive(A.tftdRoot,SRC_TFTD,0,L"TFTD ORIGINAL");scan_dir_recursive(A.oxceRoot,SRC_OXCE,0,L"OXCE STANDARD");library_sort();map_sort();map_refresh_profiles();
+int sand=library_find_name_ctx(L"SAND",SRC_TFTD,L"TFTD ORIGINAL"),debris=library_find_name_ctx(L"DEBRIS",SRC_TFTD,L"TFTD ORIGINAL");CHECK(sand>=0&&debris>=0,"real fixtures resolve");CHECK(scene_alloc(12,12,3),"preview scene allocated");for(int y=0;y<12;y++)for(int x=0;x<12;x++){SceneCell*c=scene_cell_at(x,y,0);c->lib[0]=sand;c->local[0]=13;}
+for(int k=0;k<8;k++){SceneCell*c=scene_cell_at(2+k%4,2+k/4,0);c->lib[3]=sand;c->local[3]=k;}SceneCell*platform=scene_cell_at(7,5,0);platform->lib[3]=debris;platform->local[3]=33;
+A.currentZ=0;A.showComplete=1;A.showAllBelow=1;A.showGrid=0;A.panY=120;A.assetRenderMode=0;A.scene.dirty=1;
+SceneCell snapshot[432];memcpy(snapshot,A.scene.cells,sizeof(snapshot));uint64_t hashes[5];
+for(int mode=0;mode<5;mode++){asset_render_mode_set(mode);hashes[mode]=render_hash();wchar_t path[128];_snwprintf(path,127,L"work/rendu-%d.bmp",mode);screenshot(path);CHECK(!memcmp(snapshot,A.scene.cells,sizeof(snapshot))&&A.scene.dirty,"render switching never changes logical scene");if(mode==1||mode==2){wchar_t path2[PATH_CAP];CHECK(hd_find_path(sand,15,path2,PATH_CAP),"selected PNG provider found");}if(mode>=3){CHECK(rh_texture(0)->p&&rh_texture(1)->p,"TOP and VERTICAL materials loaded from requested REAL HD mod");}}
+int distinct=1;for(int i=0;i<5;i++)for(int j=i+1;j<5;j++)if(hashes[i]==hashes[j])distinct=0;CHECK(distinct,"five modes have distinct rendered output");
+float h[4];CHECK(rh_profile(sand,0,h)&&h[0]==0&&h[1]==-8&&h[2]==0&&h[3]==0,"logical slope profile matches engine");CHECK(rh_profile(debris,33,h)&&h[0]==-24-mcd_plevel(debris,33),"DEBRIS elevated platform includes logical P_Level");
+RhCell g=rh_cell(7,5,0);CHECK(g.valid&&g.lib==debris&&g.local==33&&g.layer==3,"terrain OBJECT geometry takes priority over SAND floor");asset_render_mode_set(3);int ox,oy,sx,sy;world_origin(&ox,&oy);project_tile(7,5,0,&sx,&sy);sx=ox+sx*A.zoom;sy=oy+sy*A.zoom;RhVertex v[4];rh_vertices(7,5,0,sx,sy,g,v);int mx=(int)((v[0].x+v[1].x+v[3].x)/3),my=(int)((v[0].y+v[1].y+v[3].y)/3);CHECK(rh_hit(7,5,0,3,debris,33,sx,sy,mx,my)==1,"elevated geometry is pickable at its rendered top");CHECK(rh_hit(7,5,0,0,sand,13,sx,sy,mx,my)==0,"replaced base floor is not picked through terrain object");
+CHECK(scene_save_project_file(L"work/rendu-comparaison.JMW"),"comparison scene saved");asset_render_mode_set(0);CHECK(render_hash()==hashes[0],"return to Legacy restores exact original rendering");
+for(int mode=3;mode<=4;mode++)for(int provider=1;provider<=2;provider++){asset_render_mode_set(mode);A.hdOverlayProvider=provider;hd_cache_clear();wchar_t path[PATH_CAP];CHECK(hd_find_path(sand,15,path,PATH_CAP),"REAL HD resolves independently selected PNG provider");CHECK(provider==1?wcsstr(path,L"TFTD PNG remastered")!=NULL:wcsstr(path,L"TFTD_HD_Gabarits_Universels")!=NULL,"PNG provider path respects selection");CHECK(rh_texture(0)->p&&rh_texture(1)->p,"mixed renderer retains terrain materials");CHECK(!memcmp(snapshot,A.scene.cells,sizeof(snapshot)),"mixed provider preserves logical cells");render_hash();wchar_t shot[128];_snwprintf(shot,127,L"work/mixed-%d-%d.bmp",mode,provider);screenshot(shot);}
+A.scene.geo=calloc(1,sizeof(GeoInstance));A.scene.geoCount=1;A.scene.geo[0].mesh=0;A.scene.geo[0].x=4;A.scene.geo[0].y=4;CHECK(scene_geo_index(&A.scene),"GEO fixture indexed");
+RhTexture texture[2];for(int side=0;side<2;side++){texture[side].p=malloc(4);texture[side].p[0]=0xffb64d27;texture[side].w=texture[side].h=texture[side].tried=1;}
+for(int mode=3;mode<=4;mode++){asset_render_mode_set(mode);rh_clear();rhTextureMode=mode;for(int side=0;side<2;side++){rhTextures[side].p=malloc(4);rhTextures[side].p[0]=texture[side].p[0];rhTextures[side].w=rhTextures[side].h=rhTextures[side].tried=1;}clear_back(0xff091014);scene_geo_draw(4,4,0,250,200);int colored=0;for(int j=0;j<A.backW*A.backH;j++)if(((A.backbuf[j]>>16)&255)>100&&((A.backbuf[j]>>16)&255)>2*((A.backbuf[j]>>8)&255)&&((A.backbuf[j]>>8)&255)>((A.backbuf[j])&255))colored++;CHECK(colored>0,"GEO uses REAL HD SAND material in normal and debug mode");}
+for(int side=0;side<2;side++)free(texture[side].p);
+CHECK(dialogs==0,"no unexpected dialog");printf("RESULT %d/%d checks passed\n",checks-failures,checks);return failures?1:0;}

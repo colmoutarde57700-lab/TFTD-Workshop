@@ -1,0 +1,1 @@
+No explicit code license has been selected for this initial publication. No GPL-3.0 or other license is declared by this package. External game files and texture packs are not included and keep their own rights. Contact: colmoutarde57700@gmail.com.

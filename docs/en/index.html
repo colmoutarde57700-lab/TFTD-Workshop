@@ -1,0 +1,136 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TFTD Workshop — en</title><style>body{font:17px/1.6 system-ui;margin:0;color:#dfebee;background:#101b22}header{padding:25px;background:#203744}nav{padding:20px;display:flex;flex-wrap:wrap;gap:15px;position:sticky;top:0;background:#182932}a{color:#83cfde}main{max-width:1050px;margin:auto;padding:25px}section{scroll-margin-top:130px;border-bottom:1px solid #42616f;padding:20px 0}section div{white-space:pre-wrap}h2{color:#b7ebd2}</style><header><h1>TFTD Workshop 2.12.7</h1></header><nav><a href="#c0">1. Getting started</a><a href="#c1">2. Workshop functions</a><a href="#c2">3. Generator and assemblies</a><a href="#c3">4. Create a 512 × 640 HD PNG</a><a href="#c4">5. Folders and first PNG test</a><a href="#c5">6. REAL HD: geometry and materials</a><a href="#c6">7. Validate and troubleshoot</a><a href="#c7">8. Share and contribute</a></nav><main><section id="c0"><h2>1. Getting started</h2><div>Workshop 2.12.6 edits and previews TFTD/OXCE content. It opens map data, composes assemblies and generates procedural maps. It is not a painting application: create or edit PNGs in an image editor, then inspect them here.
+
+Three separate concepts:
+• MAP: piece positions, with four layers per cell.
+• MCD: piece identity and properties, graphic frames, movement, doors, destruction, heights and occupancy.
+• PNG: graphic representation. A new drawing does not automatically change collision, TU, firing or destruction transitions.
+
+Layers are Floor, West wall, North wall and Object. Z is the vertical level. Several pieces can share a cell on different layers. A rock image may be one quarter of a four-cell assembly: check the whole before using it independently.
+
+Start under Resources: TFTD ORIGINAL location, OXCE STANDARD location, then OXCE MODS location. TFTD points to game data; OXCE to the installation root; MODS to user/mods. Reindex rereads files and profiles. Panels distinguish originals, OXCE additions and mods. Personal paths are local settings, not a required configuration to publish.
+
+Open an existing SEABED MAP to study known compositions. Originals are protected; create a working copy in your own mod. Begin PNG testing with one understood piece, then its complete assembly. This guide describes the state on 28 September 2026; prototypes are not game-validated features.</div></section><section id="c1"><h2>2. Workshop functions</h2><div>FILE
+New MAP sets X, Y and Z independently (1 to 255). Open MAP loads logical geometry and resolves datasets. Save writes the current document: scenes use JMW; mod MAPs use a backup. Save to mod / Export opens the name, biome and group wizard. Quit handles unsaved work before closing.
+
+RESOURCES
+TFTD/OXCE/MODS locations specify sources. Manual HD mod selects a PNG provider without changing dataset logic. Additional MAP folders provide compatibility, not mixed profiles from unrelated mods. Reindex rereads sources. Clear palette empties active datasets, not files. Add MCD and load LBM palette are advanced tools: PCK/TAB must match MCD.
+
+BROWSER
+Maps opens/filters MAPs. Library selects pieces and shows dataset/MCD. MAP datasets shows active sets and index ranges. Search filters lists; drag dividers to resize. LEGACY DORMANT/OXCE UNREACHABLE describe reference status, not files to delete.
+
+EDITING
+Select [V]: click active-Z piece; Shift+click adds/removes. Assembly selects only a complete group recognized by Bible or Hangar. Place [B]: choose a piece and click; brush supports continuous painting. Erase [E] explicitly removes pieces on the selected Z. Eyedropper [I] picks a piece. Move [M] and Duplicate request a destination; wheel changes Z, click confirms, right click/Esc cancels. Delete removes selection. Ctrl+Z restores the whole operation; Ctrl+Y redoes it.
+
+Options explicitly allows replacing occupied positions, assembly selection, dimmed levels, opacity and framing. FLOOR/BigWall alerts identify checks, not automatic fixes. Technical details shows MCD, frame, layer, properties and provenance.
+
+VIEWS
+F1/F2/F3/F4 selects Floor/West wall/North wall/Object. Wheel changes Z; Ctrl+wheel zooms; middle button pans. PgUp/PgDn zooms. Active only / active + below / full view are remembered. Placement still uses active Z. Grid [G] also hides craft reservations. Center/Frame finds the map again.
+
+PLAN
+Pieces view shows graphics. 2D plan shows top-down logical annotations; ISO plan shows them in perspective. [P] cycles views. Floor/zone and object/decor are separate. Cell, outline, solid and fill choose brush action; square/circle/diamond and size define area. Cardinal/diagonal walls, triangular floors and Z links describe the plan. Lock protects a cell. Rectangle select, Ctrl+C, Ctrl+V then click pastes; Esc cancels. Copy retains logical data and four layers. An annotation creates no new engine rule. Diagonals require compatible BigWall MCD.
+
+ASSEMBLIES / HANGAR
+Open Hangar manages your library. New capture: click visible pieces across layers and levels; click again removes; name and save. Use holds the assembly; rename/delete manages library entries. Copy a whole MAP to Hangar preserves relative positions. Choose Hangar folder switches custom library.
+
+COMPOSER
+Faithful OpenXcom follows official constraints; View recipe explains commands, groups and refusals. Free assembles a family in dimensions divisible by 10. Variation sets seed; another variation changes it. Craft/USO options set vehicles, positions and distance. Insert USO fills reserved slot. Save/Open JMW retains scene; Close composer returns to underlying document. Unsupported recipes are refused, never silently substituted.
+
+RENDERING
+F6 cycles Legacy, PNG Remastered, manual provider, REAL HD and debug. Universal Templates is a graphic provider. GEO_TERRAIN opens an independent inspector of 102 pieces and scenes: open/save GEO, view tile, reference assemblies, neutral geometry/SAND material and visible domain/level. External lab differs from generator.
+
+RMP ROUTES
+Show/hide [R] changes no data. Node editing places, selects and deletes nodes. Link connects two nodes; N/E/S/W sockets connect neighboring blocks. Simple route sets neutral values; all/1x1/fly access restricts allowed units. Advanced: rank, patrol preference, spawn priority and target. Analyze suggests in memory; clear removes suggestions; apply adds checked nodes. Save RMP writes mod with backup. Suggestions do not prove mission AI navigation.
+
+PROCEDURAL is covered next. LANGUAGE changes interface and remembers choice. TUTORIAL opens this guide. HELP/About shows version and limits.</div></section><section id="c2"><h2>3. Generator and assemblies</h2><div>Procedural enriches one generator. Size: width/length 20 to 120 cells. Richness: sparse, varied, dense. Relief: flat ground or SAND + GEO terraces and multiple Z levels. Spacing: 2 to 5 cells. Optional X-COM/alien craft retain orientation. Seed (0 to 4294967295) reproduces a map with identical resources and version. Random map changes seed and generates. Failure/cancel retains previous document.
+
+Historical assemblies mix with new relief. Decorations use horizontal areas and leave a geometric access route. This does not prove all units can traverse the map in game.
+
+Rock catalogue: standalone ROCKS MCD 0 and 1; 2×2 blocks with rows [9,8]/[7,10], [5,4]/[3,6] or [9,8]/[7,6], evidenced in original MAPs. ROCKS 10 is not independent. Blocks reserve full footprint. Only standalone rocks are currently placed above ground. Define new assemblies with explicit pieces/positions, not apparent proximity on screen.
+
+GEO state: Workshop generation, pieces rendering and JMW4 saving work with automated checks. Direct GEO editing, plan representation and MAP/OXCE export are not connected. Export blocked; save .JMW. Older executables reject JMW4; older projects still open. Fractional-height decor remains attached to GEO. Regenerate with another seed to change relief shape for now.</div></section><section id="c3"><h2>4. Create a 512 × 640 HD PNG</h2><div>A Legacy terrain sprite uses a 32 × 40 pixel envelope. Standard HD canvas 512 × 640 is ×16 in both axes. This defines the canvas, not an object stretched to its edges. Preserve isometric projection, origin, relative position and transparency. Do not crop each piece independently or recenter its base. Some documented templates extend beyond the standard envelope: do not cut them to force a height of 640.
+
+Before drawing, record dataset, MCD index, Frame[0], layer, orientation, animation, destroyed state and assembly. Verified original SAND example: MCD 13 → Frame[0] 15 → 015.png. MCD 15 → Frame[0] 17 → 017.png. MCD and PNG numbers are not interchangeable. Technical inspector shows mapping; several MCDs may share a frame.
+
+Workflow:
+1. Start from original sprite or accepted template and an assembled screenshot. Keep original intact.
+2. For faithful 32×40 pixel-art enlargement, resize to 512×640 using nearest neighbor. It enlarges pixels, not detail. HD redrawing or assisted enhancement creates detail but must retain envelope and connections.
+3. Use separate geometry-reference, alpha-mask and material/detail layers. Texture accepted templates without changing silhouette or alpha. New geometry reconstruction is a separate validation task.
+4. Export transparent RGBA PNG, not an opaque background. Retain full canvas and three-digit name. Check baked shadows, fringes and semi-transparent pixels on light and dark backgrounds.
+5. Place in test folder, inspect piece alone, neighbors, repetition, several Z levels and destroyed state. Attractive standalone art may still create assembly seams.
+
+Animation: current Workshop chooses the initial MCD frame for terrain PNGs. It does not preview every game animation cycle. Check other frames/orientations in game with the active graphics provider.
+
+Texture changes do not repair incorrect slopes/connections. Do not fill intentional empty space or turn a functional Floor into Object merely to fix artwork.</div></section><section id="c4"><h2>5. Folders and first PNG test</h2><div>For a safe personal test, create a folder named MyHDWorkshop outside protected mods:
+
+MyHDWorkshop/
+  Resources/TFTD_HD/Terrain/SAND/015.png
+
+SAND is the dataset; 015 is the frame. Resources &gt; Manual HD mod / universal template: select MyHDWorkshop root. F6: choose Universal templates/manual provider. Open a map containing SAND MCD 13. PNG replaces its initial frame. Missing file falls back to Legacy. REAL HD sand material uses a different path: chapter 6.
+
+This folder works as a Workshop graphic provider without being a game-enabled mod. For a real OXCE mod, add metadata.yml with unique id, name, version, author and master: xcom2, then enable according to the chosen engine. Example:
+
+id: my_hd_workshop
+name: My HD Workshop
+version: 0.1.0
+author: Your name
+master: xcom2
+
+Metadata identifies the mod; it does not alone connect a new graphic provider in every OXCE version. Check adapted REAL HD engine and resource priority in game. Keep technical ids/names stable; translate display labels separately.
+
+Workshop PNG Remastered provider checks the piece&#x27;s source mod first, then TFTD PNG remastered, under Resources/TFTD_HD/Terrain/&lt;dataset&gt;/&lt;frame&gt;.png. It does not randomly search all installed mods. Manual provider offers an explicit test path independent of logical profiles.
+
+Suggested personal layout:
+Resources/ = final runtime files
+Sources/ = editable layers/projects
+References/ = screenshots and dataset/MCD/frame notes
+Documentation/ = assemblies/validation
+
+For the existing shared mod, follow its rules: final PNGs in Terrain/&lt;dataset&gt;; sources/evidence in Datasets/&lt;dataset&gt;; stable documentation. GEO uses Terrain/00_geo_terrain and Datasets/GEO_TERRAIN. Do not invent a revision prefix or replace accepted templates for testing.
+
+After editing PNG, restart Workshop to reliably clear image cache. External edits are not monitored live. Workshop preview does not confirm game mod priority or collision.</div></section><section id="c5"><h2>6. REAL HD: geometry and materials</h2><div>REAL HD is more than sprite enlargement. Presentation reconstructs surfaces from map, terrain profiles and geometry, then applies materials. OXCE retains simulation: collisions, movement, firing, visibility, doors and destruction. Texture does not decide those rules.
+
+Active SAND resources:
+user/mods/TFTD_REAL_HD_TEXTURES/Resources/TFTD_HD/RealHD/Datasets/SAND/Materials/
+  TOP_BASE.png
+  VERTICAL_BASE.png
+  TOP_NORMAL_DX.png
+  TOP_ROUGHNESS.png
+  TOP_AO.png
+
+TOP_BASE: top-surface color, not an isometric piece PNG. VERTICAL_BASE: vertical-face material. NORMAL_DX: lighting microdetail, DirectX convention; no silhouette/collision change. ROUGHNESS: roughness (usual dark=smooth, light=rough convention; check current shader). AO: local occlusion, not a substitute for computed lighting. Impact masks, BlastSets and dust are separate effects, not base material.
+
+Materials tile across surfaces; they are not 512×640 sprite canvases. Use seamless four-edge textures at consistent scale. Retain starting material dimensions/conventions. Normal maps are data, not photos to recolor. Avoid strong baked directional shadows if engine lighting should calculate them.
+
+First REAL HD experiment: copy SAND material files into your workspace. Edit TOP_BASE only, keeping other maps and names. Current Workshop reads both base maps from explicitly named TFTD_REAL_HD_TEXTURES; manual PNG provider does not redirect materials. For this preview, keep a recoverable copy of current material, replace only intended file in that folder, then restart. Restore copy if needed. Guide performs no replacement itself. Workshop has no arbitrary REAL HD material-folder selector yet.
+
+F6 &gt; REAL HD previews SAND/DEBRIS geometry and bases. It is not the full engine render: Workshop does not apply the same shaders, lighting, water, caustics or persistent effects as P2ZJ. Check normals, roughness and AO in game using current REAL HD engine; record version/mods/settings.
+
+For other families, a matching folder alone is insufficient: graphic producer and resolution rules must exist. SEA/water has its own contract/settings; units, HUD and effects use other providers. SAND changes do not automatically create hull, unit or water materials.
+
+Mixed rendering (2.12.7): select Render → REAL HD texture or REAL HD debug, then Render → PNG alongside REAL HD → PNG Remastered or Universal templates. SAND/DEBRIS and GEO_TERRAIN retain REAL HD geometry; other pieces use the selected PNG provider, falling back to Legacy when missing. The PNG choice is remembered. GEO uses SAND TOP_BASE and VERTICAL_BASE from the matching normal or debug mod. Geometry and logical data remain unchanged.</div></section><section id="c6"><h2>7. Validate and troubleshoot</h2><div>Invisible PNG: check F6 mode, manual folder, dataset name, Frame[0], three-digit 000.png naming, real .png extension, readable PNG and nonempty alpha. Legacy fallback does not prove PNG loaded. Restart after external edits to clear cache.
+
+Oversized, shifted or clipped piece: check canvas, anchor and proportions; 512 is width, 640 height. Look for cropping or silhouette stretching and documented extensions.
+
+Seams: assemble actual MAP/MCD neighbors; compare edges and orientation, then repetition. Do not hide profile errors with vegetation or shadows.
+
+Incomplete rock: verify whole catalogue unit; fragments are not standalone. A multi-cell block above ground needs identical horizontal support across its footprint.
+
+Magenta REAL HD checkerboard: check TFTD_REAL_HD_TEXTURES, TOP_BASE/VERTICAL_BASE, MODS root and PNG readability. Missing normal maps are not fixed by renaming terrain sprites.
+
+Unresolved MAP index: load correct source profile. MAP stores 0=empty, 1..255=indices within dataset list; random dataset additions may create phantom pieces. Understand normalization warnings before accepting.
+
+Bad collision/path despite correct image: inspect MCD, patches, layer, height, BigWall, destruction; test OXCE. Workshop annotations do not become movement rules.
+
+Four validation stages: produced file → software checks → Workshop assembly → OXCE mission and user feedback. Record version, resources, seed/map and screenshots at each stage. Check relevant lighting/water, discovery/occlusion, animation, doors, destruction and multiple Z levels. Successful export or isolated screenshot is not game validation.</div></section><section id="c7"><h2>8. Share and contribute</h2><div>Future repository may contain Workshop sources, build tools, tests, translations and guide. This delivery is local; no repository created or published. TFTD/OXCE data and project PNGs are not bundled with code; users configure paths under Resources.
+
+Translations: locales/fr.json, en.json, es.json, de.json. Each key maps to source text in sources.json. Do not translate technical folder names, MCD/MAP ids, formats or shortcuts. Retain %ls, %d, %u and other placeholders in exactly the same order. Generator validates them and creates workshop_i18n_data.h before build. New language requires complete catalogue and menu entry. Interface is translated; personal names, filenames and template ids retain original form. Native-speaker review may improve phrasing without changing parameters.
+
+Guide: docs/chapters.json holds chapters in four languages. Tools generate offline pages and embedded Tutorial reader data. Update version and limitations as features evolve. Provide reproducible examples rather than broad compatibility claims.
+
+Bug report: Workshop/engine versions, rendering mode, dataset/MCD/frame, map or seed, expected/observed behavior and assembly screenshot. Texture contribution: canvas/alpha, geometric source, final files, Workshop/game checks actually performed. Valid PNGs alone do not approve new templates.
+
+Learn progressively: one floor piece → four neighbors → multi-cell assembly → map → mission. Change one thing at a time to identify its effect.
+
+Benjamin contact: colmoutarde57700@gmail.com
+
+Thanks to GPT-6 Sol</div></section></main></html>
