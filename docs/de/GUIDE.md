@@ -166,3 +166,7 @@ Schrittweise lernen: einzelner Boden → vier Nachbarn → Mehrfeldbaugruppe →
 Kontakt Benjamin: colmoutarde57700@gmail.com
 
 Thanks to GPT-6 Sol
+
+Spenden zur Unterstützung des Projekts sind freiwillig.
+
+PayPal Konto: col.moutarde@hotmail.fr

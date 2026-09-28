@@ -166,3 +166,7 @@ Aprenda por etapas: suelo individual → cuatro vecinos → conjunto de varias c
 Contacto de Benjamin: colmoutarde57700@gmail.com
 
 Thanks to GPT-6 Sol
+
+Si desea apoyar el proyecto, los donativos son opcionales.
+
+Cuenta PayPal: col.moutarde@hotmail.fr

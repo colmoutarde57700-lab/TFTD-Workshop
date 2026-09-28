@@ -891,5 +891,9 @@
   "contact_title": "Contacter l’auteur",
   "contact_body": "Pour contacter Benjamin :\n\ncolmoutarde57700@gmail.com\n\nCopier cette adresse dans le presse-papiers ?",
   "contact_copied": "Adresse de contact copiée.",
-  "mixed_png": "PNG avec REAL HD"
+  "mixed_png": "PNG avec REAL HD",
+  "donation_menu": "Soutenir le projet...",
+  "donation_title": "Soutenir le projet",
+  "donation_body": "Si vous souhaitez soutenir le projet, les dons sont facultatifs.\n\nCompte PayPal : col.moutarde@hotmail.fr\n\nCopier cette adresse ?",
+  "donation_copied": "Adresse PayPal copiee."
 }

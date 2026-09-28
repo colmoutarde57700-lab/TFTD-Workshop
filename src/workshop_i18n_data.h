@@ -894,4 +894,8 @@ static const I18nEntry i18nEntries[]={
 {L"contact_body",{L"Pour contacter Benjamin :\n\ncolmoutarde57700@gmail.com\n\nCopier cette adresse dans le presse-papiers ?",L"To contact Benjamin:\n\ncolmoutarde57700@gmail.com\n\nCopy this address to the clipboard?",L"Para contactar con Benjamin:\n\ncolmoutarde57700@gmail.com\n\n\u00bfCopiar esta direcci\u00f3n al portapapeles?",L"Benjamin kontaktieren:\n\ncolmoutarde57700@gmail.com\n\nAdresse in die Zwischenablage kopieren?"}},
 {L"contact_copied",{L"Adresse de contact copi\u00e9e.",L"Contact address copied.",L"Direcci\u00f3n de contacto copiada.",L"Kontaktadresse kopiert."}},
 {L"mixed_png",{L"PNG avec REAL HD",L"PNG alongside REAL HD",L"PNG junto a REAL HD",L"PNG zusammen mit REAL HD"}},
+{L"donation_menu",{L"Soutenir le projet...",L"Support the project...",L"Apoyar el proyecto...",L"Projekt unterst\u00fctzen..."}},
+{L"donation_title",{L"Soutenir le projet",L"Support the project",L"Apoyar el proyecto",L"Projekt unterst\u00fctzen"}},
+{L"donation_body",{L"Si vous souhaitez soutenir le projet, les dons sont facultatifs.\n\nCompte PayPal : col.moutarde@hotmail.fr\n\nCopier cette adresse ?",L"If you wish to support the project, donations are optional.\n\nPayPal account: col.moutarde@hotmail.fr\n\nCopy this address?",L"Si desea apoyar el proyecto, los donativos son opcionales.\n\nCuenta PayPal: col.moutarde@hotmail.fr\n\n\u00bfCopiar esta direcci\u00f3n?",L"Spenden zur Unterst\u00fctzung des Projekts sind freiwillig.\n\nPayPal Konto: col.moutarde@hotmail.fr\n\nDiese Adresse kopieren?"}},
+{L"donation_copied",{L"Adresse PayPal copiee.",L"PayPal address copied.",L"Direcci\u00f3n PayPal copiada.",L"PayPal Adresse kopiert."}},
 };

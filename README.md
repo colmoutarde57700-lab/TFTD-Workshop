@@ -44,7 +44,7 @@ The active PNG frame follows MCD Frame[0]; the preview is not a full animation p
 ## Documentation and development
 See [installation](docs/INSTALLATION.md), [building/testing](docs/BUILDING.md), [changelog](CHANGELOG.md), [contribution](CONTRIBUTING.md) and [credits](CREDITS.md).
 Four complete manuals are included as Markdown and offline HTML, and embedded in the program.
-893 translation entries per language; editable UTF-8 catalogues and a standard-library Python regeneration tool.
+897 translation entries per language; editable UTF-8 catalogues and a standard-library Python regeneration tool.
 
 ## Validation
 This release was compiled with warnings treated as errors. Local checks: 108 regression, 40 rendering/mixed GEO, 75 procedural, 64 language/tutorial and 4 preference reloads passed.
@@ -56,3 +56,6 @@ Contact: **colmoutarde57700@gmail.com**
 
 ## License
 Code and documentation: [MIT](LICENSE). Reuse, modification and redistribution are permitted under the license terms. External game data and texture packs are not included and keep their own rights.
+
+## Optional support
+Contact stays colmoutarde57700@gmail.com. Optional PayPal donations: col.moutarde@hotmail.fr. Donations are not required for any functionality. The application exposes this address under Help → Support the project; it does not process payments.

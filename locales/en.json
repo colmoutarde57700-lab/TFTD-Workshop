@@ -891,5 +891,9 @@
   "contact_title": "Contact the author",
   "contact_body": "To contact Benjamin:\n\ncolmoutarde57700@gmail.com\n\nCopy this address to the clipboard?",
   "contact_copied": "Contact address copied.",
-  "mixed_png": "PNG alongside REAL HD"
+  "mixed_png": "PNG alongside REAL HD",
+  "donation_menu": "Support the project...",
+  "donation_title": "Support the project",
+  "donation_body": "If you wish to support the project, donations are optional.\n\nPayPal account: col.moutarde@hotmail.fr\n\nCopy this address?",
+  "donation_copied": "PayPal address copied."
 }

@@ -166,3 +166,7 @@ Pour apprendre progressivement : une pièce de sol → ses quatre voisins → un
 Contact de Benjamin : colmoutarde57700@gmail.com
 
 Thanks to GPT-6 Sol
+
+Si vous souhaitez soutenir le projet, les dons sont facultatifs.
+
+Compte PayPal : col.moutarde@hotmail.fr

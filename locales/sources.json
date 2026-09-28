@@ -6322,5 +6322,29 @@
     "files": [
       "tftd_workshop_v2_12_1.c"
     ]
+  },
+  "donation_menu": {
+    "text": "Soutenir le projet...",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ]
+  },
+  "donation_title": {
+    "text": "Soutenir le projet",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ]
+  },
+  "donation_body": {
+    "text": "Si vous souhaitez soutenir le projet, les dons sont facultatifs.\n\nCompte PayPal : col.moutarde@hotmail.fr\n\nCopier cette adresse ?",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ]
+  },
+  "donation_copied": {
+    "text": "Adresse PayPal copiee.",
+    "files": [
+      "tftd_workshop_v2_12_1.c"
+    ]
   }
 }

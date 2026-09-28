@@ -166,3 +166,7 @@ Learn progressively: one floor piece → four neighbors → multi-cell assembly 
 Benjamin contact: colmoutarde57700@gmail.com
 
 Thanks to GPT-6 Sol
+
+If you wish to support the project, donations are optional.
+
+PayPal account: col.moutarde@hotmail.fr

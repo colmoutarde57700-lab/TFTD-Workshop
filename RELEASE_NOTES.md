@@ -16,3 +16,6 @@ Contact: colmoutarde57700@gmail.com
 Thanks to GPT-6 Sol
 
 Code and documentation licensed under MIT. External game/texture assets are excluded.
+
+## Optional support
+Contact stays colmoutarde57700@gmail.com. Optional PayPal donations: col.moutarde@hotmail.fr. Donations are not required for any functionality. The application exposes this address under Help → Support the project; it does not process payments.
