@@ -2,7 +2,7 @@
 
 ## 1. Einstieg
 
-Workshop 2.12.6 bearbeitet und zeigt TFTD-/OXCE-Inhalte. Es öffnet Karten, erstellt Baugruppen und erzeugt prozedurale Karten. Es ist kein Malprogramm: PNGs in einem Bildeditor erstellen oder bearbeiten und hier prüfen.
+Workshop 2.12.7 bearbeitet und zeigt TFTD-/OXCE-Inhalte. Es öffnet Karten, erstellt Baugruppen und erzeugt prozedurale Karten. Es ist kein Malprogramm: PNGs in einem Bildeditor erstellen oder bearbeiten und hier prüfen.
 
 Drei getrennte Begriffe:
 • MAP: Teilepositionen mit vier Schichten je Feld.

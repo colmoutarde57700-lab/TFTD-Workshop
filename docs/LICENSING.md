@@ -1,1 +1,1 @@
-No explicit code license has been selected for this initial publication. No GPL-3.0 or other license is declared by this package. External game files and texture packs are not included and keep their own rights. Contact: colmoutarde57700@gmail.com.
+Code and documentation of TFTD Workshop are licensed under MIT. See LICENSE at the repository root. Preserve its copyright and license notices when redistributing substantial portions. External game files and texture packs are not bundled and are not relicensed by Workshop.

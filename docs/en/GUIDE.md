@@ -2,7 +2,7 @@
 
 ## 1. Getting started
 
-Workshop 2.12.6 edits and previews TFTD/OXCE content. It opens map data, composes assemblies and generates procedural maps. It is not a painting application: create or edit PNGs in an image editor, then inspect them here.
+Workshop 2.12.7 edits and previews TFTD/OXCE content. It opens map data, composes assemblies and generates procedural maps. It is not a painting application: create or edit PNGs in an image editor, then inspect them here.
 
 Three separate concepts:
 • MAP: piece positions, with four layers per cell.

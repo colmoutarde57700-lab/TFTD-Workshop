@@ -54,5 +54,5 @@ Visual preview inspected; user acceptance and in-game validation of 2.12.7 remai
 Contact: **colmoutarde57700@gmail.com**
 **Thanks to GPT-6 Sol**
 
-## License status
-No explicit license is granted in this first publication, by the project owner’s choice. Public visibility is not a blanket permission to reuse or redistribute the code. Contact the project owner about permissions.
+## License
+Code and documentation: [MIT](LICENSE). Reuse, modification and redistribution are permitted under the license terms. External game data and texture packs are not included and keep their own rights.

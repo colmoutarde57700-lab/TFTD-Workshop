@@ -2,7 +2,7 @@
 
 ## 1. Primeros pasos
 
-Workshop 2.12.6 edita y muestra contenido TFTD/OXCE. Abre mapas, compone conjuntos y genera mapas procedurales. No es un programa de dibujo: cree o edite los PNG en un editor de imágenes y compruébelos aquí.
+Workshop 2.12.7 edita y muestra contenido TFTD/OXCE. Abre mapas, compone conjuntos y genera mapas procedurales. No es un programa de dibujo: cree o edite los PNG en un editor de imágenes y compruébelos aquí.
 
 Tres conceptos distintos:
 • MAP: posiciones de piezas, con cuatro capas por casilla.

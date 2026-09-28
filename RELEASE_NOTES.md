@@ -14,3 +14,5 @@ Known limits: Workshop preview omits full game shaders/effects; GEO editing/pick
 
 Contact: colmoutarde57700@gmail.com
 Thanks to GPT-6 Sol
+
+Code and documentation licensed under MIT. External game/texture assets are excluded.

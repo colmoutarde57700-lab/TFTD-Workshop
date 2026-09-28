@@ -2,7 +2,7 @@
 
 ## 1. Commencer et comprendre
 
-Workshop 2.12.6 est un éditeur et un outil de prévisualisation pour TFTD/OXCE. Il ouvre les données de cartes, permet de composer des assemblages et produit des cartes procédurales. Il n'est pas un logiciel de peinture : créez ou retouchez vos PNG dans votre éditeur d'images, puis contrôlez-les ici.
+Workshop 2.12.7 est un éditeur et un outil de prévisualisation pour TFTD/OXCE. Il ouvre les données de cartes, permet de composer des assemblages et produit des cartes procédurales. Il n'est pas un logiciel de peinture : créez ou retouchez vos PNG dans votre éditeur d'images, puis contrôlez-les ici.
 
 Trois choses différentes :
 • MAP : positions des pièces sur une carte, avec quatre couches par case.
